@@ -1,0 +1,662 @@
+---
+title: "experiment3 (pilot5-7)"
+format: html
+editor: visual
+---
+
+## Imports
+
+```{r}
+library(tidyverse)
+library(here)
+library(ggthemes)
+library(tidyboot)
+library(lme4)
+library(lmerTest)
+library(brms)
+```
+
+# Read in data and get length
+
+```{r}
+d.raw <- read_csv(here('analyses/data/clean_no_discourse.csv'), show_col_types = F) %>%
+  mutate(missing_response = is.na(response)) %>%
+  mutate(condition = ifelse(controlled, 'control', 'repeated')) %>%
+  select(-controlled) %>%
+  rowwise() %>%
+  mutate(speaker_desc = str_squish(speaker_desc),
+         listener_desc = str_squish(listener_desc),
+         speaker_first_desc = str_split(speaker_desc, "', '")[[1]][1]) %>%
+  mutate(speaker_len = str_count(speaker_desc, " ") + 1,
+         total_len = str_count(speaker_desc, " ") + 1 + str_count(listener_desc, " ") + 1,
+         speaker_first_len = str_count(speaker_first_desc, " ") + 1) %>%
+  ungroup() 
+
+block_sim <- read_csv(here('analyses/data/block_sim_ada_jaccard.csv')) %>%
+  mutate(later_block = as.numeric(substr(blocks, 4, 4)))
+```
+
+remove games that timed-out more than 20%
+
+```{r}
+bad_games <- d.raw %>% 
+  group_by(game_id) %>%
+  summarize(pct_missing = mean(missing_response)) %>%
+  filter(pct_missing > 0.20) %>%
+  pull(game_id)
+
+d.clean <- d.raw %>%
+  mutate(correct = ifelse(is.na(correct), FALSE, correct)) %>%
+  mutate(sec_until_click = gsub('(', '', sec_until_click, fixed = T)) %>%
+  mutate(sec_until_click = gsub(',)', '', sec_until_click, fixed = T)) %>%
+  mutate(listener_rt = as.numeric(sec_until_click)) %>%
+  mutate(nameability = ifelse(snd_class == "low", "high", "low")) %>%
+  mutate(condition = fct_relevel(condition, 'repeated'))
+```
+
+# Result 1: Convention formation
+
+## Accuracy
+
+### Plot
+
+```{r}
+dodge <- position_dodge(.1)
+d.clean.means <- d.clean %>% 
+  group_by(block, condition) %>%
+  tidyboot_mean(correct, nboot = 100, na.rm = T) 
+
+d.clean.means %>%
+  ggplot(aes(x = block + 1, y = empirical_stat, 
+             color = condition, linetype = condition, group = condition)) +
+    geom_point() +
+    geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), width = 0, 
+                  linetype = 'solid') +
+    geom_smooth(se = F, method = 'lm', formula = y ~ exp(-x)) +
+    scale_color_colorblind() +
+    labs(x = 'block #', y = '% correct') +
+    theme_few() +
+    theme(aspect.ratio = 1, 
+          axis.text = element_text(size = 14),
+          axis.title = element_text(size = 14),
+          strip.text = element_text(size = 14))
+```
+
+```{r}
+ggsave(here("analyses/img/accuracy.pdf"), plot = last_plot(), device = "pdf", width = 5, height = 3)
+```
+
+```{r}
+d.clean <- d.clean %>%
+  mutate(neg_snd_value = -snd_value) # take additive inverse of snd values
+d.clean$neg_snd_value_c <- scale(d.clean$neg_snd_value, scale = FALSE) # center snd
+```
+
+### Statistics
+
+We find a greater increase in accuracy for the repeated than control.
+
+```{r}
+acc_fit <- brm(correct ~ poly(block, 2) * condition * neg_snd_value_c
+                      + (1 + poly(block,2) * condition * neg_snd_value_c | game_id),
+            family = 'bernoulli',
+            data = d.clean)
+
+summary(acc_fit)
+```
+
+## Total description length
+
+### Plot
+
+```{r}
+d.clean %>%
+  ggplot(aes(x = total_len)) +
+  geom_histogram()
+
+d.clean %>%
+  group_by(block, condition) %>%
+  tidyboot_mean(total_len, nboot = 100, na.rm = T) %>%
+  mutate(condition = fct_relevel(condition, 'repeated')) %>%
+  ggplot(aes(x = block + 1, y = empirical_stat, 
+             linetype = condition, 
+             color = condition, 
+             group = interaction(condition))) +
+    geom_point(position = dodge) +
+    geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), width = 0, 
+                  position = dodge, linetype = 'solid') +
+    geom_smooth(se = F, method = 'lm', formula = y ~ log(x)) +
+    labs(x = 'block #', y = '# words / description') +
+    theme_few() +
+    ylim(0, 15) +
+    scale_color_colorblind() +
+    theme(aspect.ratio = 1, 
+          axis.text = element_text(size = 14),
+          axis.title = element_text(size = 14),
+          strip.text = element_text(size = 14)
+          )
+
+ggsave(here("analyses/img/total_len.pdf"), plot = last_plot(), device = "pdf", width = 5, height = 3)
+
+```
+
+### statistics
+
+```{r}
+
+len_fit <- brm(total_len ~ poly(block, 2) * condition * neg_snd_value_c
+                      + (1 + poly(block,2) * condition * neg_snd_value_c | game_id),
+               family = 'poisson',
+            data = d.clean)
+
+summary(len_fit)
+```
+
+## Response time
+
+### plot
+
+```{r}
+d.clean %>%
+  ggplot(aes(x = listener_rt)) +
+  geom_histogram()
+
+d.clean %>% 
+  filter(!is.na(listener_rt)) %>% 
+  group_by(block, condition) %>%
+  tidyboot_mean(listener_rt, nboot = 100) %>% # time_to_message
+  mutate(condition = fct_relevel(condition, 'repeated')) %>%
+  ggplot(aes(x = block + 1, y = empirical_stat, color = condition, linetype = condition, 
+             group = interaction(condition))) +
+    geom_point(position = dodge) +
+    geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), width = 0, position = dodge, linetype = 'solid') +
+    geom_smooth(se = F, method = 'lm', formula = y ~ poly(x, 2)) +
+    labs(x = 'block #', y = 'listener RT (sec)') +
+    theme_few() +
+    scale_color_colorblind() +
+    theme(aspect.ratio = 1, 
+          axis.text = element_text(size = 14),
+          axis.title = element_text(size = 14),
+          strip.text = element_text(size = 14)
+          )
+ggsave(here("analyses/img/listener_rt.pdf"), plot = last_plot(), device = "pdf", width = 5, height = 3)
+```
+
+### statistics
+
+```{r}
+rt_fit <- brm(listener_rt ~ poly(block, 2) * condition * neg_snd_value_c
+                      + (1 + poly(block,2) * condition * neg_snd_value_c | game_id),
+              family = "Gamma",
+            data = d.clean)
+
+summary(rt_fit)
+```
+
+## Utterance similarity: Jaccard, cosine similarity
+
+### plots
+
+```{r}
+jaccard_sim_means <- block_sim %>%
+  group_by(blocks) %>%
+  tidyboot_mean(jaccard_index)
+
+block_sim %>% 
+  ggplot(aes(x = blocks, y = jaccard_index)) +
+    geom_jitter(alpha = 0.1, width = .2, height = .01) +
+    geom_point(aes(y = empirical_stat), data = jaccard_sim_means) +
+    geom_line(aes(y = empirical_stat, group = 1), data = jaccard_sim_means) +
+    geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper, y = empirical_stat), 
+                  width = 0, data = jaccard_sim_means) +
+    theme_few() +
+    labs(y = 'description similarity (Jaccard)', x = 'block pair') +
+    theme(aspect.ratio = 1, 
+          axis.text = element_text(size = 14),
+          axis.title = element_text(size = 12),
+          strip.text = element_text(size = 14)
+          )
+
+ggsave(here("analyses/img/block_sim_jaccard.pdf"), plot = last_plot(), device = "pdf", width = 4, height = 3)
+```
+
+```{r}
+cos_sim_means <- block_sim %>%
+  group_by(blocks) %>%
+  tidyboot_mean(ada_cos_sim)
+
+block_sim %>% 
+  ggplot(aes(x = blocks, y = ada_cos_sim)) +
+    geom_jitter(alpha = 0.1, width = .2, height = .01) +
+    geom_point(aes(y = empirical_stat), data = cos_sim_means) +
+    geom_line(aes(y = empirical_stat, group = 1), data = cos_sim_means) +
+    geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper, y = empirical_stat), 
+                  width = 0, data = cos_sim_means) +
+    theme_few() +
+    labs(y = 'description similarity', x = 'block pair') +
+    theme(aspect.ratio = 1, 
+          axis.text = element_text(size = 14),
+          axis.title = element_text(size = 12),
+          strip.text = element_text(size = 14)
+          )
+
+ggsave(here("analyses/img/block_sim_ada.pdf"), plot = last_plot(), device = "pdf", width = 4, height = 3)
+```
+
+### Statistics
+
+```{r}
+cos_sim_fit <- brm(ada_cos_sim ~ poly(later_block, 2) + (1 + poly(later_block, 2) | game_id),
+                   data = block_sim)
+
+summary(cos_sim_fit)
+```
+
+```{r}
+jac_sim_fit <- brm(jaccard_index ~ poly(later_block, 2) + (1 + poly(later_block, 2) | game_id),
+                   data = block_sim)
+
+summary(jac_sim_fit)
+```
+
+# Results 2: Pre-post
+
+## Plot
+
+```{r}
+library(gghalves)
+
+prepost <- read_csv(here('analyses/data/pre_post.csv')) %>%
+  mutate(phase = fct_relevel(phase, 'pre', 'post'))
+
+# Label control/repeated
+empirical_stats <- prepost %>%
+  group_by(game, phase, is_control) %>%
+  summarize(empirical_stat = mean(similarity), .groups = 'drop') %>%
+  mutate(condition = if_else(is_control, "control", "repeated"))
+
+prepost.means <- prepost %>%
+  mutate(condition = if_else(is_control, "control", "repeated")) %>%
+  group_by(condition, phase) %>%
+  tidyboot_mean(similarity)
+
+# Set custom colors
+custom_colors <- c(
+  "repeated" = "#000000",   # black
+  "control"  = "#E69F00"    # yellow
+)
+
+empirical_stats %>%
+  ggplot(aes(x = phase, y = empirical_stat)) +
+    geom_line(aes(group = game), alpha = 0.1) +
+    geom_half_violin(alpha = .1, aes(split = phase, fill = condition), 
+                     position = position_dodge(width = 0.2), side = "r") +
+    geom_point(data = prepost.means, aes(y = mean, color = condition), size = 3, 
+               position = position_dodge(width = 0.2)) +
+    geom_errorbar(data = prepost.means, 
+                  aes(ymin = ci_lower, ymax = ci_upper, color = condition), 
+                  width = 0.05, position = position_dodge(width = 0.2)) +
+    scale_color_manual(values = custom_colors) +
+    scale_fill_manual(values = custom_colors) +
+    guides(fill = "none") +
+    labs(x = '', y = 'alignment between partners', color = "condition", fill = "condition") +
+    theme_few() +
+    ylim(0.75, 0.9) +
+    theme(
+      aspect.ratio = 1,
+      axis.text = element_text(size = 12),
+      axis.title.y = element_text(size = 14)
+    )
+
+#ggsave(here('analyses/img/prepost.pdf'))
+```
+
+```{r}
+# Jaccard
+library(gghalves)
+prepost <- read_csv(here('data/pre_post.csv')) %>%
+  mutate(phase = fct_relevel(phase, 'pre', 'post'))
+
+# Keep original logic
+empirical_stats <- prepost %>%
+  group_by(game, phase, is_control) %>%
+  summarize(empirical_stat = mean(jaccard_index), .groups = 'drop') %>%
+  mutate(condition = if_else(is_control, "control", "repeated"))
+
+prepost.means <- prepost %>%
+  mutate(condition = if_else(is_control, "control", "repeated")) %>%
+  group_by(condition, phase) %>%
+  tidyboot_mean(jaccard_index)
+
+# Set custom color mapping: repeated = black, control = yellow
+custom_colors <- c(
+  "repeated" = "#000000",   # black
+  "control"  = "#E69F00"    # yellow
+)
+
+empirical_stats %>%
+  ggplot(aes(x = phase, y = empirical_stat)) +
+    geom_line(aes(group = game), alpha = 0.1) +
+    geom_half_violin(alpha = .1, aes(split = phase, fill = condition), 
+                    position = position_dodge(width = 0.2), side = "r") +
+    geom_point(data = prepost.means, aes(y = mean, color = condition), size = 3, 
+               position = position_dodge(width = 0.2)) +
+    geom_errorbar(data = prepost.means, 
+                  aes(ymin = ci_lower, ymax = ci_upper, color = condition), 
+                  width = 0.05, position = position_dodge(width = 0.2)) +
+    scale_color_manual(values = custom_colors) +
+    scale_fill_manual(values = custom_colors) +
+    guides(fill = "none") +  # Hide the fill legend
+    labs(x = '', y = 'alignment between partners (Jaccard)', color = "condition", fill = "condition") +
+    theme_few() +
+    ylim(0,.8) +
+    theme(
+      aspect.ratio = 1,
+      axis.text = element_text(size = 12),
+      axis.title.y = element_text(size = 14),
+    )
+
+ggsave(here('analyses/img/prepost_jaccard.pdf'))
+```
+
+## Stats
+
+```{r}
+prepost <- prepost %>%
+  mutate(thread_avg_snd = -thread_avg_snd) # take additive inverse of snd values
+prepost$thread_avg_snd_c <- scale(prepost$thread_avg_snd, scale = FALSE) # center snd
+
+prepost <- prepost %>%
+  mutate(prepost_avg_snd = -prepost_avg_snd) # take additive inverse of snd values
+prepost$prepost_avg_snd_c <- scale(prepost$prepost_avg_snd, scale = FALSE) # center snd
+```
+
+```{r}
+# thread_avg_snd_c + phase * is_control 
+diff_model <- brm(
+  similarity ~ thread_avg_snd_c + phase * is_control + (1 + thread_avg_snd_c + phase * is_control | game),
+  family = gaussian(),
+  data = prepost,
+  sample_prior="yes",
+  prior = c(
+    prior(normal(0, 0.5), class = "b", coef = "phasepost:is_controlTRUE")
+  ),
+)
+
+summary(diff_model)
+```
+
+```{r}
+print(summary(diff_model), digits = 10)
+```
+
+```{r}
+get_prior(similarity ~ thread_avg_snd_c + phase * is_control + (1 + thread_avg_snd_c + phase * is_control | game), 
+          family = gaussian(),
+          data = prepost)
+```
+
+```{r}
+print(brms::hypothesis(diff_model, hypothesis="phasepost:is_controlTRUE < 0"), digits = 10)
+```
+
+```{r}
+conditional_effects(diff_model)
+```
+
+```{r}
+# thread_avg_snd_c * phase * is_control 
+diff_model1 <- brm(
+  similarity ~ thread_avg_snd_c * phase * is_control + (1 + thread_avg_snd_c + phase * is_control | game),
+  family = gaussian(),
+  data = prepost,
+  sample_prior="yes",
+  prior = c(
+    prior(normal(0, 0.5), class = "b", coef = "phasepost:is_controlTRUE")
+  ),
+)
+
+summary(diff_model1)
+```
+
+```{r}
+# prepost_avg_snd_c * phase * is_control 
+diff_model2 <- brm(
+  similarity ~ prepost_avg_snd_c * phase * is_control + (1 + prepost_avg_snd_c + phase * is_control | game),
+  family = gaussian(),
+  data = prepost,
+  sample_prior="yes",
+  prior = c(
+    prior(normal(0, 0.5), class = "b", coef = "phasepost:is_controlTRUE")
+  ),
+)
+
+summary(diff_model2)
+```
+
+## Exponential relationship to image similarity
+
+```{r}
+shepard <- read_csv(here('analyses/data/shepard_pairs.csv')) 
+```
+
+```{r}
+shepard$image_sim_c <- scale(shepard$image_sim, scale = FALSE)
+shepard$text_sim_c <- scale(shepard$text_sim, scale = FALSE)
+shepard$text_sim_c <- as.numeric(shepard$text_sim_c)
+shepard$image_sim_c <- as.numeric(shepard$image_sim_c)
+```
+
+```{r}
+shepard_same_thread <- shepard %>% filter(is_same_thread)
+```
+
+```{r}
+shepard_same_thread %>%
+  ggplot(aes(x = image_sim, y = text_sim)) +
+    geom_jitter(width = .025, height = .025, alpha = .1) +
+    geom_smooth(method = 'lm', formula = y ~ poly(x, 2), color = 'black') +
+    theme_few() +
+    labs(x = "image similarity", y = "label similarity") +
+    theme(
+      aspect.ratio = 1,
+      axis.text = element_text(size = 12),  # Larger axis tick font
+      axis.title.y = element_text(size = 14),
+    )
+ggsave(here('analyses/img/shepard.pdf'))
+```
+
+## Stats
+
+```{r}
+# same thread only
+invisible(capture.output({
+m1_s = brm(text_sim_c ~ image_sim_c + (1 + image_sim_c | player_id), data = shepard_same_thread, iter=10000, control = list(adapt_delta = 0.99, max_treedepth = 15))
+m2_s = brm(text_sim_c ~ poly(image_sim_c, 2) + (1 + poly(image_sim_c, 2) | player_id), data = shepard_same_thread, iter=10000, control = list(adapt_delta = 0.99, max_treedepth = 15))
+m3_s = brm(text_sim_c ~ exp(image_sim_c) + (1 + exp(image_sim_c) | player_id), data = shepard_same_thread, iter=10000, control = list(adapt_delta = 0.99, max_treedepth = 15))
+m4_s = brm(text_sim_c ~ poly(image_sim_c, 2) + exp(image_sim_c) + (1 + exp(image_sim_c) + image_sim_c  | player_id), data = shepard_same_thread, iter=10000, control = list(adapt_delta = 0.99, max_treedepth = 15))
+}))
+```
+
+```{r}
+loo1_s <- loo(m1_s)
+loo2_s <- loo(m2_s)
+loo3_s <- loo(m3_s)
+loo4_s <- loo(m4_s)
+```
+
+```{r}
+summary(m2_s)
+```
+
+```{r}
+loo_compare(loo1_s,loo2_s,loo3_s,loo4_s)
+```
+
+## Pre-post diff by image similarity
+
+```{r}
+df <- read_csv(here('analyses/data/pre_post.csv'))
+
+df$avg_sim_AB_interactive_c <- scale(df$avg_sim_AB_interactive, scale = FALSE)
+```
+
+```{r}
+df %>% ggplot(aes(x = avg_sim_AB_interactive, y = similarity, color = phase)) +
+  geom_jitter(width = .025, height = .025, alpha = .1) +
+  geom_smooth(
+    data = df %>% filter(phase == "pre"),
+    method = 'lm',
+    formula = y ~ poly(x,2),
+    se = TRUE,
+    linetype = "solid"
+  ) +
+  geom_smooth(
+    data = df %>% filter(phase == "post"),
+    method = 'glm',
+    formula = y ~ poly(x,2),
+    se = TRUE,
+    linetype = "solid",
+    method.args = list(family = gaussian())
+  ) +
+  theme_few() +
+  labs(x = "average visual similarity", y = "label similarity") +
+  scale_x_continuous(breaks = seq(-1, 1, by = 0.2)) +
+  scale_color_manual(values = c("pre" = "black", "post" = "red")) +
+  theme(
+    aspect.ratio = 1,
+    axis.text = element_text(size = 12),
+    axis.title = element_text(size = 14),
+    legend.position = "bottom",
+    legend.title = element_blank()
+  )
+# ggsave(here("analyses/img/text_by_image_sim.pdf"))
+```
+
+```{r}
+df_pre <- subset(df, phase == "pre")
+df_post <- subset(df, phase == "post")
+
+invisible(capture.output({
+m1_pre <- brm(similarity ~ avg_sim_AB_interactive_c + 
+                (1 + avg_sim_AB_interactive_c | game), 
+              data = df_pre)
+
+m2_pre <- brm(similarity ~ poly(avg_sim_AB_interactive_c, 2) + 
+                (1 + poly(avg_sim_AB_interactive_c, 2) | game), 
+              data = df_pre)
+
+m3_pre <- brm(similarity ~ exp(avg_sim_AB_interactive_c) + 
+                (1 + exp(avg_sim_AB_interactive_c) | game), 
+              data = df_pre)
+}))
+```
+
+```{r}
+summary(m2_pre)
+```
+
+```{r}
+invisible(capture.output({
+m1_post <- brm(similarity ~ avg_sim_AB_interactive_c + 
+                 (1 + avg_sim_AB_interactive_c | game), 
+               data = df_post)
+
+m2_post <- brm(similarity ~ poly(avg_sim_AB_interactive_c, 2) + 
+                 (1 + poly(avg_sim_AB_interactive_c, 2) | game), 
+               data = df_post)
+
+m3_post <- brm(similarity ~ exp(avg_sim_AB_interactive_c) + 
+                 (1 + exp(avg_sim_AB_interactive_c) | game), 
+               data = df_post)
+}))
+```
+
+```{r}
+summary(m2_post)
+```
+
+```{r}
+loo_pre1 <- loo(m1_pre)
+loo_pre2 <- loo(m2_pre)
+loo_pre3 <- loo(m3_pre)
+
+loo_compare(loo_pre1, loo_pre2, loo_pre3)
+```
+
+```{r}
+loo_post1 <- loo(m1_post)
+loo_post2 <- loo(m2_post)
+loo_post3 <- loo(m3_post)
+
+loo_compare(loo_post1, loo_post2, loo_post3)
+```
+
+```{r}
+img_sim_model_c <- brm(
+  similarity ~ avg_sim_AB_interactive_c * phase + (1 + avg_sim_AB_interactive_c * phase | game),
+  family = gaussian(),
+  data = df,
+)
+
+summary(img_sim_model_c)
+```
+
+# Human voting vs embedding similarity
+
+```{r}
+library(tidyverse)
+library(brms)
+
+df <- read_csv(here("analyses/data/voting_text_embed_similarity.csv")) %>%
+  mutate(
+    # Ensure human_judgement is treated as an ordered factor for ordinal modeling
+    human_judgement = factor(human_judgement, levels = c(-1, 0, 1), ordered = TRUE)
+  )
+
+fit_ada <- brm(
+  human_judgement ~ ada_diff,
+  data    = df,
+  family  = cumulative(link = "logit")
+)
+
+fit_clip <- brm(
+  human_judgement ~ clip_diff,
+  data    = df,
+  family  = cumulative(link = "logit")
+)
+
+fit_sbert <- brm(
+  human_judgement ~ sbert_diff,
+  data    = df,
+  family  = cumulative(link = "logit")
+)
+```
+
+```{r}
+lc <- loo_compare(loo(fit_ada), loo(fit_clip), loo(fit_sbert))
+print(lc)
+
+summary(fit_ada)
+```
+
+```{r}
+df <- read_csv(here("analyses/data/voting_image_embed_similarity.csv")) %>%
+  mutate(
+    # Ensure human_judgement is treated as an ordered factor for ordinal modeling
+    human_judgement = factor(human_judgement, levels = c(-1, 0, 1), ordered = TRUE)
+  )
+
+df_mod <- df %>% drop_na(human_judgement)
+cat('filtered', nrow(df), '->', nrow(df_mod))
+
+fit_img <- brm(
+  human_judgement ~ sim_diff,
+  data    = df,
+  family  = cumulative(link = "logit")
+)
+```
+
+```{r}
+summary(fit_img)
+```

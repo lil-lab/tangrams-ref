@@ -1,0 +1,17 @@
+{
+  "galaxy.meteor.com": {
+    "env": {
+      "MONGO_URL": "mongodb+srv://MONGO_URL"
+    }
+  },
+  "admins": [
+    {
+      "username": "USERNAME",
+      "password": "PASSWORD"
+    }
+  ],
+  "public": { 
+    "playerIdParam": "playerIdKey",
+    "playerIdParamExclusive": false 
+  }
+}

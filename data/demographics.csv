@@ -1,0 +1,303 @@
+Participant id,Age,Sex,Ethnicity simplified,Country of birth,Country of residence,Nationality,Language,Student status,Employment status
+260,42,Female,Other,United States,United States,United States,English,No,Full-Time
+73,64,Male,Asian,United States,United States,United States,English,No,Full-Time
+262,43,Male,White,United States,United States,United States,English,No,Full-Time
+158,51,Male,White,United States,United States,United States,English,No,DATA_EXPIRED
+192,36,Male,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+243,52,Male,White,United States,United States,United States,English,No,Full-Time
+37,46,Male,White,United States,United States,United States,English,No,Full-Time
+122,24,Male,White,United States,United States,United States,English,Yes,Full-Time
+32,48,Male,White,United States,United States,United States,English,No,Full-Time
+280,40,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+19,33,Female,Mixed,United Kingdom,United Kingdom,United Kingdom,English,Yes,Full-Time
+230,37,Male,Asian,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+217,33,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+227,26,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+147,19,Male,White,United Kingdom,United Kingdom,United Kingdom,English,Yes,Unemployed (and job seeking)
+285,30,Female,White,United Kingdom,United Kingdom,United Kingdom,English,Yes,Full-Time
+5,70,Male,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+107,25,Male,White,United Kingdom,United Kingdom,United Kingdom,English,Yes,Other
+151,43,Female,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+178,26,Female,Mixed,Canada,United States,United States,English,Yes,Full-Time
+24,28,Male,White,United States,United States,United States,English,No,Full-Time
+249,48,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+1,35,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+195,36,Female,Mixed,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+189,63,Female,White,United States,United States,United States,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+55,50,Female,White,United States,United States,United States,English,No,DATA_EXPIRED
+212,39,Female,Other,United States,United States,United States,English,No,Unemployed (and job seeking)
+177,41,Male,Asian,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+170,44,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time
+144,30,Male,White,United States,United States,United States,English,No,Full-Time
+148,26,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+17,48,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+254,51,Male,White,United States,United States,United States,English,No,Full-Time
+270,22,Female,White,United Kingdom,United Kingdom,United Kingdom,English,Yes,Unemployed (and job seeking)
+250,65,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+273,33,Male,Other,United States,United States,United States,English,No,Unemployed (and job seeking)
+34,33,Male,White,United States,United States,United States,English,No,Full-Time
+38,26,Female,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+209,20,Male,Asian,United Kingdom,United Kingdom,United Kingdom,English,Yes,Unemployed (and job seeking)
+89,42,Male,White,United States,United States,United States,English,No,Full-Time
+293,50,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+184,46,Male,White,United States,United States,United States,English,No,Full-Time
+99,42,Female,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+48,24,Male,Black,United Kingdom,United Kingdom,United Kingdom,English,DATA_EXPIRED,DATA_EXPIRED
+131,33,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+267,72,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+139,45,Male,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+299,40,Male,White,United States,United States,United States,English,No,Full-Time
+278,54,Male,White,Zimbabwe,United Kingdom,United Kingdom,English,No,Full-Time
+46,39,Male,White,United States,United States,United States,English,No,Full-Time
+199,35,Female,Black,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+247,61,Female,White,United States,United States,United States,English,No,Full-Time
+105,43,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+263,41,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time
+115,35,Female,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+134,54,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time
+236,31,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+6,33,Male,White,United States,United States,United States,English,No,Full-Time
+282,59,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+26,41,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+182,42,Male,Black,Nigeria,United Kingdom,Nigeria,English,No,Full-Time
+103,29,Male,Black,Nigeria,United Kingdom,United Kingdom,English,DATA_EXPIRED,DATA_EXPIRED
+276,43,Male,White,United States,United States,United States,English,No,Full-Time
+100,55,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time
+153,33,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+113,33,Male,White,United States,United States,United States,English,No,Full-Time
+268,27,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+120,52,Female,White,United States,United States,United States,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+232,38,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time
+30,20,Female,Asian,United Kingdom,United Kingdom,United Kingdom,English,Yes,Other
+65,36,Male,Black,United States,United States,United States,English,DATA_EXPIRED,Full-Time
+106,30,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time
+42,33,Male,White,United States,United States,United States,English,No,Full-Time
+133,58,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time
+86,38,Female,White,United States,United States,United States,English,No,Part-Time
+277,19,Male,Asian,United Kingdom,United Kingdom,United Kingdom,English,No,DATA_EXPIRED
+7,41,Female,White,United States,United States,United States,English,No,Part-Time
+9,62,Male,White,United States,United States,United States,English,No,Full-Time
+225,27,Female,White,United States,United States,United States,English,Yes,DATA_EXPIRED
+156,45,Male,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+237,56,Female,White,United States,United States,United States,English,No,Part-Time
+159,33,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+272,56,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+154,20,Female,White,United States,United States,United States,English,Yes,Full-Time
+271,35,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+226,DATA_EXPIRED,Female,White,United States,United States,United States,English,No,DATA_EXPIRED
+246,37,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+132,35,Female,White,United Kingdom,United Kingdom,United Kingdom,English,DATA_EXPIRED,DATA_EXPIRED
+31,53,Male,White,United States,United States,United States,English,No,Full-Time
+290,57,Female,White,United States,United States,United States,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+301,58,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time
+66,24,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+180,24,Male,White,United States,United States,United States,English,No,DATA_EXPIRED
+269,27,Female,Asian,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+240,42,Male,Mixed,United Kingdom,United Kingdom,United Kingdom,English,No,DATA_EXPIRED
+85,57,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+51,38,Female,Black,Zimbabwe,United States,United States,English,No,Full-Time
+161,54,Male,White,United States,United States,United States,English,No,Unemployed (and job seeking)
+91,DATA_EXPIRED,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,DATA_EXPIRED
+245,20,Female,Asian,United Kingdom,United Kingdom,United Kingdom,English,Yes,Other
+88,41,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+124,54,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time
+96,46,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,DATA_EXPIRED
+219,20,Male,White,United States,United States,United States,English,Yes,Unemployed (and job seeking)
+201,26,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,DATA_EXPIRED
+211,28,Male,White,United Kingdom,United Kingdom,United Kingdom,English,DATA_EXPIRED,DATA_EXPIRED
+77,35,Male,Black,Nigeria,United Kingdom,Nigeria,English,No,Full-Time
+200,36,Male,White,United States,United States,United States,English,No,Full-Time
+33,38,Female,White,United States,United States,United States,English,No,Full-Time
+21,40,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+70,50,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time
+60,44,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+84,30,Male,Mixed,United Kingdom,United Kingdom,United Kingdom,English,Yes,Full-Time
+297,59,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+168,38,Female,Black,Nigeria,United Kingdom,United Kingdom,English,No,Full-Time
+251,27,Male,Black,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+157,21,Female,White,United Kingdom,United Kingdom,United Kingdom,English,Yes,Part-Time
+166,24,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Unemployed (and job seeking)
+208,21,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Unemployed (and job seeking)
+104,40,Male,White,United States,United States,United States,English,No,Full-Time
+223,30,Female,White,United Kingdom,United Kingdom,United Kingdom,English,Yes,Full-Time
+239,23,Male,Black,Nigeria,United Kingdom,Nigeria,English,No,Full-Time
+123,36,Male,White,United States,United States,United States,English,No,Full-Time
+10,42,Female,White,United States,United States,United States,English,No,Full-Time
+121,36,Female,Mixed,United States,United States,United States,English,No,Full-Time
+72,24,Male,White,United States,United States,United States,English,No,Part-Time
+281,27,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+188,18,Female,White,United Kingdom,United Kingdom,United Kingdom,English,Yes,Other
+210,40,Male,DATA_EXPIRED,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+61,41,Male,Black,United States,United States,United States,English,No,Full-Time
+78,39,Male,White,United States,United States,United States,English,No,Full-Time
+181,24,Male,Black,United Kingdom,United Kingdom,United Kingdom,English,Yes,Unemployed (and job seeking)
+228,70,Female,White,United States,United States,United States,English,No,DATA_EXPIRED
+4,23,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time
+298,26,Female,White,United States,United States,United States,English,No,Unemployed (and job seeking)
+82,53,Female,Black,United States,United States,United States,English,No,DATA_EXPIRED
+286,19,Female,Other,United Kingdom,United Kingdom,United Kingdom,English,Yes,Part-Time
+248,50,Female,White,United States,United States,United States,English,No,Full-Time
+138,31,Female,White,United States,United States,United States,English,No,Full-Time
+222,35,Female,White,United States,United States,United States,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+95,22,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Unemployed (and job seeking)
+173,22,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Other
+50,45,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time
+146,24,Male,White,United Kingdom,United Kingdom,United Kingdom,English,Yes,Part-Time
+76,62,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+27,51,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+129,48,Female,Black,United States,United States,United States,English,No,Full-Time
+45,28,Female,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+128,39,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+224,61,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time
+0,53,Male,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+242,32,Female,White,United States,United States,United States,English,No,Full-Time
+234,65,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time
+288,60,Female,Black,United States,United States,United States,English,No,Unemployed (and job seeking)
+75,29,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time
+231,29,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,DATA_EXPIRED
+87,38,Female,White,United Kingdom,United Kingdom,United Kingdom,English,DATA_EXPIRED,DATA_EXPIRED
+204,57,Male,Asian,DATA_EXPIRED,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+187,58,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+29,26,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Unemployed (and job seeking)
+2,31,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+141,37,Female,White,United States,United States,United States,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+64,32,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+264,48,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+287,25,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+253,21,Male,Asian,India,United Kingdom,Portugal,English,No,Unemployed (and job seeking)
+220,52,Male,White,United States,United States,United States,English,No,Full-Time
+256,33,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+203,28,Male,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+152,30,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+108,55,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Unemployed (and job seeking)
+259,63,Female,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+160,26,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+39,37,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+28,60,Female,White,United States,United States,United States,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+300,86,Male,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+23,26,Male,Other,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+126,51,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time
+130,47,Female,Black,United States,United States,United States,English,No,Full-Time
+190,27,Male,Asian,Ireland,United Kingdom,United Kingdom,English,DATA_EXPIRED,DATA_EXPIRED
+215,32,Male,Other,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+92,51,Female,Black,Nigeria,United Kingdom,Nigeria,English,No,Full-Time
+205,62,Female,White,United States,United States,United States,English,No,DATA_EXPIRED
+257,51,Female,Black,Nigeria,United States,United States,English,No,Full-Time
+109,33,Male,White,United Kingdom,United Kingdom,United Kingdom,English,Yes,Part-Time
+149,30,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time
+191,26,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,DATA_EXPIRED
+137,57,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time
+143,37,Female,White,United Kingdom,United Kingdom,United Kingdom,English,Yes,Full-Time
+261,52,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+255,25,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+67,21,Male,White,United Kingdom,United Kingdom,United Kingdom,English,Yes,Unemployed (and job seeking)
+36,33,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+117,38,Female,White,United States,United States,United States,English,No,Full-Time
+164,19,Male,White,United Kingdom,United Kingdom,United Kingdom,English,Yes,Full-Time
+284,32,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+127,49,Male,White,United States,United States,United States,English,Yes,Part-Time
+167,39,Male,Other,United States,United States,United States,English,No,Full-Time
+202,54,Female,White,United Kingdom,United States,United States,English,No,Full-Time
+207,29,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Other
+266,40,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+145,41,Female,Mixed,United Kingdom,United Kingdom,United Kingdom,English,DATA_EXPIRED,DATA_EXPIRED
+54,58,Male,White,United Kingdom,United Kingdom,United Kingdom,English,DATA_EXPIRED,DATA_EXPIRED
+291,37,Male,White,Australia,United Kingdom,Australia,English,No,DATA_EXPIRED
+233,30,Male,White,United States,United States,United States,English,No,Full-Time
+102,55,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+80,50,Female,Black,United States,United States,United States,English,No,Unemployed (and job seeking)
+206,37,Male,Asian,United States,United States,United States,English,No,Unemployed (and job seeking)
+8,30,Male,DATA_EXPIRED,United Kingdom,United Kingdom,United Kingdom,English,DATA_EXPIRED,DATA_EXPIRED
+252,43,Female,White,United States,United States,United States,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+14,22,Male,Mixed,United States,United States,United States,English,Yes,Part-Time
+198,40,Female,White,United Kingdom,United Kingdom,United Kingdom,English,Yes,Full-Time
+196,41,Female,White,United Kingdom,United States,United States,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+83,39,Male,White,United States,United States,United States,English,No,Full-Time
+175,22,Female,White,United States,United States,United States,English,No,Full-Time
+56,56,Male,White,United States,United States,United States,English,No,Full-Time
+274,52,Female,White,United States,United States,United States,English,No,Full-Time
+265,32,Male,DATA_EXPIRED,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+163,27,Male,Black,United States,United States,United States,English,No,Part-Time
+69,48,Female,Black,United States,United States,United States,English,Yes,Full-Time
+244,42,Male,Mixed,United States,United States,United States,English,No,Full-Time
+118,22,Female,Mixed,United States,United States,United States,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+238,59,Female,White,United States,United States,United States,English,No,Full-Time
+62,32,Male,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+186,34,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+136,41,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,DATA_EXPIRED
+43,55,Female,Asian,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+241,56,Female,White,United States,United States,United States,English,No,Full-Time
+155,25,Male,White,United States,United States,United States,English,No,Part-Time
+18,28,Female,Asian,United States,United States,United States,English,No,Full-Time
+165,32,Male,Asian,United Kingdom,United Kingdom,United Kingdom,English,DATA_EXPIRED,DATA_EXPIRED
+275,29,Female,White,United States,United States,United States,English,No,DATA_EXPIRED
+179,42,Female,White,United States,United States,United States,English,No,Part-Time
+68,65,Male,White,United States,United States,United States,English,Yes,Unemployed (and job seeking)
+171,29,Male,White,United Kingdom,United Kingdom,United Kingdom,English,DATA_EXPIRED,DATA_EXPIRED
+53,37,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+90,35,Prefer not to say,Other,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+94,38,Male,Other,United Kingdom,United Kingdom,United Kingdom,English,No,Unemployed (and job seeking)
+41,25,Male,White,United Kingdom,United Kingdom,United Kingdom,English,Yes,Part-Time
+93,58,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time
+213,61,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+162,43,Male,White,United States,United States,United States,English,No,Full-Time
+116,31,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,DATA_EXPIRED
+296,36,Male,White,United States,United States,United States,English,No,Full-Time
+97,32,Female,White,United States,United States,United States,English,No,Full-Time
+25,53,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+221,28,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+59,28,Female,White,United States,United States,United States,English,No,Unemployed (and job seeking)
+218,57,Male,Black,Nigeria,United Kingdom,Nigeria,English,No,DATA_EXPIRED
+20,58,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+74,35,Male,Black,Nigeria,United Kingdom,Nigeria,English,Yes,Part-Time
+197,26,Female,Asian,United Kingdom,United Kingdom,United Kingdom,English,Yes,Part-Time
+58,55,Female,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+169,30,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+11,43,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+35,33,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+98,39,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+185,23,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Unemployed (and job seeking)
+150,50,Male,White,DATA_EXPIRED,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+40,33,Male,White,United States,United States,United States,English,No,Part-Time
+193,52,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+63,25,Female,Mixed,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+235,31,Female,Black,Nigeria,United Kingdom,Nigeria,English,Yes,Part-Time
+22,48,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+135,32,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+176,41,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time
+183,22,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+49,23,Male,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+194,32,Female,White,United States,United States,United States,English,No,Full-Time
+289,28,Male,White,United States,United States,United States,English,No,Full-Time
+295,40,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+172,53,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time
+110,30,Female,White,United Kingdom,United Kingdom,United Kingdom,English,Yes,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+79,32,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+283,48,Female,White,United States,United States,United States,English,No,Other
+174,40,Male,White,United States,United States,United States,English,No,Full-Time
+292,28,Female,White,United States,United States,United States,English,No,Unemployed (and job seeking)
+81,54,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+3,34,Female,White,United States,United States,United States,English,No,Full-Time
+142,76,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+229,33,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+112,21,Male,White,United Kingdom,United Kingdom,United Kingdom,English,Yes,Part-Time
+214,42,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+294,29,Male,Black,Nigeria,United Kingdom,Nigeria,English,Yes,Unemployed (and job seeking)
+101,25,Male,Other,United States,United States,United States,English,No,Unemployed (and job seeking)
+13,25,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+258,59,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time
+119,29,Male,White,United States,United States,United States,English,No,Full-Time
+111,30,Male,White,United States,United States,United States,English,No,Full-Time
+47,24,Female,Asian,United States,United States,United States,English,No,Unemployed (and job seeking)
+15,33,Male,White,United States,United States,United States,English,No,DATA_EXPIRED
+16,23,Male,White,United States,United States,United States,English,No,Unemployed (and job seeking)
+216,33,Female,Asian,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+44,40,Male,White,United Kingdom,United Kingdom,United Kingdom,English,DATA_EXPIRED,DATA_EXPIRED
+279,42,Female,White,United States,United States,United States,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+52,22,Male,White,United States,United States,United States,English,Yes,Due to start a new job within the next month
+71,27,Male,Mixed,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+114,40,Male,White,United States,United States,United States,English,No,Full-Time
+125,33,Female,Black,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+140,28,Male,Asian,United States,United States,United States,English,Yes,Full-Time
+12,31,Male,Black,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+57,49,Female,White,Ireland,United Kingdom,United Kingdom,English,No,Full-Time

@@ -1,0 +1,182 @@
+---
+title: "experiment1"
+format: html
+editor: visual
+---
+
+## Imports
+
+```{r}
+library(tidyverse)
+library(here)
+library(ggthemes)
+library(tidyboot)
+library(lme4)
+library(brms)
+library(lmerTest)
+```
+
+```{r}
+d.raw <- read_csv(here('analyses/data/pilot2_data.csv')) %>%
+  mutate(missing_response = is.na(response) | is.na(description)) %>%
+  mutate(condition = ifelse(controlled, 'control', 'repeated')) %>%
+  select(-controlled)
+
+# remove games that timed-out more than 
+bad_games <- d.raw %>% 
+  group_by(game_id) %>%
+  summarize(pct_missing = mean(missing_response)) %>%
+  filter(pct_missing > 0.25) %>%
+  pull(game_id)
+
+# d.clean has all data after exclusions
+d.clean <- d.raw %>%
+  filter(!(game_id %in% bad_games)) %>%
+  filter(!missing_response) 
+
+# d.transfer only has the 'initial' blocks to compare train vs. test
+d.transfer <- d.clean %>%
+  filter(block %in% c(0,  5)) %>%
+  mutate(condition = ifelse(block == 5, 'test', 'train')) %>%
+  rowwise() %>%
+  mutate(message_to_click = as.numeric(gsub('\\D+', '', sec_until_click)) - time_to_message,
+         message_to_click_normed = message_to_click / (60 - time_to_message),
+         condition = factor(condition),
+         snd_class = factor(snd_class)) %>%
+  select(block, condition, target, snd_class, game_id, speaker_id, 
+         description_len, correct, sec_until_press, time_to_message, 
+         message_to_click, message_to_click_normed)
+
+```
+
+```{r}
+cat('filtered out', 
+    length(bad_games), 
+    'games, leaving ',
+    d.clean %>% pull(game_id) %>% unique() %>% length(), 
+    'in our final sample')
+```
+
+```{r}
+dodge <- position_dodge(.1)
+
+d.clean %>% 
+  group_by(block, snd_class, condition) %>%
+  tidyboot_mean(correct, nboot = 100) %>%
+  ungroup() %>%
+  mutate(condition = fct_relevel(condition, 'repeated'),
+         snd_class = ifelse(block == 5, 'test', snd_class),
+         snd_class = fct_relevel(snd_class, 'test', 'high', 'low')) %>%
+  ggplot(aes(x = block + 1, y = empirical_stat, color = snd_class, linetype = condition, 
+             group = interaction(snd_class, condition))) +
+    geom_point(position = dodge) +
+    geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), width = 0, 
+                  position = dodge, linetype = 'solid') +
+    geom_smooth(se = F, method = 'lm', formula = y ~ poly(x, 2)) +
+    scale_color_colorblind() +
+    facet_wrap(~ condition) +
+    labs(x = 'block #', y = '% correct') +
+    theme_few()
+```
+
+```{r}
+d.clean %>% 
+  group_by(block, snd_class, condition) %>%
+  tidyboot_mean(description_len, nboot = 100) %>%
+  ungroup() %>%
+  mutate(condition = fct_relevel(condition, 'repeated'),
+         snd_class = fct_relevel(snd_class, 'high', 'low')) %>%
+  ggplot(aes(x = block + 1, y = empirical_stat, color = snd_class, linetype = condition, 
+             group = interaction(snd_class, condition, block < 5))) +
+    geom_point(position = dodge) +
+    geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), width = 0, 
+                  position = dodge, linetype = 'solid') +
+    geom_smooth(se = F, method = 'lm', formula = y ~ poly(x, 2)) +
+    facet_wrap(~ condition, scales = 'free') +
+    scale_color_colorblind() +
+    ylim(1, NA) +
+    labs(x = 'block #', y = '# words / description') +
+    theme_few()
+```
+
+```{r}
+d.transfer %>% 
+  # group_by(game_id) %>%
+  # mutate(description_len = scale(description_len, scale = F)) %>%
+  group_by(condition, snd_class, game_id) %>%
+  summarize(description_len = mean(description_len)) %>%
+  unite(condition, condition, snd_class) %>%
+  select(condition, game_id, description_len) %>%
+  spread(condition, description_len) %>%
+  mutate(across()test_low = test_low - )
+
+  mutate(snd_class = fct_relevel(snd_class, 'high', 'low')) %>%
+  ggplot(aes(x = condition, y = description_len, color = snd_class)) +
+    geom_line(aes( group = interaction(snd_class, game_id))) +
+    stat_summary(geom = "point", fun.y = "mean", size = 3, color = "red") +
+    scale_color_colorblind() +
+    facet_wrap(~ snd_class) 
+    
+```
+
+```{r}
+contrasts(d.transfer$condition) <- contr.sum(2)
+contrasts(d.transfer$snd_class) <- contr.sum(2)
+
+m1 <- glmer(correct ~ condition * snd_class + (0 + condition | game_id),
+        family = 'binomial', 
+        data = d.transfer)
+summary(m1)
+```
+
+```{r}
+m1.brm <- brm(correct ~ condition * snd_class 
+            + (1 + condition * snd_class | game_id),
+        family = 'bernoulli', 
+        data = d.transfer)
+summary(m1.brm)
+```
+
+```{r}
+description_len <- lmer(
+  description_len ~ condition * snd_class + (1 + condition | game_id),
+  data = d.transfer
+)
+summary(description_len)
+```
+
+```{r}
+# evalaute effect of condition
+description_len <- brm(
+  description_len ~ condition * snd_class + (1 + condition * snd_class  | game_id),
+  data = d.transfer)
+summary(description_len)
+```
+
+```{r}
+sec_until_press <- lmer(
+  sec_until_press ~ condition * snd_class + (1 + condition * snd_class  | game_id),
+  control = lmerControl(optimizer = 'bobyqa'),
+  data = d.transfer)
+
+sec_until_press.brm <- brm(
+  sec_until_press ~ condition * snd_class + (1 + condition * snd_class  | game_id),
+  data = d.transfer)
+
+summary(sec_until_press.brm)
+```
+
+```{r}
+message_to_click <- lmer(
+  message_to_click_normed ~ condition * snd_class + (1   | game_id),
+  #control = lmerControl(optimizer = 'bobyqa'),
+  data = d.transfer,
+  contrasts = list(snd_class = contr.sum(2), condition = contr.sum(2)))
+summary(message_to_click)
+
+message_to_click.brm <- brm(
+  message_to_click ~ condition * snd_class + (1 + condition * snd_class  | game_id),
+  data = d.transfer)
+
+summary(message_to_click.brm)
+```

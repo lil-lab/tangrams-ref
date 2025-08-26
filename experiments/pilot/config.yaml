@@ -1,0 +1,152 @@
+treatments:
+  - name: game_0
+    factorIds:
+      - LCPL67GcDLnC7kpX4
+      - QEbiEZHHkAaEDEo3q
+      - zAoBH7r4FvddSqPJc
+      - PhWBYRyqGv7hpZbKm
+      - v5zvZXdDdwLH5Ry6F
+      - mtB5Wwg7ettEawH9h
+    archivedAt: 2022-08-31T10:25:52.594Z
+  - name: new_game
+    factorIds:
+      - mtB5Wwg7ettEawH9h
+      - LCPL67GcDLnC7kpX4
+      - QEbiEZHHkAaEDEo3q
+      - zAoBH7r4FvddSqPJc
+      - PhWBYRyqGv7hpZbKm
+      - v5zvZXdDdwLH5Ry6F
+    archivedAt: 2022-08-31T10:25:53.696Z
+  - name: game_1
+    factorIds:
+      - LCPL67GcDLnC7kpX4
+      - QEbiEZHHkAaEDEo3q
+      - zAoBH7r4FvddSqPJc
+      - PhWBYRyqGv7hpZbKm
+      - v5zvZXdDdwLH5Ry6F
+      - qxw5DHx2nqRXQDz8E
+    archivedAt: 2022-08-31T10:25:54.221Z
+  - name: game_2
+    factorIds:
+      - LCPL67GcDLnC7kpX4
+      - QEbiEZHHkAaEDEo3q
+      - zAoBH7r4FvddSqPJc
+      - PhWBYRyqGv7hpZbKm
+      - v5zvZXdDdwLH5Ry6F
+      - 4KJfMEcLPBbaxdnyz
+    archivedAt: 2022-08-31T10:25:54.700Z
+  - name: game_3
+    factorIds:
+      - LCPL67GcDLnC7kpX4
+      - QEbiEZHHkAaEDEo3q
+      - zAoBH7r4FvddSqPJc
+      - PhWBYRyqGv7hpZbKm
+      - v5zvZXdDdwLH5Ry6F
+      - yK52tDs3ui3K7s4rb
+    archivedAt: 2022-08-31T10:25:55.337Z
+  - name: random_game
+    factorIds:
+      - LCPL67GcDLnC7kpX4
+      - QEbiEZHHkAaEDEo3q
+      - zAoBH7r4FvddSqPJc
+      - PhWBYRyqGv7hpZbKm
+      - v5zvZXdDdwLH5Ry6F
+factorTypes:
+  - _id: BADCASqzRdiMcmJSn
+    name: playerCount
+    description: The Number of players participating in the given game.
+    required: true
+    type: Integer
+    min: 1
+  - _id: yZ9EAzrPfAEKk96kr
+    name: teamColor
+    description: are you red or blue?
+    required: false
+    type: String
+  - _id: kJddTH8X4Y6Df7SPA
+    name: selectionDuration
+    description: >-
+      how many seconds do participants have to complete a tangram selection
+      trial
+    required: true
+    type: String
+  - _id: oTmtc6KmQb77CaDTC
+    name: submitCode
+    description: code for submission to prolific/mturk
+    required: false
+    type: String
+  - _id: 3wpX9QW3HfeanZ7AH
+    name: botsCount
+    description: how many bots are in the game?
+    required: false
+    type: Integer
+    min: 0
+    max: 1
+  - _id: 9wo6Gw249THP5oytQ
+    name: gameSet
+    description: Which game set to play
+    required: false
+    type: Integer
+    archivedAt: 2022-08-31T10:25:34.936Z
+factors:
+  - _id: LCPL67GcDLnC7kpX4
+    name: duo
+    value: 2
+    factorTypeId: BADCASqzRdiMcmJSn
+  - _id: LYqRqNsuy3tZGcu7x
+    name: red
+    value: red
+    factorTypeId: yZ9EAzrPfAEKk96kr
+  - _id: QEbiEZHHkAaEDEo3q
+    name: blue
+    value: blue
+    factorTypeId: yZ9EAzrPfAEKk96kr
+  - _id: PhWBYRyqGv7hpZbKm
+    name: prolificPilot
+    value: 3B021164
+    factorTypeId: oTmtc6KmQb77CaDTC
+  - _id: zAoBH7r4FvddSqPJc
+    name: '45'
+    value: '45'
+    factorTypeId: kJddTH8X4Y6Df7SPA
+  - _id: G9Rnfn4r9t0gODHFG
+    name: '70'
+    value: '70'
+    factorTypeId: kJddTH8X4Y6Df7SPA
+  - _id: yyFWfqvKTzWLs9hQq
+    name: one
+    value: 1
+    factorTypeId: 3wpX9QW3HfeanZ7AH
+  - _id: v5zvZXdDdwLH5Ry6F
+    name: zero
+    value: 0
+    factorTypeId: 3wpX9QW3HfeanZ7AH
+  - _id: mtB5Wwg7ettEawH9h
+    name: '0'
+    value: 0
+    factorTypeId: 9wo6Gw249THP5oytQ
+  - _id: qxw5DHx2nqRXQDz8E
+    name: '1'
+    value: 1
+    factorTypeId: 9wo6Gw249THP5oytQ
+  - _id: 4KJfMEcLPBbaxdnyz
+    name: '2'
+    value: 2
+    factorTypeId: 9wo6Gw249THP5oytQ
+  - _id: yK52tDs3ui3K7s4rb
+    name: '3'
+    value: 3
+    factorTypeId: 9wo6Gw249THP5oytQ
+lobbyConfigs:
+  - name: lobby
+    timeoutType: lobby
+    timeoutInSeconds: 300
+    timeoutStrategy: fail
+    gameLobbyIds: []
+    archivedAt: 2021-01-20T10:15:45.633Z
+  - name: individual_lobby
+    timeoutType: individual
+    timeoutInSeconds: 300
+    timeoutStrategy: fail
+    extendCount: 2
+    gameLobbyIds: []

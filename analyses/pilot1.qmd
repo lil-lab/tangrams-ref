@@ -1,0 +1,212 @@
+---
+title: "experiment1"
+format: html
+editor: visual
+---
+
+## Imports
+
+```{r}
+library(tidyverse)
+library(here)
+library(ggthemes)
+library(tidyboot)
+library(lme4)
+library(lmerTest)
+```
+
+```{r}
+d.raw <- read_csv(here('analyses/data/pilot1_data.csv')) %>% 
+  mutate(missing_response = is.na(response)) %>%
+  mutate(condition = ifelse(controlled, 'control', 'repeated')) %>%
+  select(-controlled)
+
+# remove games that timed-out more than 
+bad_games <- d.raw %>% 
+  group_by(game_id) %>%
+  summarize(pct_missing = mean(missing_response)) %>%
+  filter(pct_missing > 0.20) %>%
+  pull(game_id)
+
+d.clean <- d.raw %>%
+  filter(!(game_id %in% bad_games)) %>%
+  filter(!missing_response) %>%
+  mutate(sec_until_click = gsub('(', '', sec_until_click, fixed = T)) %>%
+  mutate(sec_until_click = gsub(',)', '', sec_until_click, fixed = T)) %>%
+  mutate(listener_rt = as.numeric(sec_until_click)) %>%
+  mutate(snd_class = fct_relevel(snd_class, 'low', 'high'))
+```
+
+```{r}
+cat('filtered out', 
+    length(bad_games), 
+    'games, leaving ',
+    d.clean %>% pull(game_id) %>% unique() %>% length(), 
+    'in our final sample')
+```
+
+# Result 1: Accuracy
+
+### Plot
+
+```{r}
+dodge <- position_dodge(.1)
+
+d.clean %>% 
+  filter(!is.na(correct)) %>% 
+  group_by(block, snd_class, condition) %>%
+  tidyboot_mean(correct, nboot = 1000) %>%
+  mutate(condition = fct_relevel(condition, 'repeated')) %>%
+  ggplot(aes(x = block + 1, y = empirical_stat, color = snd_class, linetype = condition, 
+             group = interaction(snd_class, condition))) +
+    geom_point(position = dodge) +
+    geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), width = 0, 
+                  position = dodge, linetype = 'solid') +
+    geom_smooth(se = F, method = 'lm', formula = y ~ poly(x, 2)) +
+    facet_wrap(~ condition) +
+    scale_color_colorblind() +
+    labs(x = 'block #', y = '% correct') +
+    theme_few() +
+    theme(aspect.ratio = 1, 
+          axis.text = element_text(size = 14),
+          axis.title = element_text(size = 14),
+          strip.text = element_text(size = 14)
+          )
+```
+
+```{r}
+ggsave("img/accuracy.pdf", plot = last_plot(), device = "pdf", width = 8, height = 6)
+```
+
+### Statistics
+
+```{r}
+m1 <- glmer(correct ~ poly(block, 2) + (1 + block | game_id), family = 'binomial', data = d.clean)
+
+m2 <- glmer(correct ~ poly(block, 2) * condition + (1 + poly(block, 1) | game_id), family = 'binomial', data = d.clean, control = glmerControl(optimizer = 'bobyqa'), contrasts = list(condition = contr.sum(2)))
+
+m3 <- glmer(correct ~ poly(block, 2) * snd_class + (1 + poly(block, 1) + snd_class | game_id), family = 'binomial', data = d.clean, control = glmerControl(optimizer = 'bobyqa'), contrasts = list(snd_class = contr.sum(2)))
+
+m4 <- glmer(correct ~ poly(block, 2) + snd_class * condition + (1 + poly(block, 1) + snd_class | game_id), family = 'binomial', data = d.clean, control = glmerControl(optimizer = 'bobyqa'), contrasts = list(snd_class = contr.sum(2), condition = contr.sum(2)))
+
+summary(m4) 
+anova(m1, m2, m3, m4)
+```
+
+# Result 2: speaker description length
+
+### Plot
+
+```{r}
+d.clean %>% 
+  group_by(block, snd_class, condition) %>%
+  tidyboot_mean(speaker_len, nboot = 100) %>%
+  mutate(condition = fct_relevel(condition, 'repeated')) %>%
+  ggplot(aes(x = block + 1, y = empirical_stat, color = snd_class, linetype = condition, 
+             group = interaction(snd_class, condition))) +
+    geom_point(position = dodge) +
+    geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), width = 0, position = dodge, linetype = 'solid') +
+    geom_smooth(se = F, method = 'lm', formula = y ~ poly(x, 2)) +
+    facet_wrap(~ condition) +
+    labs(x = 'block #', y = '# words / description') +
+    theme_few() +
+    scale_color_colorblind() +
+    theme(aspect.ratio = 1, 
+          axis.text = element_text(size = 14),
+          axis.title = element_text(size = 14),
+          strip.text = element_text(size = 14)
+          )
+```
+
+```{r}
+ggsave("img/speaker_len.pdf", plot = last_plot(), device = "pdf", width = 8, height = 6)
+```
+
+### Statistics
+
+```{r}
+m1 <- lmer(description_len ~ poly(block, 2) + (1 + block | game_id),
+           data = d.clean)
+
+m2 <- lmer(description_len ~ poly(block, 2) * condition
+                   + (1 + poly(block, 1) + condition | game_id),
+           data = d.clean,
+           control = lmerControl(optimizer = 'bobyqa'),
+           contrasts = list(condition = contr.sum(2)))
+
+m3 <- lmer(description_len ~ poly(block, 2) * snd_class
+                   + (1 + poly(block, 1) + snd_class | game_id),
+           data = d.clean,
+           control = lmerControl(optimizer = 'bobyqa'),
+           contrasts = list(snd_class = contr.sum(2)))
+
+m4 <- lmer(description_len ~ poly(block, 2) + snd_class * condition
+                   + (1 + poly(block, 1) + snd_class * condition | game_id),
+           data = d.clean,
+           control = lmerControl(optimizer = 'bobyqa'),
+           contrasts = list(snd_class = contr.sum(2), condition = contr.sum(2)))
+
+m5 <- lmer(description_len ~ poly(block, 1) * snd_class * condition
+                   + (1 + poly(block, 1) + snd_class * condition | game_id),
+           data = d.clean,
+           control = lmerControl(optimizer = 'bobyqa'),
+           contrasts = list(snd_class = contr.sum(2), condition = contr.sum(2)))
+
+summary(m5)
+anova(m1, m2, m3, m4, m5)
+```
+
+# Result 3: RT
+
+```{r}
+d.clean %>% 
+  filter(!is.na(listener_rt)) %>% 
+  group_by(block, snd_class, condition) %>%
+  tidyboot_mean(listener_rt, nboot = 100) %>% # time_to_message
+  mutate(condition = fct_relevel(condition, 'repeated')) %>%
+  ggplot(aes(x = block + 1, y = empirical_stat, color = snd_class, linetype = condition, 
+             group = interaction(snd_class, condition))) +
+    geom_point(position = dodge) +
+    geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), width = 0, position = dodge, linetype = 'solid') +
+    geom_smooth(se = F, method = 'lm', formula = y ~ poly(x, 2)) +
+    facet_wrap(~ condition) +
+    labs(x = 'block #', y = 'listener RT (sec)') +
+    theme_few() +
+    scale_color_colorblind() +
+    theme(aspect.ratio = 1, 
+          axis.text = element_text(size = 14),
+          axis.title = element_text(size = 14),
+          strip.text = element_text(size = 14)
+          )
+```
+
+```{r}
+ggsave("img/listener_rt.pdf", plot = last_plot(), device = "pdf", width = 8, height = 6)
+```
+
+# Result 4: Number of Messages
+
+```{r}
+d.clean %>% 
+  group_by(block, snd_class, condition) %>%
+  tidyboot_mean(chat_len, nboot = 100) %>%
+  mutate(condition = fct_relevel(condition, 'repeated')) %>%
+  ggplot(aes(x = block + 1, y = empirical_stat, color = snd_class, linetype = condition, 
+             group = interaction(snd_class, condition))) +
+    geom_point(position = dodge) +
+    geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), width = 0, position = dodge, linetype = 'solid') +
+    geom_smooth(se = F, method = 'lm', formula = y ~ poly(x, 2)) +
+    facet_wrap(~ condition) +
+    labs(x = 'block #', y = '# messages / round') +
+    theme_few() +
+    scale_color_colorblind() +
+    theme(aspect.ratio = 1, 
+          axis.text = element_text(size = 14),
+          axis.title = element_text(size = 14),
+          strip.text = element_text(size = 14)
+          )
+```
+
+```{r}
+ggsave("img/msg_round.pdf", plot = last_plot(), device = "pdf", width = 8, height = 6)
+```
