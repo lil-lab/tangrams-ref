@@ -434,7 +434,7 @@ diff_model2 <- brm(
 summary(diff_model2)
 ```
 
-## Exponential relationship to image similarity
+# Results 3: Exponential relationship to image similarity
 
 ```{r}
 shepard <- read_csv(here('analyses/data/shepard_pairs.csv')) 
@@ -491,6 +491,27 @@ summary(m2_s)
 
 ```{r}
 loo_compare(loo1_s,loo2_s,loo3_s,loo4_s)
+```
+
+```{r}
+## Compare with dichotomous model
+# Create the dichotomous visual similarity variable 
+# (using a median split to define 'High' vs 'Low' similarity)
+shepard_same_thread$image_sim_dichotomous <- ifelse(
+  shepard_same_thread$image_sim_c > median(shepard_same_thread$image_sim_c, na.rm = TRUE), 
+  1, 0
+)
+
+# Model
+m_dichot_s = brm(text_sim_c ~ image_sim_dichotomous + (1 + image_sim_dichotomous | player_id), 
+                   data = shepard_same_thread, iter=10000, 
+                   control = list(adapt_delta = 0.99, max_treedepth = 15))
+
+
+loo_dichot_s <- loo(m_dichot_s)
+
+# Compare the continuous quadratic model against the dichotomous model
+loo_compare(loo_dichot_s, loo1_s,loo2_s,loo3_s)
 ```
 
 ## Pre-post diff by image similarity
@@ -600,6 +621,88 @@ img_sim_model_c <- brm(
 )
 
 summary(img_sim_model_c)
+```
+
+### Post text sim vs visual diff to interactive phase, split by jaccard
+
+```{r}
+# Calculate median jaccard for the post phase
+median_jaccard <- median(df$jaccard_index[df$phase == "post"], na.rm = TRUE)
+
+# Create df_post with jaccard groups
+df_post <- df %>%
+  filter(phase == "post") %>%
+  mutate(jaccard_group = if_else(jaccard_index <= median_jaccard, 
+                                  "low Jaccard", 
+                                  "high Jaccard"),
+         jaccard_group = factor(jaccard_group, 
+                               levels = c("low Jaccard", "high Jaccard")))
+
+# Create the plot
+df_post %>% 
+  ggplot(aes(x = avg_sim_AB_interactive, y = similarity, color = jaccard_group)) +
+  geom_jitter(width = .025, height = .025, alpha = .1) +
+  geom_smooth(
+    method = 'glm',
+    formula = y ~ poly(x, 2),
+    se = TRUE,
+    linetype = "solid",
+    method.args = list(family = gaussian())
+  ) +
+  theme_few() +
+  labs(x = "visual similarity to interactive phase", y = "description embedding similarity") +
+  scale_x_continuous(breaks = seq(-1, 1, by = 0.2)) +
+  scale_color_manual(values = c("low Jaccard" = "#E69F00", "high Jaccard" = "black")) +
+  theme(
+    aspect.ratio = 1,
+    axis.text = element_text(size = 12),
+    axis.title = element_text(size = 14),
+    legend.position = "bottom",
+    legend.title = element_blank()
+  )
+#ggsave(here("analyses/img/text_by_image_sim_all_jaccard.pdf"))
+```
+
+```{r}
+# Calculate median jaccard for the post phase
+median_jaccard <- median(df$jaccard_index[df$phase == "post"], na.rm = TRUE)
+
+# Create df_post with jaccard groups and filter for low jaccard only
+df_post <- df %>%
+  filter(phase == "post") %>%
+  mutate(jaccard_group = if_else(jaccard_index <= median_jaccard, 
+                                  "Low Jaccard", 
+                                  "High Jaccard"),
+         jaccard_group = factor(jaccard_group, 
+                               levels = c("Low Jaccard", "High Jaccard"))) %>%
+  filter(jaccard_group == "Low Jaccard")
+```
+
+```{r}
+invisible(capture.output({
+m1_post_low <- brm(similarity ~ avg_sim_AB_interactive_c + 
+                 (1 + avg_sim_AB_interactive_c | game), 
+               data = df_post%>% filter(jaccard_group == "low Jaccard"))
+
+m2_post_low <- brm(similarity ~ poly(avg_sim_AB_interactive_c, 2) + 
+                 (1 + poly(avg_sim_AB_interactive_c, 2) | game), 
+               data = df_post%>% filter(jaccard_group == "low Jaccard"))
+
+m3_post_low <- brm(similarity ~ exp(avg_sim_AB_interactive_c) + 
+                 (1 + exp(avg_sim_AB_interactive_c) | game), 
+               data = df_post%>% filter(jaccard_group == "low Jaccard"))
+m4_post_low <- brm(similarity ~ exp(avg_sim_AB_interactive_c) + poly(avg_sim_AB_interactive_c, 2) + (1 + exp(avg_sim_AB_interactive_c) + avg_sim_AB_interactive_c | game), 
+               data = df_post%>% filter(jaccard_group == "low Jaccard"))
+}))
+```
+
+```{r}
+loo_post_low1 <- loo(m1_post_low)
+loo_post_low2 <- loo(m2_post_low)
+loo_post_low3 <- loo(m3_post_low)
+loo_post_low4 <- loo(m4_post_low)
+
+loo_compare(loo_post_low1, loo_post_low2, loo_post_low3, loo_post_low4)
 ```
 
 # Human voting vs embedding similarity
