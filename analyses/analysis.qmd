@@ -763,3 +763,47 @@ fit_img <- brm(
 ```{r}
 summary(fit_img)
 ```
+
+# Functional form on raw pixel-level image similarity
+
+```{r}
+shp_pix <- read_csv(here('analyses/data/shepard_pairs_pixsim.csv'), show_col_types = F) %>%
+  filter(is_same_thread) %>%
+  mutate(pixel_sim_c = as.numeric(scale(pixel_sim, scale = FALSE)),
+         text_sim_c  = as.numeric(scale(text_sim,  scale = FALSE)))
+
+cor.test(shp_pix$pixel_sim, shp_pix$image_sim)
+
+m1_pix = brm(text_sim_c ~ pixel_sim_c + (1 + pixel_sim_c | player_id), data = shp_pix, iter = 4000, control = list(adapt_delta = 0.99, max_treedepth = 15))
+m2_pix = brm(text_sim_c ~ poly(pixel_sim_c, 2) + (1 + poly(pixel_sim_c, 2) | player_id), data = shp_pix, iter = 4000, control = list(adapt_delta = 0.99, max_treedepth = 15))
+m3_pix = brm(text_sim_c ~ exp(pixel_sim_c) + (1 + exp(pixel_sim_c) | player_id), data = shp_pix, iter = 4000, control = list(adapt_delta = 0.99, max_treedepth = 15))
+m4_pix = brm(text_sim_c ~ poly(pixel_sim_c, 2) + exp(pixel_sim_c) + (1 + exp(pixel_sim_c) + pixel_sim_c || player_id), data = shp_pix, iter = 4000, control = list(adapt_delta = 0.99, max_treedepth = 15))
+
+loo_compare(loo(m1_pix), loo(m2_pix), loo(m3_pix), loo(m4_pix))
+```
+
+# Robustness: Fig 3B nonlinearity under equal similarity coverage
+
+```{r}
+shp <- read_csv(here('analyses/data/shepard_pairs.csv'), show_col_types = F) %>%
+  filter(is_same_thread) %>%
+  mutate(bin = cut(image_sim, breaks = c(0.3,0.4,0.5,0.6,0.7,0.8,1.0), include.lowest = TRUE))
+print(table(shp$bin))
+
+fit_cov <- function(d) {
+  d <- d %>% mutate(image_sim_c = image_sim - mean(image_sim),
+                    text_sim_c  = text_sim  - mean(text_sim))
+  m1 <- brm(text_sim_c ~ image_sim_c + (1 + image_sim_c | player_id), data = d, iter = 4000, control = list(adapt_delta = 0.99, max_treedepth = 15))
+  m2 <- brm(text_sim_c ~ poly(image_sim_c, 2) + (1 + image_sim_c | player_id), data = d, iter = 4000, control = list(adapt_delta = 0.99, max_treedepth = 15))
+  m3 <- brm(text_sim_c ~ exp(image_sim_c) + (1 + image_sim_c | player_id), data = d, iter = 4000, control = list(adapt_delta = 0.99, max_treedepth = 15))
+  print(loo_compare(loo(m1), loo(m2), loo(m3)))
+  print(round(fixef(m2), 3))
+}
+
+# (A) central similarity range only
+fit_cov(shp %>% filter(image_sim >= 0.4, image_sim <= 0.8))
+
+# (B) equal-coverage resample (downsample each bin to the smallest)
+set.seed(1)
+fit_cov(shp %>% group_by(bin) %>% slice_sample(n = min(table(shp$bin))) %>% ungroup())
+```
