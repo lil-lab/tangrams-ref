@@ -38,9 +38,10 @@ experiments/          web experiment source (Empirica/Meteor); see experiments/R
 `.svg`. The 1,016 SVGs are in `experiments/experiment/public/tangrams/`.
 
 **Identifiers** are arbitrary labels carrying no participant information: games `G###` (pilots
-`P1G###`/`P2G###`), rounds `R#####` (`P1R#####`/`P2R#####`), participants integers `0`–`301`.
-*Pilot participant numbers are a separate scheme* — pilot `speaker_id` `147` is not main-experiment
-participant `147`, and the pilot files must not be joined to `demographics.csv`.
+`P1G###`/`P2G###`), rounds `R#####` (`P1R#####`/`P2R#####`), main-experiment participants integers
+`0`–`301`, pilot participants `P1-###` / `P2-###`. The main experiment and the two pilots each
+recruited a **distinct set of people**, so the three participant namespaces never overlap and must
+not be joined to one another; `demographics.csv` covers the main experiment only.
 
 **Missing data** is always an empty cell (`NA` in R, `NaN` in pandas) and is structural; the reason
 is noted per variable below. No other missing-data codes.
@@ -236,11 +237,13 @@ three embedding models.
 ### `pilot1_data.csv`, `pilot2_data.csv`
 
 **1,800 rows** (60 games) and **2,360 rows** (59 games). Single-phase pilots, both
-`single-utterance-unidirectional` only. Columns match `full_data.csv` except:
+`single-utterance-unidirectional` only, each run with its own distinct set of participants.
+Columns match `full_data.csv` except:
 
 | Variable | Type / units | Description |
 |---|---|---|
 | `game_id`, `round_id` | `P1G###`/`P2G###`, `P1R#####`/`P2R#####` | Pilot-specific identifiers. |
+| `speaker_id`, `listener_id` | `P1-###` / `P2-###` | Pilot participants (120 in pilot 1, 118 in pilot 2), numbered separately per pilot. No pilot participant took part in the other pilot or in the main experiment. |
 | `sec_until_press` | seconds | Time until the speaker began typing. |
 | `sec_until_click` | `(n,)` | Seconds until the listener clicked, as a 1-tuple literal — strip parentheses and trailing comma. |
 | `description_len` | words | Word count of `description`. |
@@ -282,8 +285,9 @@ de-identified data. No minors took part (minimum age 18). This release contains 
 identifiers. The de-identification procedure was:
 
 1. **Platform identifiers removed.** Recruitment-platform accounts were never carried into the
-   release; each participant has an arbitrary number (0–301) not derived from personal information
-   and not reversible.
+   release; each participant has an arbitrary label not derived from personal information and not
+   reversible (`0`–`301` for the main experiment, `P1-###` / `P2-###` for the pilots, numbered
+   separately because the three studies recruited distinct people).
 2. **Internal database identifiers replaced.** The Empirica/Meteor server's record ids for every
    game, round, and player were replaced with arbitrary labels (`G001`, `R00001`, …), so nothing
    traces back to the original experiment server.
