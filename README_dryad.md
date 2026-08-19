@@ -294,12 +294,6 @@ identifiers. The de-identification procedure was:
 3. **Indirect identifiers limited to three** — `age_range`, `sex`, `country_of_residence`. Ethnicity,
    country of birth, nationality, language, student status, and employment status were removed.
 4. **Age generalized** into bands, top-coded at `55+` so no older participant is isolated.
-5. **Small cells suppressed.** A sex value reported by one participant was recoded to `NA`.
-6. **Free text screened** for names, contact details, locations, ages, and self-descriptions. One
+5. **Free text screened** for names, contact details, locations, ages, and self-descriptions. One
    message where a participant volunteered their age was redacted in place as
    `[self-disclosed age redacted]`; no other disclosures were found.
-
-Retained free-text fields (`description`, `speaker_desc`, `listener_desc`, `phase2_text`,
-`p1_description`, and similar) are short referring expressions for abstract shapes — `"weird 6"`,
-`"an unlocked padlock"`. They are the dataset's primary scientific content and, having been screened
-as above, carry no information about participants.
