@@ -25,6 +25,6 @@ Games are predefined in `pilot/experiment/public/games` and `experiments/experim
 
 ### Create a new game
 
-Go to `https://tangrams-ref.meteorapp.com/admin`. If prompted, use username `lil-lab` and password `tangrams-ref-dev` to log in as admin.
+Go to the `/admin` route of your own deployment. Log in with the administrator credentials you configured in `settings.json` (see the `admins` block; credentials are intentionally not distributed with this archive).
 
 Click on `New Batch`. Select `random_game` as treatment. Then click `Create Batch`.

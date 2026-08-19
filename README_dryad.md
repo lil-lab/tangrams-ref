@@ -1,6 +1,9 @@
-# tangrams-ref
+# Data and code for: Ad hoc conventions generalize to new referents
 
-Data and code for "Ad hoc conventions generalize to new referents".
+[Access this dataset on Dryad](https://doi.org/10.5061/dryad.fn2z34v8c)
+
+All data and analysis code are in `tangrams-ref-main.zip`; this README documents its full
+contents. Unzipping produces `data/`, `analyses/`, and `experiments/` as described below.
 
 Two participants play a *tangram reference game* over abstract shapes. Each trial, the **speaker**
 sees a designated **target** and describes it; the **listener** reads the description and clicks the

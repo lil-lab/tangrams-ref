@@ -1,2 +1,4 @@
 .DS_Store
 node_modules
+# Dryad submission archive (built from this repo; not version-controlled)
+tangrams-ref-main.zip
