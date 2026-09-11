@@ -1,0 +1,997 @@
+file	column	before	after
+data/full_data.csv	description	['hmmmm', 'It looks like a mortar bowl.']	['It looks like a mortar bowl.']
+data/full_data.csv	description	['top is an upside down triangle, looks like someone looking to the right sitting down', 'anymore?']	['top is an upside down triangle, looks like someone looking to the right sitting down']
+data/full_data.csv	description	['hello', 'looks like a gun kind of', 'pointing to the right']	['looks like a gun kind of', 'pointing to the right']
+data/full_data.csv	description	['looks like a chess piece', 'not sure...', 'like a knight chess ?', '2 arrows sticking out its sides']	['looks like a chess piece', 'not sure...', 'like a knight chess', '2 arrows sticking out its sides']
+data/full_data.csv	description	['bulky one', 'more info please', 'is there a square on top', 'fat rocket poiting up and left']	['bulky one', 'is there a square on top', 'fat rocket poiting up and left']
+data/full_data.csv	description	['hello?', 'Hi. I see a person kneeling down.']	['I see a person kneeling down.']
+data/full_data.csv	description	top of a question mark (or top of  hook)	top of a question mark (or top of hook)
+data/full_data.csv	description	bird flying upwards, wings spread, pointing triangle  balanced on bottom	bird flying upwards, wings spread, pointing triangle balanced on bottom
+data/full_data.csv	description	['hello']	[]
+data/full_data.csv	description	man pointing  west	man pointing west
+data/full_data.csv	description	['hello is anyone there?']	[]
+data/full_data.csv	description	['looks like a stomach', '??', 'like a snake']	['looks like a stomach', 'like a snake']
+data/full_data.csv	description	crocadile jaw or beak pointing  to the right	crocadile jaw or beak pointing to the right
+data/full_data.csv	description	phallic	
+data/full_data.csv	description	['finger pointing (you descriptions are much better than mine haha)']	['finger pointing']
+data/full_data.csv	description	Look like microphone  square half way up	Look like microphone square half way up
+data/full_data.csv	description	['Hi', 'Looks like a street sign', 'square top with angled lower half']	['Looks like a street sign', 'square top with angled lower half']
+data/full_data.csv	description	['?', 'person with their hands up like a prayer almost', 'head down', 'not looking up']	['person with their hands up like a prayer almost', 'head down', 'not looking up']
+data/full_data.csv	description	['Lamp, and sorry i mixed them up']	['Lamp']
+data/full_data.csv	description	a person standing or a small letter i or a candle take your pick :)	a person standing or a small letter i or a candle take your pick
+data/full_data.csv	description	['a stop sign with wave pole', 'sorry about the last one they moved the square', 'no worries']	['a stop sign with wave pole']
+data/full_data.csv	description	['/', 'The straight Arrow   btween a hill']	['The straight Arrow btween a hill']
+data/full_data.csv	description	['?', 'up arrow between hills']	['up arrow between hills']
+data/full_data.csv	description	looks like a table lamp.        traingle base   then a square, then a bigger square,   lamp shade at top	looks like a table lamp. traingle base then a square, then a bigger square, lamp shade at top
+data/full_data.csv	description	['bird  ( not the one with wings spread open)']	['bird ( not the one with wings spread open)']
+data/full_data.csv	description	['giraffe :)']	['giraffe']
+data/full_data.csv	description	['go go go']	[]
+data/full_data.csv	description	['im ready', 'house boat']	['house boat']
+data/full_data.csv	description	['looks like an upside down lightsaber hilt', 'sorry, need more', 'like a cup', 'shallow upside down cup']	['looks like an upside down lightsaber hilt', 'like a cup', 'shallow upside down cup']
+data/full_data.csv	description	['?', 'man vacuuming right']	['man vacuuming right']
+data/full_data.csv	description	['the letter j', 'with a square in the middle', 'capital j', 'help']	['the letter j', 'with a square in the middle', 'capital j']
+data/full_data.csv	description	['?', 'A lap with a weird top and flat base']	['A lap with a weird top and flat base']
+data/full_data.csv	description	['?', 'weird lamp with flat base']	['weird lamp with flat base']
+data/full_data.csv	description	['man holding a cup :)']	['man holding a cup']
+data/full_data.csv	description	['what does it look lik', '?', 'It looks like a different kinD of U']	['It looks like a different kinD of U']
+data/full_data.csv	description	['quick', 'shaped like a boat but but a big triangle on the left and a diagional square onthe top left']	['shaped like a boat but but a big triangle on the left and a diagional square onthe top left']
+data/full_data.csv	description	['describe please', 'close up of scrappy doo or mufasa facing left', 'a man looking to the left with a beard', 'its just a head and neck facing left']	['close up of scrappy doo or mufasa facing left', 'a man looking to the left with a beard', 'its just a head and neck facing left']
+data/full_data.csv	description	['rocket  about to launch']	['rocket about to launch']
+data/full_data.csv	description	['?', 'one normal triangle and two right angle triangles facing away from each other and tail']	['one normal triangle and two right angle triangles facing away from each other and tail']
+data/full_data.csv	description	['i am ready', 'has a arrow point up with a square box bottom']	['has a arrow point up with a square box bottom']
+data/full_data.csv	description	['?', 'man laying on his back with knees in the air facing right']	['man laying on his back with knees in the air facing right']
+data/full_data.csv	description	a tall thin rectangle with a foot bit sticking out to the left  and a pointy right foot	a tall thin rectangle with a foot bit sticking out to the left and a pointy right foot
+data/full_data.csv	description	Like a man taking off to the right by farting (heh)	Like a man taking off to the right by farting
+data/full_data.csv	description	['describe please', 'looks like a giant number one with an uneven bottom']	['looks like a giant number one with an uneven bottom']
+data/full_data.csv	description	['looks like a giraffe lol']	['looks like a giraffe']
+data/full_data.csv	description	['last one', 'lets do this!', 'crab claw!', 'ive got you', 'Housey shape']	['last one', 'crab claw!', 'Housey shape']
+data/full_data.csv	description	['cake again lol']	['cake again']
+data/full_data.csv	description	lower case letter H,     funny square stuck at the top	lower case letter H, funny square stuck at the top
+data/full_data.csv	description	bird shape looking  left	bird shape looking left
+data/full_data.csv	description	['what does it look like this time?', 'Monster swimming to the right with long neck and a flipper']	['Monster swimming to the right with long neck and a flipper']
+data/full_data.csv	description	['Imagine like showing your ding dong', 'What image am I looking for?', 'Thanks']	[]
+data/full_data.csv	description	['it has a long bottom part and then a triangle on top and a square on top of that.', 'hard to desrcribe', 'on left it looks like it can rest on a shelf']	['it has a long bottom part and then a triangle on top and a square on top of that.', 'on left it looks like it can rest on a shelf']
+data/full_data.csv	description	['what does it look like', 'cat facing right']	['cat facing right']
+data/full_data.csv	description	['.', 'waving with two hands']	['waving with two hands']
+data/full_data.csv	description	['a man with his ding dong out']	[]
+data/full_data.csv	description	['Batmans head lol']	['Batmans head']
+data/full_data.csv	description	['Its the house', 'again', 'lol']	['Its the house', 'again']
+data/full_data.csv	description	['It looks like an almost circle with a triangle out the top facing left and a triangle out the bottom facing right', 'like a hurricane symbol ?', 'yeah']	['It looks like an almost circle with a triangle out the top facing left and a triangle out the bottom facing right', 'like a hurricane symbol', 'yeah']
+data/full_data.csv	description	['Big Bird long neck', 'square feet?', 'turned to the left  yes square feet', 'I mean turned to the right', 'sorry']	['Big Bird long neck', 'square feet?', 'turned to the left yes square feet', 'I mean turned to the right']
+data/full_data.csv	description	['what does it look likke', 'A cat facing the left side of the screen']	['A cat facing the left side of the screen']
+data/full_data.csv	description	['person praying head down', '?', 'point left', 'flat bottom', 'person', 'praying', 'head looks pointing down']	['person praying head down', 'point left', 'flat bottom', 'person', 'praying', 'head looks pointing down']
+data/full_data.csv	description	['Ding dong out']	[]
+data/full_data.csv	description	['?', 'cat']	['cat']
+data/full_data.csv	description	['elephant :)']	['elephant']
+data/full_data.csv	description	['capitol G lol']	['capitol G']
+data/full_data.csv	description	['Sorry... ok so this one looks like a cleaver facing the left with a bent handle.']	['ok so this one looks like a cleaver facing the left with a bent handle.']
+data/full_data.csv	description	['hammer', 'more', 'hammer like with a weird shaped handle']	['hammer', 'hammer like with a weird shaped handle']
+data/full_data.csv	description	['hi', 'any ideas??', 'Upside down triangle on the left, next to an upright triangle and the little triangle on the right', 'hello :)']	['Upside down triangle on the left, next to an upright triangle and the little triangle on the right']
+data/full_data.csv	description	['describe please', 'looks like the bottom half of a man just body and legs', 'square body']	['looks like the bottom half of a man just body and legs', 'square body']
+data/full_data.csv	description	['looks like a smaller upside down triangle on top of two pairs of sideways triangls', 'with a base', 'Struggling a little!', 'sort of like a suction device but upside down', 'this one is tough to describe', 'flat top and flat bottom', 'Is the triangle shape on top?', 'The upside down one', 'yes']	['looks like a smaller upside down triangle on top of two pairs of sideways triangls', 'with a base', 'sort of like a suction device but upside down', 'flat top and flat bottom', 'Is the triangle shape on top?', 'The upside down one', 'yes']
+data/full_data.csv	description	['ready for direction', 'It looks like a cat runnig to the right']	['It looks like a cat runnig to the right']
+data/full_data.csv	description	a house  with a white door	a house with a white door
+data/full_data.csv	description	['Hello?', 'Reset', 'A two legged pan shape', 'reset', 'Facing downward like a big arrow', 'Does it look like a water fountain', 'Yes']	['A two legged pan shape', 'Facing downward like a big arrow', 'Does it look like a water fountain', 'Yes']
+data/full_data.csv	description	['what do you see', 'bird with its head pointing down to the right and small wings on top']	['bird with its head pointing down to the right and small wings on top']
+data/full_data.csv	description	['?', 'square, with a chimney, wonky square at the top']	['square, with a chimney, wonky square at the top']
+data/full_data.csv	description	['?', 'flame']	['flame']
+data/full_data.csv	description	this is a horrible one to describe.  it is not symmetrical at all.   the bas has a triangle,   and lots of side turned triangles up, like a rubbish treee	this is a horrible one to describe. it is not symmetrical at all. the bas has a triangle, and lots of side turned triangles up, like a rubbish treee
+data/full_data.csv	description	['Nice!', 'it looks like a kings crown with a triangle sticking out the bottom right']	['it looks like a kings crown with a triangle sticking out the bottom right']
+data/full_data.csv	description	kind of looks like a chair,  on the top is a triangle the is off centered to the left just a bit	kind of looks like a chair, on the top is a triangle the is off centered to the left just a bit
+data/full_data.csv	description	['soft serve icecream', 'zig zag edges???  both side', 'yes']	['soft serve icecream', 'zig zag edges??? both side', 'yes']
+data/full_data.csv	description	been great playing this with u!!  Its a bird standing up loolking lrft	Its a bird standing up loolking lrft
+data/full_data.csv	description	['?', 'ice ream swirl']	['ice ream swirl']
+data/full_data.csv	description	['Tree. and good job!']	['Tree.']
+data/full_data.csv	description	inverted t  wirh a base at rhe rop	inverted t wirh a base at rhe rop
+data/full_data.csv	description	['hi', 'Ok, it looks like an angel or a dragon, facing the left with its arms pointing down.']	['Ok, it looks like an angel or a dragon, facing the left with its arms pointing down.']
+data/full_data.csv	description	['triangle with a large pen on top', 'or upside down house on top', 'for the record i enjoy playing with you', 'thanks', 'same to you']	['triangle with a large pen on top', 'or upside down house on top']
+data/full_data.csv	description	['person waving with one hand', 'nice work']	['person waving with one hand']
+data/full_data.csv	description	['it looks like an arm )first time for this one)', 'You must describe better than I do ha ha!']	['it looks like an arm )first time for this one)']
+data/full_data.csv	description	['man pray - point left', '?']	['man pray - point left']
+data/full_data.csv	description	['We are getting paid for this - dont u love Prolific!!!', 'Its that person with their legs up to the right again on their back']	['Its that person with their legs up to the right again on their back']
+data/full_data.csv	description	its the one that looks like nothing.  lots of wee triangles at the bottom of i!!!	its the one that looks like nothing. lots of wee triangles at the bottom of i!!!
+data/full_data.csv	description	['lol', 'square with six sided shape inside']	['square with six sided shape inside']
+data/full_data.csv	description	['Nice to meet you', 'Like a fish, 2 squares for body, triangle for thin tail top left']	['Like a fish, 2 squares for body, triangle for thin tail top left']
+data/full_data.csv	description	['looks like a paper  bird looking down']	['looks like a paper bird looking down']
+data/full_data.csv	description	['a two fingered hand pointing to the right', 'huh']	['a two fingered hand pointing to the right']
+data/full_data.csv	description	['what does the image look like?', 'A teepee with a tee at the top']	['A teepee with a tee at the top']
+data/full_data.csv	description	['hello', 'Square shaped head facing left', 'Kicking to the left?', 'One leg up one leg down']	['Square shaped head facing left', 'Kicking to the left?', 'One leg up one leg down']
+data/full_data.csv	description	['what does it look like?', 'An anvil with a cone on the top']	['An anvil with a cone on the top']
+data/full_data.csv	description	['ding dong out']	[]
+data/full_data.csv	description	great description last time!! I would have said legless!!!   This one is steps or stairs	I would have said legless!!! This one is steps or stairs
+data/full_data.csv	description	['right angle arrow up', 'what do you think it most looks like', 'right angle arrow up', 'yes']	['right angle arrow up', 'right angle arrow up', 'yes']
+data/full_data.csv	description	['a 0 wit  atriangleon top and has a tail underneath']	['a 0 wit atriangleon top and has a tail underneath']
+data/full_data.csv	description	['umm full height on the left and slopes out at the bottom']	['full height on the left and slopes out at the bottom']
+data/full_data.csv	description	['?', 'square with a cut off corner on a surface to the left,   2 triagnles']	['square with a cut off corner on a surface to the left, 2 triagnles']
+data/full_data.csv	description	['tree no stem', 'good description']	['tree no stem']
+data/full_data.csv	description	['Hi', 'hello', 'We are looking at a shape which takes up half the box from the top to the bottom in a big line', 'It has a triangle sticking out the siide']	['We are looking at a shape which takes up half the box from the top to the bottom in a big line', 'It has a triangle sticking out the siide']
+data/full_data.csv	description	['rectangle next to a tent', 'anything?']	['rectangle next to a tent']
+data/full_data.csv	description	['?', '2 triangles stuck to a corner of a square,  opposite side of swore has corner cut off']	['2 triangles stuck to a corner of a square, opposite side of swore has corner cut off']
+data/full_data.csv	description	['F facing backwards', 'Can you see it?']	['F facing backwards']
+data/full_data.csv	description	['its the L one but not to the left', 'be cool if we got a speed bonus as well']	['its the L one but not to the left']
+data/full_data.csv	description	a chevron road marking,   also looks like a military stripe	a chevron road marking, also looks like a military stripe
+data/full_data.csv	description	['Select the one that looks oval', 'Need more please', 'Its oval', 'Like a bridge ?']	['Select the one that looks oval', 'Need more please', 'Its oval', 'Like a bridge']
+data/full_data.csv	description	['animal, not swan', 'thanks, been a pleasure']	['animal, not swan']
+data/full_data.csv	description	['go', 'a flame']	['a flame']
+data/full_data.csv	description	['small triangle into big triangle', 'gg', 'gg']	['small triangle into big triangle']
+data/full_data.csv	description	['No worries i struggled with the explanation', 'this one is an upside down U']	['this one is an upside down U']
+data/full_data.csv	description	['like a mouth that is opening to the right', 'sorry thats not a great description']	['like a mouth that is opening to the right']
+data/full_data.csv	description	['part of a rectangle standing up with a triangle facing right', '?']	['part of a rectangle standing up with a triangle facing right']
+data/full_data.csv	description	['Kicking to the right with two ears', 'Looks like a fox head', 'Reset', 'One foot on floor', 'Kicking to the right with one foot on floor with a fox shaped head with two ears']	['Kicking to the right with two ears', 'Looks like a fox head', 'One foot on floor', 'Kicking to the right with one foot on floor with a fox shaped head with two ears']
+data/full_data.csv	description	['GG', 'Capitol G', 'gg']	['Capitol G']
+data/full_data.csv	description	it's either an elephant's head looking to the right... or a flaccid phallic image from a side view	
+data/full_data.csv	description	['side view of a lounge chair', 'more please?', 'like the angled back view of the chair', 'from a upward angle']	['side view of a lounge chair', 'like the angled back view of the chair', 'from a upward angle']
+data/full_data.csv	description	['it looks like a u', 'whatg does it look like']	['it looks like a u']
+data/full_data.csv	description	['/', 'the downward facing arrow with a sharp edge to the right']	['the downward facing arrow with a sharp edge to the right']
+data/full_data.csv	description	['?', 'spaceship']	['spaceship']
+data/full_data.csv	description	['?', 'Downward arrow with sharp edge to the right']	['Downward arrow with sharp edge to the right']
+data/full_data.csv	description	['Looks like a poll', 'One leg', 'Square top?', 'Leg facing left', 'No', '...', 'Looks like a cone']	['Looks like a poll', 'One leg', 'Square top?', 'Leg facing left', 'No', 'Looks like a cone']
+data/full_data.csv	description	['go', 'large square,   rectangle stuck to the side with some sharp points']	['large square, rectangle stuck to the side with some sharp points']
+data/full_data.csv	description	['seal with ball', 'explain more please', 'or dolphin']	['seal with ball', 'or dolphin']
+data/full_data.csv	description	['looks like a stop sign with a wavy pole :)']	['looks like a stop sign with a wavy pole']
+data/full_data.csv	description	['what does it look like', 'A man with two hands up']	['A man with two hands up']
+data/full_data.csv	description	"['Any descriptions for me please?', ""Hi, it's the one that looks like an elephant face with a point at the top of it's head"", 'bit hard to describe right off the bat']"	"[""it's the one that looks like an elephant face with a point at the top of it's head""]"
+data/full_data.csv	description	['big rectandle on top of 2 smaller triangles  -']	['big rectandle on top of 2 smaller triangles -']
+data/full_data.csv	description	['what does it look like', 'the one with a man with two hands up']	['the one with a man with two hands up']
+data/full_data.csv	description	['tell me somthing bro', 'looks like a womans head with a top bun and triangle as a neck', 'more info', 'diamond ontop']	['looks like a womans head with a top bun and triangle as a neck', 'diamond ontop']
+data/full_data.csv	description	['Two people talking to each other', 'Hi', 'two diamond shaped heads facing each other']	['Two people talking to each other', 'two diamond shaped heads facing each other']
+data/full_data.csv	description	['hi there. what does the first one look like?', 'Looks like a really tall boat with a funnel on top and a wide base']	['Looks like a really tall boat with a funnel on top and a wide base']
+data/full_data.csv	description	['think they messed with us last round....', 'person kicking leg up to the left *why did we get timed out on the last one?*']	['person kicking leg up to the left']
+data/full_data.csv	description	"['a bird flying towards you', 'three triangle at the top', ""it's running very slow on my system"", 'mine too']"	['a bird flying towards you', 'three triangle at the top']
+data/full_data.csv	description	['hi', 'Like a Buddist monk small head long wide body', 'Wide at botto']	['Like a Buddist monk small head long wide body', 'Wide at botto']
+data/full_data.csv	description	['this is fun!', 'person kicking leg up to the left', 'yes it is!']	['person kicking leg up to the left']
+data/full_data.csv	description	['hi', 'a funny looking candle holder']	['a funny looking candle holder']
+data/full_data.csv	description	['Are you there?', 'it looks like an animal with 2 legs and a long neck']	['it looks like an animal with 2 legs and a long neck']
+data/full_data.csv	description	['one', 'it seems to keep refreshing', 'planter', 'with pointy base and funnel on top']	['planter', 'with pointy base and funnel on top']
+data/full_data.csv	description	from top of picture, a triangle sitting on a square.    then a slide going down to left hand side.   flick on the right	from top of picture, a triangle sitting on a square. then a slide going down to left hand side. flick on the right
+data/full_data.csv	description	['whats it look like?', 'Dead pooping squirrel with tail up on the right']	['Dead pooping squirrel with tail up on the right']
+data/full_data.csv	description	a step  up a mountain	a step up a mountain
+data/full_data.csv	description	['elephant :)']	['elephant']
+data/full_data.csv	description	['anything', 'a triangle', 'towards the right']	['a triangle', 'towards the right']
+data/full_data.csv	description	two points up  bottom is two traingles	two points up bottom is two traingles
+data/full_data.csv	description	['bumblebee from top view', 'QUICK']	['bumblebee from top view']
+data/full_data.csv	description	Claw attached  to triangle	Claw attached to triangle
+data/full_data.csv	description	['giraffe :)']	['giraffe']
+data/full_data.csv	description	['I like when they repeat them haha', 'a truck with a chute pointing right']	['a truck with a chute pointing right']
+data/full_data.csv	description	['What now?', 'looks like a pair of tongs that are opened wide, with wide legs', 'that looks like the top of an x on top of the tongs', 'Kind of t-shirt on top', 'yes']	['looks like a pair of tongs that are opened wide, with wide legs', 'that looks like the top of an x on top of the tongs', 'Kind of t-shirt on top', 'yes']
+data/full_data.csv	description	['anvil lookalike', 'more info', 'small triangle into big']	['anvil lookalike', 'small triangle into big']
+data/full_data.csv	description	['elephant haha']	['elephant']
+data/full_data.csv	description	penis hanging down!	
+data/full_data.csv	description	looks like a turtles body.  or a cooked chicken with no head and only 2 legs.	looks like a turtles body. or a cooked chicken with no head and only 2 legs.
+data/full_data.csv	description	['ready', 'It  looks like a man holding a bowl']	['It looks like a man holding a bowl']
+data/full_data.csv	description	['hard to describe', 'letter m on the right of the image']	['letter m on the right of the image']
+data/full_data.csv	description	['?', 'small triagnle into a bigger upside down triangle']	['small triagnle into a bigger upside down triangle']
+data/full_data.csv	description	['Hi', 'Lets do this!', 'hunched over person']	['hunched over person']
+data/full_data.csv	description	a rooster / chickien  facing right	a rooster / chickien facing right
+data/full_data.csv	description	['ice skater with leg up to right and arms out to left', 'sorry about that', 'no problem this is crazy']	['ice skater with leg up to right and arms out to left']
+data/full_data.csv	description	['anything', 'so slow', 'the game is slow', 'capital j with square in the middle', 'stuck?']	['capital j with square in the middle']
+data/full_data.csv	description	a CROWN ?	a CROWN
+data/full_data.csv	description	['looks like a jetpack', '?', 'like the bat one?', 'yea thats the one']	['looks like a jetpack', 'like the bat one?', 'yea thats the one']
+data/full_data.csv	description	['Kicking to the right with one leg on the ground', 'Square head', 'reset', '...', '...', 'Person facing to the right with one leg up and one leg down with a square head', 'Pointed leg?']	['Kicking to the right with one leg on the ground', 'Square head', 'Person facing to the right with one leg up and one leg down with a square head', 'Pointed leg?']
+data/full_data.csv	description	['describe please', 'a long thick rectangle witha triangle base and two pointy triangles facing each way']	['a long thick rectangle witha triangle base and two pointy triangles facing each way']
+data/full_data.csv	description	['hello', 'Looks the most like an animal, but not the swan looking one']	['Looks the most like an animal, but not the swan looking one']
+data/full_data.csv	description	['?', 'spaceship again']	['spaceship again']
+data/full_data.csv	description	['table with triangle under', '?']	['table with triangle under']
+data/full_data.csv	description	['whats it look like?', 'Man in a Chinese hat']	['Man in a Chinese hat']
+data/full_data.csv	description	['A man facing  you with a vampire type collar']	['A man facing you with a vampire type collar']
+data/full_data.csv	description	['need more', 'rbisland', 'Broken island']	['rbisland', 'Broken island']
+data/full_data.csv	description	['What does it look like', 'A straight arrow in the middle of a hill']	['A straight arrow in the middle of a hill']
+data/full_data.csv	description	['Hello', 'Looks like a water fountain with one leg only', 'Thin middle', 'with diamond top', 'Square shaped?', 'triangle top', 'triangle middle', 'thin joining section', 'reset']	['Looks like a water fountain with one leg only', 'Thin middle', 'with diamond top', 'Square shaped?', 'triangle top', 'triangle middle', 'thin joining section']
+data/full_data.csv	description	['im ready :)', 'sword with diamond on end']	['sword with diamond on end']
+data/full_data.csv	description	['looks like armour with two houses sticking out and middle is a bigger house', 'more info', 'big house with two things sticking out', 'at the top', 'looks like squares abit', 'pentagon shape=house']	['looks like armour with two houses sticking out and middle is a bigger house', 'big house with two things sticking out', 'at the top', 'looks like squares abit', 'pentagon shape=house']
+data/full_data.csv	description	['tree with  diamond leaf']	['tree with diamond leaf']
+data/full_data.csv	description	['Hello?', 'looks like a man wearing a graduation hat and big wide shoulders', 'sorry v hard to describe this one', 'a man?', 'yeah', 'batman vibes too', 'is it the one that has a diamond shape at the top?', 'nop', 'not sure which one', 'just guess haha', 'its wide']	['looks like a man wearing a graduation hat and big wide shoulders', 'a man?', 'yeah', 'batman vibes too', 'is it the one that has a diamond shape at the top?', 'nop', 'not sure which one', 'its wide']
+data/full_data.csv	description	['?', 'person walking to the right again']	['person walking to the right again']
+data/full_data.csv	description	['wide tunel', '?', 'long tunnel']	['wide tunel', 'long tunnel']
+data/full_data.csv	description	['??', 'two triangle down and left', 'with a weird square?', 'no']	['two triangle down and left', 'with a weird square?', 'no']
+data/full_data.csv	description	"['house on top', 'crab claw', ""we're on a roll""]"	['house on top', 'crab claw']
+data/full_data.csv	description	The stairs ( good description on that last one btw!!)	The stairs
+data/full_data.csv	description	"[""i'm here"", 'the one that loooks like a arrow facing upward']"	['the one that loooks like a arrow facing upward']
+data/full_data.csv	description	['finger again', 'too easy']	['finger again']
+data/full_data.csv	description	['dude with a vacuum right', '??']	['dude with a vacuum right']
+data/full_data.csv	description	['Hello', 'Looks like a pan with two legs', 'upside down rocket ship', 'Arrow pointed down?', 'two legs with arrow down', 'yes']	['Looks like a pan with two legs', 'upside down rocket ship', 'Arrow pointed down?', 'two legs with arrow down', 'yes']
+data/full_data.csv	description	['?', 'spaceship up']	['spaceship up']
+data/full_data.csv	description	"[""I guess it makes it easier when it's repetitive"", 'person lying down lifting their leg up.  yes easier to describe!!']"	['person lying down lifting their leg up. yes easier to describe!!']
+data/full_data.csv	description	['?', '?', 'cigarette']	['cigarette']
+data/full_data.csv	description	a snake standing up   facing right	a snake standing up facing right
+data/full_data.csv	description	"[""i'm hee"", 'the one that loooks like a a backwards L']"	['the one that loooks like a a backwards L']
+data/full_data.csv	description	['what does it look like?', 'A guy with a conical hat and a bib']	['A guy with a conical hat and a bib']
+data/full_data.csv	description	['Person with leg pointing to the left with a diamond shaped head', '...', 'Hi', 'Person with leg pointing to the left with a diamon shaped head', 'Pointed leg', 'yes', '?', 'Pointed left leg']	['Person with leg pointing to the left with a diamond shaped head', 'Person with leg pointing to the left with a diamon shaped head', 'Pointed leg', 'yes', 'Pointed left leg']
+data/full_data.csv	description	['hello', 'top of a cigarette carton. straight line with triangles coming from bottom', 'hey']	['top of a cigarette carton. straight line with triangles coming from bottom']
+data/full_data.csv	description	['Sorry', 'this one is the arrow to the smaller triangle']	['this one is the arrow to the smaller triangle']
+data/full_data.csv	description	['?', 'upside down cat but the one that is long', 'flat top', 'more', 'pointy on bottom', 'like a cats head', 'but flat top']	['upside down cat but the one that is long', 'flat top', 'pointy on bottom', 'like a cats head', 'but flat top']
+data/full_data.csv	description	['?', 'looks like a trophy.    triangle at bottom.   square.  then rectangle.   diamond stone']	['looks like a trophy. triangle at bottom. square. then rectangle. diamond stone']
+data/full_data.csv	description	"['timer', ""It barely looks like anything, it's a bunch of mostly triangles and slightly taller at the right""]"	"[""It barely looks like anything, it's a bunch of mostly triangles and slightly taller at the right""]"
+data/full_data.csv	description	['Like a faucet or a spout', 'more']	['Like a faucet or a spout']
+data/full_data.csv	description	['palm tree', 'Only missed one so far, doing well!!!']	['palm tree']
+data/full_data.csv	description	['what do you see', 'a chimney, flat at the top', 'small triangle missing at the bottom']	['a chimney, flat at the top', 'small triangle missing at the bottom']
+data/full_data.csv	description	Double  leg	Double leg
+data/full_data.csv	description	['?', 'person using a vacuum, going to the right']	['person using a vacuum, going to the right']
+data/full_data.csv	description	"[""man fixing to kneel with arm extended facing right'"", '?']"	"[""man fixing to kneel with arm extended facing right'""]"
+data/full_data.csv	description	['tree splitting in different  diffections']	['tree splitting in different diffections']
+data/full_data.csv	description	looks like a y opposite  direction with a triangle ontop	looks like a y opposite direction with a triangle ontop
+data/full_data.csv	description	A bold letter D ( I've enjoyed you as my partner!)	A bold letter D
+data/full_data.csv	description	['two columns the bottom one has three triangle at the bottom', 'anything', 'two columns the bottom one has three triangle at the bottom']	['two columns the bottom one has three triangle at the bottom', 'two columns the bottom one has three triangle at the bottom']
+data/full_data.csv	description	['hello', 'guy kneeling and facing left', 'hello']	['guy kneeling and facing left']
+data/full_data.csv	description	['pu described this as  aperson standing up & kicking to the left']	['pu described this as aperson standing up & kicking to the left']
+data/full_data.csv	description	['?', 'the one you just picked     looks a bit like a slide at a kids play area']	['the one you just picked looks a bit like a slide at a kids play area']
+data/full_data.csv	description	['ready', 'Its a big triangle missing the right corner and a smaller triangle coming out of the bottom right']	['Its a big triangle missing the right corner and a smaller triangle coming out of the bottom right']
+data/full_data.csv	description	a sword with  triangle handles.  Long and tall	a sword with triangle handles. Long and tall
+data/full_data.csv	description	['whats it look like?', 'Teepee with half a fat X on top']	['Teepee with half a fat X on top']
+data/full_data.csv	description	it looks like a question mark '?'	it looks like a question mark
+data/full_data.csv	description	['?', 'a big rectangle.     left hand side edge is a zig zag edge, other side']	['a big rectangle. left hand side edge is a zig zag edge, other side']
+data/full_data.csv	description	['rectangle bottom and diamond top', '.', 'and something in the middle']	['rectangle bottom and diamond top', 'and something in the middle']
+data/full_data.csv	description	['sorry i got the last one wrong, my bad', 'Arrow pointing down to a small triangle']	['Arrow pointing down to a small triangle']
+data/full_data.csv	description	['set of steps.  Wierd how there are 2 we never get asked about']	['set of steps. Wierd how there are 2 we never get asked about']
+data/full_data.csv	description	"[""what's it look like?"", 'Monster swimming to the right with long neck up and a flipper']"	['Monster swimming to the right with long neck up and a flipper']
+data/full_data.csv	description	"[""we're doing well fairplay"", 'perched bird looking thing']"	['perched bird looking thing']
+data/full_data.csv	description	['?', 'arrow up made from 2 squares and a triangle at base']	['arrow up made from 2 squares and a triangle at base']
+data/full_data.csv	description	['we are doing well!', 'square house with chimney', 'We are! :)']	['square house with chimney']
+data/full_data.csv	description	['door in between 2 bases', 'Well done, have a good rest of the day!']	['door in between 2 bases']
+data/full_data.csv	description	['it looks  like a paper  bird looking down']	['it looks like a paper bird looking down']
+data/full_data.csv	description	['small square on top', 'white m shape underneath?', 'even m on bottom', 'cool', 'yeah thats the one']	['small square on top', 'white m shape underneath?', 'even m on bottom', 'yeah thats the one']
+data/full_data.csv	description	yeah me too!!!  A bit like a hook or a question mark......	A bit like a hook or a question mark......
+data/full_data.csv	description	['what does it look lkike', 'It looks like a lamp with a weird top']	['It looks like a lamp with a weird top']
+data/full_data.csv	description	['what is your description?', 'squiggly up arrow']	['squiggly up arrow']
+data/full_data.csv	description	['ding dong out']	[]
+data/full_data.csv	description	['I see what you mean now haha', 'A square with a six sided shape cut out in the middle']	['A square with a six sided shape cut out in the middle']
+data/full_data.csv	description	['whats the description?', 'dog  head pointing up to the right']	['dog head pointing up to the right']
+data/full_data.csv	description	['an arrow pointing down to the lower left corner :)']	['an arrow pointing down to the lower left corner']
+data/full_data.csv	description	a mountain range or pyramids skyline,     2 point bits facing / sinking underground	a mountain range or pyramids skyline, 2 point bits facing / sinking underground
+data/full_data.csv	description	"question mark without the ""."""	question mark without the
+data/full_data.csv	description	['This is hard, it kinda looks like a knife facing the right', 'kinda like a box cutter']	['it kinda looks like a knife facing the right', 'kinda like a box cutter']
+data/full_data.csv	description	['which one']	[]
+data/full_data.csv	description	['.', 'a man walking to the left']	['a man walking to the left']
+data/full_data.csv	description	['.', 'a big triangle on the right side, than a smaller triangle', 'than a rectangle on the left', '.', 'slightly tilted', 'a rectangle on the left side, then two triangles']	['a big triangle on the right side, than a smaller triangle', 'than a rectangle on the left', 'slightly tilted', 'a rectangle on the left side, then two triangles']
+data/full_data.csv	description	['.', 'a roster with a square on its head', 'facing the left']	['a roster with a square on its head', 'facing the left']
+data/full_data.csv	description	like  a 7	like a 7
+data/full_data.csv	description	['a seahorse', '.', 'looking towards left', '.']	['a seahorse', 'looking towards left']
+data/full_data.csv	description	"['.', '.', ""lol it doesn't look like anything :)"", '.', 'there is a white space in the lower left corner that would look like a white square', 'hahaha', '.', '.', 'hm', '.', 'it has two peaks pointing downwards', 'like the letter W']"	"[""it doesn't look like anything"", 'there is a white space in the lower left corner that would look like a white square', 'it has two peaks pointing downwards', 'like the letter W']"
+data/full_data.csv	description	['the roaster with a square on its head', 'this was fun']	['the roaster with a square on its head']
+data/full_data.csv	description	['man walking to left  - the bigger man']	['man walking to left - the bigger man']
+data/full_data.csv	description	['a person walking to the left, it looks like the person has a small tail :)', '.']	['a person walking to the left, it looks like the person has a small tail']
+data/full_data.csv	description	['.', 'looks like a cock with its red comb on the head', 'cockerel', 'facing the left']	['looks like a cock with its red comb on the head', 'cockerel', 'facing the left']
+data/full_data.csv	description	['.', '.', 'looks like a rooster with a square on its head', 'or some other type of bird']	['looks like a rooster with a square on its head', 'or some other type of bird']
+data/full_data.csv	description	['.', '.', 'looks like a flying pan with the handle on the right', '.', 'and a stand beneath it']	['looks like a flying pan with the handle on the right', 'and a stand beneath it']
+data/full_data.csv	description	['.', 'looks like a frying pan', 'handle on the right']	['looks like a frying pan', 'handle on the right']
+data/full_data.csv	description	['the frying pan with the handle on the right', '.']	['the frying pan with the handle on the right']
+data/full_data.csv	description	['a boat', '.']	['a boat']
+data/full_data.csv	description	['.', 'you once said it doesnt look like anything', '.', 'a W?']	['you once said it doesnt look like anything', 'a W?']
+data/full_data.csv	description	"[""the same, that doesn't look like anything :)"", 'with a W on the bottom']"	"[""the same, that doesn't look like anything"", 'with a W on the bottom']"
+data/full_data.csv	description	"['like a pine tree being cut down', 'like part of it is falling down after being cut down', '.', ""it's falling towards the right""]"	"['like a pine tree being cut down', 'like part of it is falling down after being cut down', ""it's falling towards the right""]"
+data/full_data.csv	description	['are you there?', 'looks like a man walking to the left']	['looks like a man walking to the left']
+data/full_data.csv	description	A person launching into the air (to the right) and farting (lol)	A person launching into the air (to the right) and farting
+data/full_data.csv	description	Hourglass  shape	Hourglass shape
+data/full_data.csv	description	standing straight up and down with 2 legs and  2 arms	standing straight up and down with 2 legs and 2 arms
+data/full_data.csv	description	Wheel barrow  2 squares at the bottom	Wheel barrow 2 squares at the bottom
+data/full_data.csv	description	backward  - letter J	backward - letter J
+data/full_data.csv	description	pick the one that looks like  boat with a diamond ontop of it	pick the one that looks like boat with a diamond ontop of it
+data/full_data.csv	description	A  mix of shapes, square placed diagonally on the top, triangles below placed at different angles	A mix of shapes, square placed diagonally on the top, triangles below placed at different angles
+data/full_data.csv	description	A hammer/mallet  with a broken handle	A hammer/mallet with a broken handle
+data/full_data.csv	description	A phallic image balanced on top of a triangle.	
+data/full_data.csv	description	Hi	
+data/full_data.csv	description	It has a square on top  with a long square d	It has a square on top with a long square d
+data/full_data.csv	description	looks like an H but with the left side  curving up	looks like an H but with the left side curving up
+data/full_data.csv	description	It's a diamond on top of stacked  triangles, almost like a Christmas tree.	It's a diamond on top of stacked triangles, almost like a Christmas tree.
+data/full_data.csv	description	looks like house with one large triangle on top left and small  one on right over sq	looks like house with one large triangle on top left and small one on right over sq
+data/full_data.csv	description	looks like dinosaur  facing right with legs	looks like dinosaur facing right with legs
+data/full_data.csv	description	hi	
+data/full_data.csv	description	This looks likea  rectangle with the top left chunk removed	This looks likea rectangle with the top left chunk removed
+data/full_data.csv	description	A swan/ dick  or maybe a kettle like object	
+data/full_data.csv	description	A straight Arrow  facing the sky	A straight Arrow facing the sky
+data/full_data.csv	description	"question mark without the ""."""	question mark without the
+data/full_data.csv	description	A downward pointing arrow with a  rectanlge on the top left	A downward pointing arrow with a rectanlge on the top left
+data/full_data.csv	description	long vertical rectangle  with 4 triangles pointing down	long vertical rectangle with 4 triangles pointing down
+data/full_data.csv	description	It looks a bit like a water  pump, with a rectangle on right hand side.	It looks a bit like a water pump, with a rectangle on right hand side.
+data/full_data.csv	description	Possibly a person knealing or a dripping tap.  A square diagonally i	Possibly a person knealing or a dripping tap. A square diagonally i
+data/full_data.csv	description	a square in the middle with a smaller square on top and a triangele at the bottom and  triangle on the right had	a square in the middle with a smaller square on top and a triangele at the bottom and triangle on the right had
+data/full_data.csv	description	a person walking to the right, and it looks like the forward leg is a vacuum cleaner.  A diamond shape	a person walking to the right, and it looks like the forward leg is a vacuum cleaner. A diamond shape
+data/full_data.csv	description	a boat with a high wall to the left and a triangle on top of  a square pointing upwards	a boat with a high wall to the left and a triangle on top of a square pointing upwards
+data/full_data.csv	description	penis hanging down!	
+data/full_data.csv	description	it looks like  a set of steps	it looks like a set of steps
+data/full_data.csv	description	a bit like some kind of wierd bird.  lots of triangles coming of the main body of it	a bit like some kind of wierd bird. lots of triangles coming of the main body of it
+data/full_data.csv	description	a long flat try with  2 pointed legs	a long flat try with 2 pointed legs
+data/full_data.csv	description	sitting facing left with legs out front  and straight head	sitting facing left with legs out front and straight head
+data/full_data.csv	description	a boat sailing,  with a square on its ide on the top	a boat sailing, with a square on its ide on the top
+data/full_data.csv	description	Hello, it kind of looks a bit like a cactus	it kind of looks a bit like a cactus
+data/full_data.csv	description	Hello, it looks like a house with square on the	it looks like a house with square on the
+data/full_data.csv	description	Letter F with  triangle at the bottom	Letter F with triangle at the bottom
+data/full_data.csv	description	nearly rectangle  with a square and tringle on bottom	nearly rectangle with a square and tringle on bottom
+data/full_data.csv	description	looks a bit like a dildo	
+data/full_data.csv	description	Margot	[redacted]
+data/full_data.csv	description	It looks like  a cooked chicken with only 2 legs instead of 4	It looks like a cooked chicken with only 2 legs instead of 4
+data/full_data.csv	description	a person kneeling with arms out  at a right-angle	a person kneeling with arms out at a right-angle
+data/full_data.csv	description	diagonal. like a  person falling.	diagonal. like a person falling.
+data/full_data.csv	description	['have you left the building ?', 'or do we have tech issues ?', 'i cant hear you']	[]
+data/full_data.csv	description	['spatula time ;)']	['spatula time']
+data/full_data.csv	description	['bowl :)']	['bowl']
+data/full_data.csv	description	['Hi', 'It looks like a mountain scape with a lake next to it']	['It looks like a mountain scape with a lake next to it']
+data/full_data.csv	description	['[self-disclosed age redacted]', 'face with no nose']	['face with no nose']
+data/full_data.csv	description	3  Arrows overlapping	3 Arrows overlapping
+data/full_data.csv	description	['nice on that last one', 'this looks like a small bowl on top of a rock with a little cut at the bottom', 'this ones hard idk']	['this looks like a small bowl on top of a rock with a little cut at the bottom']
+data/full_data.csv	description	['sorry they said cant repeat', 'its okay', 'cat facing left']	['cat facing left']
+data/full_data.csv	description	['whale thing with triangle on top', 'sorry last time!']	['whale thing with triangle on top']
+data/full_data.csv	description	['hey', 'This is a white diamond for a head, below that a triangle, then a black triangle, then a white triangle, then a black shape, then the bottom shape is a white triangle']	['This is a white diamond for a head, below that a triangle, then a black triangle, then a white triangle, then a black shape, then the bottom shape is a white triangle']
+data/full_data.csv	description	['house', 'nicee']	['house']
+data/full_data.csv	description	['boat with arrow pointing upwards', 'hello.....']	['boat with arrow pointing upwards']
+data/full_data.csv	description	['haha', 'stealth not very stealthy tho', 'so the pointy one? or not', 'its not sharp']	['stealth not very stealthy tho', 'so the pointy one? or not', 'its not sharp']
+data/full_data.csv	description	['Hi', 'Sorry, I am here now', 'aargh it another one that doesnt look like anything but has 3 triangles pointing up at top', 'No worries!']	['aargh it another one that doesnt look like anything but has 3 triangles pointing up at top']
+data/full_data.csv	description	['bean lol']	['bean']
+data/full_data.csv	description	['chimney', 'can you describe it a bit more? The Shape?', 'square top']	['chimney', 'square top']
+data/full_data.csv	description	llama was a good description ahahha. this one is a giraffe or those dinosaurs with long necks	this one is a giraffe or those dinosaurs with long necks
+data/full_data.csv	description	['hello', '\\looks like a big diamond on a small pyramid', 'top cut off']	['\\looks like a big diamond on a small pyramid', 'top cut off']
+data/full_data.csv	description	['a mountain range with4 mountains and  a flat middle']	['a mountain range with4 mountains and a flat middle']
+data/full_data.csv	description	['im m', 'age?', 'bird facing left']	['bird facing left']
+data/full_data.csv	description	['a dog with a diamond head facing straight at you', 'rediscribe thanks', 'dog with 2 triangle legs']	['a dog with a diamond head facing straight at you', 'dog with 2 triangle legs']
+data/full_data.csv	description	['haha too easy', 'big arrow pointing up']	['big arrow pointing up']
+data/full_data.csv	description	['almost lost it there XD', 'Oooooh my turn :P', 'hahahaha struggling to be creative with the descriptions here xD', 'this one looks like a boat or a little sailor hat with a triangle in the middle']	['this one looks like a boat or a little sailor hat with a triangle in the middle']
+data/full_data.csv	description	['rectangle  and']	['rectangle and']
+data/full_data.csv	description	['hi', 'a mountain top poking through the clouds']	['a mountain top poking through the clouds']
+data/full_data.csv	description	['haha', 'stealth bomber']	['stealth bomber']
+data/full_data.csv	description	This one looks like a distorted W with an extra rectangle to the bottom right.  We have not done this one yet	This one looks like a distorted W with an extra rectangle to the bottom right. We have not done this one yet
+data/full_data.csv	description	['hurry']	[]
+data/full_data.csv	description	['Hi', 'It looks like an arrow pointing down']	['It looks like an arrow pointing down']
+data/full_data.csv	description	['hahah that made me laugh', 'the one I thought was mountain poking through clouds']	['the one I thought was mountain poking through clouds']
+data/full_data.csv	description	['Sorry about that', 'like a dragon with a little triangle pointing down', 'triangle balancking on its head!', 'balancing', 'sorry! really difficult', 'its like a big triangle with a much smaller one pointing down above']	['like a dragon with a little triangle pointing down', 'triangle balancking on its head!', 'balancing', 'its like a big triangle with a much smaller one pointing down above']
+data/full_data.csv	description	['Spatula Time :O']	['Spatula Time']
+data/full_data.csv	description	['yea that one', 'haha', 'bird flying looking right']	['yea that one', 'bird flying looking right']
+data/full_data.csv	description	jagged bottom part, then something sticking up and to the right.  Looks like a saw	jagged bottom part, then something sticking up and to the right. Looks like a saw
+data/full_data.csv	description	"[""sorry wouldn't let me type. basic rocketship.""]"	['basic rocketship.']
+data/full_data.csv	description	['capital letter !']	['capital letter']
+data/full_data.csv	description	['flame on top over a chevron', 'I dont see anything', 'describe the shapes from top to bottom']	['flame on top over a chevron']
+data/full_data.csv	description	['Hi', 'any ideas']	[]
+data/full_data.csv	description	['Its you go describe', 'Boat with a square on top rotated to the left']	['Boat with a square on top rotated to the left']
+data/full_data.csv	description	['it looks like an egyptian pharoah', 'There are two that fit the description', 'it ooks like the thing they would sit on their head', 'is it the one that has hand-like', 'like king tut', '50/50', 'it has a white rectangle inside', 'and black trapezoid on the top', 'worth a shot']	['it looks like an egyptian pharoah', 'it ooks like the thing they would sit on their head', 'is it the one that has hand-like', 'like king tut', 'it has a white rectangle inside', 'and black trapezoid on the top']
+data/full_data.csv	description	['pick the long necked animal facing left.. are you really playing now ?']	['pick the long necked animal facing left..']
+data/full_data.csv	description	['a person sitting on a ledge defecating lol']	['a person sitting on a ledge defecating']
+data/full_data.csv	description	a castle with two grooves on the top where the roof is.  it isn't the regular house	a castle with two grooves on the top where the roof is. it isn't the regular house
+data/full_data.csv	description	['Little diamond on top right  fancy shape below', 'look like a man sitting facing left with his legs and feet?', 'yes']	['Little diamond on top right fancy shape below', 'look like a man sitting facing left with his legs and feet?', 'yes']
+data/full_data.csv	description	['tres bien', 'This one looks like the right half of a diamond', 'But there is a point emerging from the right of the diamond']	['This one looks like the right half of a diamond', 'But there is a point emerging from the right of the diamond']
+data/full_data.csv	description	['lol sorry', 'a little girl or devil with tree body']	['a little girl or devil with tree body']
+data/full_data.csv	description	['an old fashioned smoking pipe you should be a writer']	['an old fashioned smoking pipe']
+data/full_data.csv	description	blunt stealth bomber  nice to meet you	blunt stealth bomber
+data/full_data.csv	description	['bean baby!!!', 'wooo!!!']	['bean baby!!!']
+data/full_data.csv	description	['ru m or f?', 'the stealth bomber', 'f']	['the stealth bomber']
+data/full_data.csv	description	['hahahaha triangle poops', 'Spatula time']	['triangle poops', 'Spatula time']
+data/full_data.csv	description	['It looks like a faucet with water coming out', 'Hi']	['It looks like a faucet with water coming out']
+data/full_data.csv	description	['I hear now', 'The bolded arrow']	['The bolded arrow']
+data/full_data.csv	description	['sawblade', 'OKKK']	['sawblade']
+data/full_data.csv	description	"['Just wanted to say good job', 'this one is the letter ""C""']"	"['this one is the letter ""C""']"
+data/full_data.csv	description	['?', 'pointing up arrow']	['pointing up arrow']
+data/full_data.csv	description	['my bad', 'castle']	['castle']
+data/full_data.csv	description	['my bad', 'all good', 'a tent with a small bucket on top', 'tent with a small opening', 'at the bottom']	['a tent with a small bucket on top', 'tent with a small opening', 'at the bottom']
+data/full_data.csv	description	['Like  a bird', 'pigeon', 'head pointing to left']	['Like a bird', 'pigeon', 'head pointing to left']
+data/full_data.csv	description	"[""a weird 'W' shape with a small triangle coming off the bottom"", 'anything?']"	"[""a weird 'W' shape with a small triangle coming off the bottom""]"
+data/full_data.csv	description	['A person sitting on the wall', 'Back on the wall', 'You there?']	['A person sitting on the wall', 'Back on the wall']
+data/full_data.csv	description	['It looks like a horseshoe', 'Hello']	['It looks like a horseshoe']
+data/full_data.csv	description	['where ru from?', 'christmas tree but top right part is missing']	['christmas tree but top right part is missing']
+data/full_data.csv	description	['weird leaf, the one we both get stuck on ahahah']	['weird leaf, the one we both get stuck on']
+data/full_data.csv	description	['Thanks i got it', 'This image looks like an arrow pointing towards the bottom left']	['This image looks like an arrow pointing towards the bottom left']
+data/full_data.csv	description	['i hear', 'This is a bat, or possibly 4 mountain peaks', 'I love how we have names for each object now lmao']	['This is a bat, or possibly 4 mountain peaks']
+data/full_data.csv	description	['Booyah!', 'This one looks like the strange V that is melting on the left']	['This one looks like the strange V that is melting on the left']
+data/full_data.csv	description	['dog lying flat facing  to the left']	['dog lying flat facing to the left']
+data/full_data.csv	description	['an arch  or hook']	['an arch or hook']
+data/full_data.csv	description	Number 7 !	Number 7
+data/full_data.csv	description	['Right of the fish looking thing', 'there isnt one on the right', 'looks like an arrow', 'uhhhh']	['Right of the fish looking thing', 'there isnt one on the right', 'looks like an arrow']
+data/full_data.csv	description	['looks like  a water closet with 2 triangular legs']	['looks like a water closet with 2 triangular legs']
+data/full_data.csv	description	a house with a pathway leading off of it (I timed out on the last one so dunno if i got it)	a house with a pathway leading off of it
+data/full_data.csv	description	['weird X tilted again', 'the rules said like no connection to before so please leave out AGAIN']	['weird X tilted again']
+data/full_data.csv	description	['A rhino head', 'Can you describe more?', 'Or a dinosaur head', 'Is it symetrical?', 'big solid and black', 'no', 'The points at the top?', '*Three', 'yep']	['A rhino head', 'Or a dinosaur head', 'Is it symetrical?', 'big solid and black', 'no', 'The points at the top?', '*Three', 'yep']
+data/full_data.csv	description	['hello?', 'points left']	['points left']
+data/full_data.csv	description	['Okay this is actually a lot easier than I thought it would be ahaha', 'This one looks like a man either praying or getting up off of a toilet, possibly pooping']	['This one looks like a man either praying or getting up off of a toilet, possibly pooping']
+data/full_data.csv	description	"['your turn', ""okay it's the prism shape we had before, with a head shape coming out to the right""]"	"[""okay it's the prism shape we had before, with a head shape coming out to the right""]"
+data/full_data.csv	description	['hey', 'hello', 'This one is a black shape with many triangles and a black diamond for the head of the shape with white triangles for feet']	['This one is a black shape with many triangles and a black diamond for the head of the shape with white triangles for feet']
+data/full_data.csv	description	['Hello. I have a long horizontal animal facing right. Stood on 4 legs (2 visible)', 'Hi send me the description when you are ready.']	['I have a long horizontal animal facing right. Stood on 4 legs (2 visible)']
+data/full_data.csv	description	['are you still there ?', 'gone to sleep ?']	[]
+data/full_data.csv	description	it looks like a whale that has surfaced and facing to the right  or some kind of boat	it looks like a whale that has surfaced and facing to the right or some kind of boat
+data/full_data.csv	description	['Hi', 'a man runing to the left']	['a man runing to the left']
+data/full_data.csv	description	['hmm, wheres my broomstick. flyin left']	['wheres my broomstick. flyin left']
+data/full_data.csv	description	['Weird Diamond', 'panicked a bit there D:']	['Weird Diamond']
+data/full_data.csv	description	['captain hook lol', 'goblet witha large rim sitting on a triangle', 'ok']	['captain hook', 'goblet witha large rim sitting on a triangle', 'ok']
+data/full_data.csv	description	['>:)', 'saw blade!!']	['saw blade!!']
+data/full_data.csv	description	"[""the 'lobster claw' thing again haha""]"	"[""the 'lobster claw' thing again""]"
+data/full_data.csv	description	['hey!', 'hello', 'A boat, facing its left']	['A boat, facing its left']
+data/full_data.csv	description	['spatula time woop woop', 'i hear']	['spatula time woop woop']
+data/full_data.csv	description	['person facing the left with one leg up', 'well done on the last  one']	['person facing the left with one leg up']
+data/full_data.csv	description	['you have to type', 'mountain tops in the dystance']	['mountain tops in the dystance']
+data/full_data.csv	description	['what does it look like?', 'pick the largest image with crossed feet']	['pick the largest image with crossed feet']
+data/full_data.csv	description	['One with small triangle at top pointing down onto a bigger triangle', 'sorry!', 'these are difficult', 'Hi', 'Hello', 'Still waiting']	['One with small triangle at top pointing down onto a bigger triangle']
+data/full_data.csv	description	['ugh', 'real mountain range']	['real mountain range']
+data/full_data.csv	description	['we got thisss', 'looks like a bird flying']	['looks like a bird flying']
+data/full_data.csv	description	['a soup ladle  with 2 short legs']	['a soup ladle with 2 short legs']
+data/full_data.csv	description	"[""hahaha we're getting all the bonuses"", 'This is a stealth bomber going downward']"	['This is a stealth bomber going downward']
+data/full_data.csv	description	"['Very nie.', ""Congrats! I'm sure we'll get these all right now lol"", 'This one looks like the capital letter E', 'As long as chat works']"	['This one looks like the capital letter E']
+data/full_data.csv	description	"['oh boy', ""okay there's only like two we haven't done"", 'uh looks like a random shape but it has a triangle at the bottom']"	['looks like a random shape but it has a triangle at the bottom']
+data/full_data.csv	description	['hello', 'Looks like a man with triangles for feet']	['Looks like a man with triangles for feet']
+data/full_data.csv	description	it looks kind of like a person laying on their back with toes pointing up and triangle breasts. Their head has 2 triangles on it	
+data/full_data.csv	description	A girl with a boob	
+data/full_data.csv	description	['looks like  a square with two legs pointing out in different directions']	['looks like a square with two legs pointing out in different directions']
+data/full_data.csv	description	been dreading this one... a bit like a spanner/wrench, or maybe a cartoon dinosaur facing left with its square mouth wide open	a bit like a spanner/wrench, or maybe a cartoon dinosaur facing left with its square mouth wide open
+data/full_data.csv	description	['chicken facing left', 'right', 'sorry']	['chicken facing left', 'right']
+data/full_data.csv	description	['a goblet with a base of a triangle', 'which one', 'if we need more time, just talk', 'the previous one or the diamond?', 'sorry, it opens up with a large top', 'not the diamond']	['a goblet with a base of a triangle', 'the previous one or the diamond?', 'it opens up with a large top', 'not the diamond']
+data/full_data.csv	description	"[""don't want to say age!"", 'haha ok', 'mountain range']"	['mountain range']
+data/full_data.csv	description	['diagonal image like a face with a crown on top', '?', 'small 3 point crown on top of diagonal image', 'do you mean the ghost with tail pointing right', 'perfect crown with tail going right bottom right?', 'Base is a triangle with  a trapezoid on top', 'then the small three point crown']	['diagonal image like a face with a crown on top', 'small 3 point crown on top of diagonal image', 'do you mean the ghost with tail pointing right', 'perfect crown with tail going right bottom right?', 'Base is a triangle with a trapezoid on top', 'then the small three point crown']
+data/full_data.csv	description	['Hi', 'How do you do?', 'hi', 'This one is a black square on the top', 'good u?']	['This one is a black square on the top']
+data/full_data.csv	description	['hello?', 'triangle base with hat']	['triangle base with hat']
+data/full_data.csv	description	['hello?', 'image facing right with two small triangles at the bottom right']	['image facing right with two small triangles at the bottom right']
+data/full_data.csv	description	"['has a triangle at the bottom then a big shape above it', ""i didn't realize it would change that fast."", 'np']"	['has a triangle at the bottom then a big shape above it']
+data/full_data.csv	description	['Someone holding  a tray out to the right']	['Someone holding a tray out to the right']
+data/full_data.csv	description	['please describe the chosen image', 'Hello. The first image looks like a head with two legs facing left and right']	['The first image looks like a head with two legs facing left and right']
+data/full_data.csv	description	['either tech issues or.....', 'part of the game ?']	[]
+data/full_data.csv	description	['I was wondering the same thing', 'not sure i believe you haha...', 'factory with pointy roof :)', 'perfect score!', 'The duck laying on eggs was what i was wondering if someone would understand lol. thank you']	['factory with pointy roof', 'The duck laying on eggs was what i was wondering if someone would understand']
+data/full_data.csv	description	['The one with three triangles pointing up a top', 'Hello', 'Hi']	['The one with three triangles pointing up a top']
+data/full_data.csv	description	['this is entertaining', 'stealth bomber']	['stealth bomber']
+data/full_data.csv	description	"['are you there', 'time running down', 'are you ok', ""i'll have a cup of tea if you're making one"", 'pick anything just for fun']"	[]
+data/full_data.csv	description	['the chart with the little triangle on top (good description!!)']	['the chart with the little triangle on top']
+data/full_data.csv	description	['cool', 'one foot!!!']	['one foot!!!']
+data/full_data.csv	description	['hey', '?', 'Are you going to describe it lol?', 'Hello, I think the chat is delayed', 'Oh then I guess we lose. :P', 'This one looks like a spatula with a very abnormal handle. The left of the spatula looks like a right angle triangle']	['This one looks like a spatula with a very abnormal handle. The left of the spatula looks like a right angle triangle']
+data/full_data.csv	description	"['New one, it looks like an animal with no feet. It has a face pointing right with ears', 'triangular head with a trapezoid ear', 'its fat', 'uhhhh', 'it looks like a rabbit in my opinion', 'does it look like a whale?', 'or a dog sitting?', 'its just a large round object but it has a triangle head and a trapezoid sticking up like ears', ""ok i'm going to guess""]"	"['New one, it looks like an animal with no feet. It has a face pointing right with ears', 'triangular head with a trapezoid ear', 'its fat', 'it looks like a rabbit in my opinion', 'does it look like a whale?', 'or a dog sitting?', 'its just a large round object but it has a triangle head and a trapezoid sticking up like ears', ""ok i'm going to guess""]"
+data/full_data.csv	description	This one looks like a human bending towards the left. it's legs kinda look like a spanner lol	This one looks like a human bending towards the left. it's legs kinda look like a spanner
+data/full_data.csv	description	['a weird disjointed arrow pointing north haha', 'lol']	['a weird disjointed arrow pointing north']
+data/full_data.csv	description	['Hi', 'It looks like a bird flying']	['It looks like a bird flying']
+data/full_data.csv	description	This one looks like an upside down scorpion with its tail in the air.  There is a random triangle above the upside down scorpion.	This one looks like an upside down scorpion with its tail in the air. There is a random triangle above the upside down scorpion.
+data/full_data.csv	description	['Dove with triangle head', 'Hi you still there']	['Dove with triangle head']
+data/full_data.csv	description	"['This one is a black triangle on top', 'hey', 'it looks like a robot', ""it's all black""]"	"['This one is a black triangle on top', 'it looks like a robot', ""it's all black""]"
+data/full_data.csv	description	the regular house with a crooked roof. also good job partner	the regular house with a crooked roof.
+data/full_data.csv	description	!!!!! lounge chair	lounge chair
+data/full_data.csv	description	['Fancier boat pointing up left', '?', 'positioned diagonally', 'top left to bottom right', 'more info pls']	['Fancier boat pointing up left', 'positioned diagonally', 'top left to bottom right']
+data/full_data.csv	description	['Person facing the left, with leg up', 'ice skater', 'nearly finished... have i been interacting with a human or a robot?', 'human']	['Person facing the left, with leg up', 'ice skater']
+data/full_data.csv	description	['a crooked thing pointing north', 'does it look like a christmas tree with the top right cut off?', 'oh wait', 'no like a spear', 'sorry', 'lol']	['a crooked thing pointing north', 'does it look like a christmas tree with the top right cut off?', 'wait', 'no like a spear']
+data/full_data.csv	description	A rectangle like a factory with  chimneys pointing north and north east	A rectangle like a factory with chimneys pointing north and north east
+data/full_data.csv	description	['goose', 'my bad']	['goose']
+data/full_data.csv	description	['we did pretty good', 'hammer with a small triangle on the body', 'ur awesome', 'ggs', 'so are you']	['hammer with a small triangle on the body']
+data/full_data.csv	description	oh god the spiky one we haven't done that has four points and is pretty flat on the bottom	the spiky one we haven't done that has four points and is pretty flat on the bottom
+data/full_data.csv	description	['the one with the pointy triangles on top!', 'getting easier now']	['the one with the pointy triangles on top!']
+data/full_data.csv	description	['great to have met you -- very busy christmas tree not completely symetric pointing north']	['very busy christmas tree not completely symetric pointing north']
+data/full_data.csv	description	"['A duck laying on its eggs, head to the right', ""i've been waiting ages for that one to come up :D""]"	['A duck laying on its eggs, head to the right']
+data/full_data.csv	description	Like  a drilling tool, with a flat bottom	Like a drilling tool, with a flat bottom
+data/full_data.csv	description	['arrow looking thing at the bottom', 'flat or spoon', 'leaf', 'you called it', 'last time']	['arrow looking thing at the bottom', 'flat or spoon', 'leaf', 'last time']
+data/full_data.csv	description	['Hi', 'Hi', 'Looks like a person sitting to the right]']	['Looks like a person sitting to the right]']
+data/full_data.csv	description	['a heart <3', 'i dont get it', 'with  tringle']	['a heart <3', 'i dont get it', 'with tringle']
+data/full_data.csv	description	['Alright so this is the one I thought it was', 'it looks like an animal with a triangle head']	['it looks like an animal with a triangle head']
+data/full_data.csv	description	['oh I was the speaker sorry.  Short bowl']	['Short bowl']
+data/full_data.csv	description	['need more description', 'this is hard to explain. like a lobster claw. shape starts on the bottom right and hoes up and then left']	['like a lobster claw. shape starts on the bottom right and hoes up and then left']
+data/full_data.csv	description	['i hear', 'bolded arrow :D']	['bolded arrow']
+data/full_data.csv	description	oh it looks like a bird with a long tail on the bottom	it looks like a bird with a long tail on the bottom
+data/full_data.csv	description	['?', 'triangle base inverted diamond on top']	['triangle base inverted diamond on top']
+data/full_data.csv	description	['Hello', 'a rectangle with a slope facing left', 'Hi']	['a rectangle with a slope facing left']
+data/full_data.csv	description	"['It kind of looks like a dreidel', 'wHats that?', ""Oh it's like the Jewish top""]"	"['It kind of looks like a dreidel', 'wHats that?', ""it's like the Jewish top""]"
+data/full_data.csv	description	['cat head :_', ':)']	['cat head']
+data/full_data.csv	description	bench. four points facing down - this is hard!	bench. four points facing down
+data/full_data.csv	description	['hi', 'cat head silhouette']	['cat head silhouette']
+data/full_data.csv	description	['that works for me', 'chalice', ':)']	['that works for me', 'chalice']
+data/full_data.csv	description	['long low bench, also hi! :)', 'hi, are there two points on the bottom of the bench?', 'yes']	['long low bench', 'are there two points on the bottom of the bench?', 'yes']
+data/full_data.csv	description	['looks like a person on their side', 'cube all the way on the left', 'sitting down?', 'no', 'ahh, fishy one?', 'cube all the way on the left is only connected to one point']	['looks like a person on their side', 'cube all the way on the left', 'sitting down?', 'no', 'fishy one?', 'cube all the way on the left is only connected to one point']
+data/full_data.csv	description	['haha yes, fox wouldve been a better way to see that', ':)', 'oh shoot didnt realize i was speaker', 'l', 'haha, dont worry', 'two triangles pointing right, left side flat']	['two triangles pointing right, left side flat']
+data/full_data.csv	description	chicken thing- i know! this is hard!	chicken thing
+data/full_data.csv	description	[':)', 'two triangles pointing right on the right side, left side is completely flat. not the one w/ the square on top']	['two triangles pointing right on the right side, left side is completely flat. not the one w/ the square on top']
+data/full_data.csv	description	"['hi', 'you there?', '.', 'Take your time i can reset the timer by typing a message', '.', '.', ""here now, page wouldn't load"", 'no prob!', 'large lump of black on left, with 2 protrusions', 'what shape protrusions', 'triangle at very top', 'and which direction are they facing?', 'parallelogram halfway down', 'pointing to the right', 'bottom of shape is a point', 'is the tip of the triangle on the top pointing right?', 'yes', 'ok']"	['large lump of black on left, with 2 protrusions', 'what shape protrusions', 'triangle at very top', 'and which direction are they facing?', 'parallelogram halfway down', 'pointing to the right', 'bottom of shape is a point', 'is the tip of the triangle on the top pointing right?', 'yes', 'ok']
+data/full_data.csv	description	['chicken thing lol']	['chicken thing']
+data/full_data.csv	description	['.', '.', '.', 'kinda chicken looking shape, two horns pointing to right, lower than that is a triangle pointing down, bottom is a parrallelogram', 'ok on the top', 'topmost shape is a square', 'is there a square?', 'ok']	['kinda chicken looking shape, two horns pointing to right, lower than that is a triangle pointing down, bottom is a parrallelogram', 'ok on the top', 'topmost shape is a square', 'is there a square?', 'ok']
+data/full_data.csv	description	['.', 'symmetrical, looks a bit like candlestick', 'base is triangle pointing up', 'on the top are there points on either side?', 'yes']	['symmetrical, looks a bit like candlestick', 'base is triangle pointing up', 'on the top are there points on either side?', 'yes']
+data/full_data.csv	description	['cat head :)']	['cat head']
+data/full_data.csv	description	[':)', 'square at top with a point facing to the right, right below the square', 'guy sitting down?', 'no', 'chicken?']	['square at top with a point facing to the right, right below the square', 'guy sitting down?', 'no', 'chicken?']
+data/full_data.csv	description	Hi, please pick the image of a close up man with a hat on.	please pick the image of a close up man with a hat on.
+data/full_data.csv	description	Hi, please pick the image which looks like a stick with a tail to it's right.	please pick the image which looks like a stick with a tail to it's right.
+data/full_data.csv	description	Hi, please pick the image with the person walking to the right.	please pick the image with the person walking to the right.
+data/full_data.csv	description	kinda shark. fish tail in top right of box,triangle  fin at bottom centre	kinda shark. fish tail in top right of box,triangle fin at bottom centre
+data/full_data.csv	description	A shape that looks like an egg timer.  cone triangluar shape at top and bottom	A shape that looks like an egg timer. cone triangluar shape at top and bottom
+data/full_data.csv	description	Hi, looks like a boat with an arrrow pointing upwards from the centre	looks like a boat with an arrrow pointing upwards from the centre
+data/full_data.csv	description	Three cubes on top of each other (getting smaller upwards) with  something stikcing out of the bottom one to the left	Three cubes on top of each other (getting smaller upwards) with something stikcing out of the bottom one to the left
+data/full_data.csv	description	Like a person kneeling /  praying	Like a person kneeling / praying
+data/full_data.csv	description	Someone with a top hat and  a backpack walking away	Someone with a top hat and a backpack walking away
+data/full_data.csv	description	Difficult! Triangles and squares in a sort of block sorry!	Triangles and squares in a sort of block
+data/full_data.csv	description	like  an army rank upside down	like an army rank upside down
+data/full_data.csv	description	like  a very skinny house with a chimney and white rectangular, tilted sticker on it.	like a very skinny house with a chimney and white rectangular, tilted sticker on it.
+data/full_data.csv	description	symmetrical with a square in the middle and two triangles on either side.  totally flat on the bottom all the way across	symmetrical with a square in the middle and two triangles on either side. totally flat on the bottom all the way across
+data/full_data.csv	description	looks like someone sitting  or kneeling, diamond shaped head	looks like someone sitting or kneeling, diamond shaped head
+data/full_data.csv	description	finger curled  with an object on top like a hook	finger curled with an object on top like a hook
+data/full_data.csv	description	Square oriented as diamond, on top of  a tallsup	Square oriented as diamond, on top of a tallsup
+data/full_data.csv	description	Hello	
+data/full_data.csv	description	Hey there!	
+data/full_data.csv	description	jagged on the left.  triangle on top poing right	jagged on the left. triangle on top poing right
+data/full_data.csv	description	Hi	
+data/full_data.csv	description	How do you do?	
+data/full_data.csv	description	this looks like a russian dancing man with a leg kicked out, his body is all black except for a white diamond for  a head	this looks like a russian dancing man with a leg kicked out, his body is all black except for a white diamond for a head
+data/full_data.csv	description	hi	
+data/full_data.csv	description	hi	
+data/full_data.csv	description	the one that looks like a person wearing  a tophat	the one that looks like a person wearing a tophat
+data/full_data.csv	description	looks like a crange without legs (almost complete rectangle as body - diagonal line extending to right and triangle pointitng  to left)	looks like a crange without legs (almost complete rectangle as body - diagonal line extending to right and triangle pointitng to left)
+data/full_data.csv	description	Hello	
+data/full_data.csv	description	long and phallic lol	
+data/full_data.csv	description	it looks like a woman laying on her back. you can see her triangle breasts. something is on her head that is like 2 triangles facin	
+data/full_data.csv	description	man draggina  sack	man draggina sack
+analyses/data/clean_no_discourse.csv	speaker_desc	['looks like a man wearing a graduation hat and big wide shoulders', 'sorry v hard to describe this one', 'yeah', 'batman vibes too’ ‘its wide']	['looks like a man wearing a graduation hat and big wide shoulders', 'yeah', 'batman vibes too’ ‘its wide']
+analyses/data/clean_no_discourse.csv	speaker_desc	['looks like a smaller upside down triangle on top of two pairs of sideways triangls', 'with a base', 'sort of like a suction device but upside down', 'this one is tough to describe', 'flat top and flat bottom', 'yes']	['looks like a smaller upside down triangle on top of two pairs of sideways triangls', 'with a base', 'sort of like a suction device but upside down', 'flat top and flat bottom', 'yes']
+analyses/data/clean_no_discourse.csv	listener_desc	['There are two that fit the description', 'is it the one that has handlike']	['is it the one that has handlike']
+analyses/data/clean_no_discourse.csv	listener_desc	['more info']	[]
+analyses/data/clean_no_discourse.csv	listener_desc	['more']	[]
+analyses/data/clean_no_discourse.csv	speaker_desc	['lol it doesnt look like anything  there is a white space in the lower left corner that would look like a white square', 'hm', 'it has two peaks pointing downwards', 'like the letter W']	['it doesnt look like anything there is a white space in the lower left corner that would look like a white square', 'it has two peaks pointing downwards', 'like the letter W']
+analyses/data/clean_no_discourse.csv	listener_desc	['which one', 'the previous one or the diamond']	['the previous one or the diamond']
+analyses/data/clean_no_discourse.csv	speaker_desc	['diagonal image like a face with a crown on top', 'small 3 point crown on top of diagonal image', 'Base is a triangle with  a trapezoid on top', 'then the small three point crown']	['diagonal image like a face with a crown on top', 'small 3 point crown on top of diagonal image', 'Base is a triangle with a trapezoid on top', 'then the small three point crown']
+analyses/data/clean_no_discourse.csv	listener_desc	['sitting down', 'ahh fishy one']	['sitting down', 'fishy one']
+analyses/data/clean_no_discourse.csv	speaker_desc	['triangle with a large pen on top', 'or upside down house on top', 'thanks', 'same to you']	['triangle with a large pen on top', 'or upside down house on top']
+analyses/data/clean_no_discourse.csv	speaker_desc	['Kicking to the right with one leg on the ground', 'Square head', 'reset', 'Person facing to the right with one leg up and one leg down with a square head']	['Kicking to the right with one leg on the ground', 'Square head', 'Person facing to the right with one leg up and one leg down with a square head']
+analyses/data/clean_no_discourse.csv	speaker_desc	['Big Bird long neck', 'turned to the left  yes square feet', 'I mean turned to the right']	['Big Bird long neck', 'turned to the left yes square feet', 'I mean turned to the right']
+analyses/data/clean_no_discourse.csv	listener_desc	['more info please', 'is there a square on top']	['is there a square on top']
+analyses/data/clean_no_discourse.csv	listener_desc	['what do you think it most looks like']	[]
+analyses/data/clean_no_discourse.csv	speaker_desc	['it looks like a pyramid to the right of an italicized square  i forget the name of the shape', 'big triangle on the right', 'yes']	['it looks like a pyramid to the right of an italicized square i forget the name of the shape', 'big triangle on the right', 'yes']
+analyses/data/clean_no_discourse.csv	listener_desc	['more info pls']	[]
+analyses/data/clean_no_discourse.csv	speaker_desc	['verticle  pointy things facing left', 'yes']	['verticle pointy things facing left', 'yes']
+analyses/data/clean_no_discourse.csv	speaker_desc	['Person facing the left with leg up', 'ice skater', 'human']	['Person facing the left with leg up', 'ice skater']
+analyses/data/clean_no_discourse.csv	speaker_desc	['ice skater with leg up to right and arms out to left', 'no problem this is crazy']	['ice skater with leg up to right and arms out to left']
+analyses/data/clean_no_discourse.csv	speaker_desc	['Imagine like showing your ding dong']	[]
+analyses/data/clean_no_discourse.csv	listener_desc	['zig zag edges  both side']	['zig zag edges both side']
+analyses/data/clean_no_discourse.csv	listener_desc	['more info']	[]
+analyses/data/clean_no_discourse.csv	speaker_desc	['man holding a flying kite to the right', 'yes a kite  rectangle shape']	['man holding a flying kite to the right', 'yes a kite rectangle shape']
+analyses/data/clean_no_discourse.csv	listener_desc	['more']	[]
+analyses/data/clean_no_discourse.csv	speaker_desc	['it has a long bottom part and then a triangle on top and a square on top of that', 'hard to desrcribe', 'on left it looks like it can rest on a shelf']	['it has a long bottom part and then a triangle on top and a square on top of that', 'on left it looks like it can rest on a shelf']
+analyses/data/clean_no_discourse.csv	speaker_desc	['Like a broken piece in 2 parts  not one we had yet', 'Like a split block']	['Like a broken piece in 2 parts not one we had yet', 'Like a split block']
+analyses/data/clean_no_discourse.csv	speaker_desc	['object looking vertical  symetrical shape', 'sideways']	['object looking vertical symetrical shape', 'sideways']
+analyses/data/clean_no_discourse.csv	listener_desc	['need more']	[]
+analyses/data/clean_no_discourse.csv	listener_desc	['explain more please']	[]
+analyses/data/clean_no_discourse.csv	speaker_desc	['Little diamond on top right  fancy shape below', 'yes']	['Little diamond on top right fancy shape below', 'yes']
+analyses/data/clean_no_discourse.csv	speaker_desc	['It kind of looks like a dreidel', 'Oh its like the Jewish top']	['It kind of looks like a dreidel', 'its like the Jewish top']
+analyses/data/clean_no_discourse.csv	speaker_desc	['this looks like a small bowl on top of a rock with a little cut at the bottom', 'this ones hard idk']	['this looks like a small bowl on top of a rock with a little cut at the bottom']
+analyses/data/clean_no_discourse.csv	speaker_desc	['a heart 3', 'with  tringle']	['a heart 3', 'with tringle']
+analyses/data/clean_no_discourse.csv	listener_desc	['describe the shapes from top to bottom']	[]
+analyses/data/clean_no_discourse.csv	speaker_desc	['hard to describe', 'letter m on the right of the image']	['letter m on the right of the image']
+analyses/data/clean_no_discourse.csv	speaker_desc	['like a mouth that is opening to the right', 'sorry thats not a great description']	['like a mouth that is opening to the right']
+analyses/data/clean_no_discourse.csv	speaker_desc	['It  looks like a man holding a bowl']	['It looks like a man holding a bowl']
+analyses/data/clean_no_discourse.csv	speaker_desc	['person lying down lifting their leg up  yes easier to describe']	['person lying down lifting their leg up yes easier to describe']
+analyses/data/clean_no_discourse.csv	speaker_desc	['No worries i struggled with the explanation', 'this one is an upside down U']	['this one is an upside down U']
+analyses/data/clean_no_discourse.csv	speaker_desc	['dog  head pointing up to the right']	['dog head pointing up to the right']
+analyses/data/clean_no_discourse.csv	speaker_desc	['large square   rectangle stuck to the side with some sharp points']	['large square rectangle stuck to the side with some sharp points']
+analyses/data/clean_no_discourse.csv	speaker_desc	['tree no stem', 'good description']	['tree no stem']
+analyses/data/clean_no_discourse.csv	speaker_desc	['the same that doesnt look like anything  with a W on the bottom']	['the same that doesnt look like anything with a W on the bottom']
+analyses/data/clean_no_discourse.csv	speaker_desc	['Alright so this is the one I thought it was', 'it looks like an animal with a triangle head']	['it looks like an animal with a triangle head']
+analyses/data/clean_no_discourse.csv	speaker_desc	['a weird disjointed arrow pointing north haha']	['a weird disjointed arrow pointing north']
+analyses/data/clean_no_discourse.csv	speaker_desc	['Just wanted to say good job', 'this one is the letter C']	['this one is the letter C']
+analyses/data/clean_no_discourse.csv	speaker_desc	['A girl with long hair and a triangle body  no arms or legs']	['A girl with long hair and a triangle body no arms or legs']
+analyses/data/clean_no_discourse.csv	listener_desc	['need more description']	[]
+analyses/data/clean_no_discourse.csv	speaker_desc	['looks like a chevron  lit candle']	['looks like a chevron lit candle']
+analyses/data/clean_no_discourse.csv	speaker_desc	['L  Square']	['L Square']
+analyses/data/clean_no_discourse.csv	speaker_desc	['a man with his ding dong out']	[]
+analyses/data/clean_no_discourse.csv	speaker_desc	['Batmans head lol']	['Batmans head']
+analyses/data/clean_no_discourse.csv	speaker_desc	['it looks  like a paper  bird looking down']	['it looks like a paper bird looking down']
+analyses/data/clean_no_discourse.csv	speaker_desc	['umm full height on the left and slopes out at the bottom']	['full height on the left and slopes out at the bottom']
+analyses/data/clean_no_discourse.csv	speaker_desc	['a 0 wit  atriangleon top and has a tail underneath']	['a 0 wit atriangleon top and has a tail underneath']
+analyses/data/clean_no_discourse.csv	speaker_desc	['A man facing  you with a vampire type collar']	['A man facing you with a vampire type collar']
+analyses/data/clean_no_discourse.csv	speaker_desc	['symetrical vertical shape  large diamond on top']	['symetrical vertical shape large diamond on top']
+analyses/data/clean_no_discourse.csv	speaker_desc	['tree splitting in different  diffections']	['tree splitting in different diffections']
+analyses/data/clean_no_discourse.csv	speaker_desc	['Like a broken piece in 2 parts  not one we had yet']	['Like a broken piece in 2 parts not one we had yet']
+analyses/data/clean_no_discourse.csv	speaker_desc	['looks like a paper  bird looking down']	['looks like a paper bird looking down']
+analyses/data/clean_no_discourse.csv	speaker_desc	['the one you just picked     looks a bit like a slide at a kids play area']	['the one you just picked looks a bit like a slide at a kids play area']
+analyses/data/clean_no_discourse.csv	speaker_desc	['not a very distinctive block  leans to the right']	['not a very distinctive block leans to the right']
+analyses/data/clean_no_discourse.csv	speaker_desc	['capitol G lol']	['capitol G']
+analyses/data/clean_no_discourse.csv	speaker_desc	['a big rectangle     left hand side edge is a zig zag edge other side']	['a big rectangle left hand side edge is a zig zag edge other side']
+analyses/data/clean_no_discourse.csv	speaker_desc	['Ding dong out']	[]
+analyses/data/clean_no_discourse.csv	speaker_desc	['bird flying  tail up and to right']	['bird flying tail up and to right']
+analyses/data/clean_no_discourse.csv	speaker_desc	['bird   not the one with wings spread open']	['bird not the one with wings spread open']
+analyses/data/clean_no_discourse.csv	speaker_desc	['The straight Arrow   btween a hill']	['The straight Arrow btween a hill']
+analyses/data/clean_no_discourse.csv	speaker_desc	['elephant haha']	['elephant']
+analyses/data/clean_no_discourse.csv	speaker_desc	['tree with  diamond leaf']	['tree with diamond leaf']
+analyses/data/clean_no_discourse.csv	speaker_desc	['ding dong out']	[]
+analyses/data/clean_no_discourse.csv	speaker_desc	['square with a cut off corner on a surface to the left   2 triagnles']	['square with a cut off corner on a surface to the left 2 triagnles']
+analyses/data/clean_no_discourse.csv	speaker_desc	['ding dong out']	[]
+analyses/data/clean_no_discourse.csv	speaker_desc	['man pray  point left']	['man pray point left']
+analyses/data/clean_no_discourse.csv	speaker_desc	['2 triangles stuck to a corner of a square  opposite side of swore has corner cut off']	['2 triangles stuck to a corner of a square opposite side of swore has corner cut off']
+analyses/data/clean_no_discourse.csv	speaker_desc	['a bird  ostrich thick legs']	['a bird ostrich thick legs']
+analyses/data/clean_no_discourse.csv	speaker_desc	['looks like a trophy    triangle at bottom   square  then rectangle   diamond stone']	['looks like a trophy triangle at bottom square then rectangle diamond stone']
+analyses/data/clean_no_discourse.csv	speaker_desc	['Like a hose attached to a fire hydrant  but just the top of the hydrant showing']	['Like a hose attached to a fire hydrant but just the top of the hydrant showing']
+analyses/data/clean_no_discourse.csv	speaker_desc	['pu described this as  aperson standing up  kicking to the left']	['pu described this as aperson standing up kicking to the left']
+analyses/data/clean_no_discourse.csv	speaker_desc	['an upwards arrow  chevron']	['an upwards arrow chevron']
+analyses/data/clean_no_discourse.csv	speaker_desc	['looks like a giraffe lol']	['looks like a giraffe']
+analyses/data/clean_no_discourse.csv	speaker_desc	['set of steps  Wierd how there are 2 we never get asked about']	['set of steps Wierd how there are 2 we never get asked about']
+analyses/data/clean_no_discourse.csv	speaker_desc	['Top of hydrant  arm with cup']	['Top of hydrant arm with cup']
+analyses/data/clean_no_discourse.csv	speaker_desc	['robot  2 big flat feet']	['robot 2 big flat feet']
+analyses/data/clean_no_discourse.csv	speaker_desc	['shape looking right  square on top']	['shape looking right square on top']
+analyses/data/clean_no_discourse.csv	speaker_desc	['finger pointing you descriptions are much better than mine haha']	['finger pointing you descriptions are much better than mine']
+analyses/data/clean_no_discourse.csv	speaker_desc	['cake again lol']	['cake again']
+analyses/data/clean_no_discourse.csv	speaker_desc	['I dont know  It looks like a subway car traveling to the left']	['I dont know It looks like a subway car traveling to the left']
+analyses/data/clean_no_discourse.csv	speaker_desc	['white part looks like a crown  black around it']	['white part looks like a crown black around it']
+analyses/data/clean_no_discourse.csv	speaker_desc	['rocket  about to launch']	['rocket about to launch']
+analyses/data/clean_no_discourse.csv	speaker_desc	['person with the cut in the middle of the body  again']	['person with the cut in the middle of the body again']
+analyses/data/clean_no_discourse.csv	speaker_desc	['flat base with a symbol facing down on top  2 pieces']	['flat base with a symbol facing down on top 2 pieces']
+analyses/data/clean_no_discourse.csv	speaker_desc	['man walking to left   the bigger man']	['man walking to left the bigger man']
+analyses/data/clean_no_discourse.csv	speaker_desc	['doesnt look like anything  W']	['doesnt look like anything W']
+analyses/data/clean_no_discourse.csv	speaker_desc	['hmm wheres my broomstick flyin left']	['wheres my broomstick flyin left']
+analyses/data/clean_no_discourse.csv	speaker_desc	['a mountain range with4 mountains and  a flat middle']	['a mountain range with4 mountains and a flat middle']
+analyses/data/clean_no_discourse.csv	speaker_desc	['rectangle  and']	['rectangle and']
+analyses/data/clean_no_discourse.csv	speaker_desc	['hurry']	[]
+analyses/data/clean_no_discourse.csv	speaker_desc	['like a person standing on one foot  square head']	['like a person standing on one foot square head']
+analyses/data/clean_no_discourse.csv	speaker_desc	['a person sitting on a ledge defecating lol']	['a person sitting on a ledge defecating']
+analyses/data/clean_no_discourse.csv	speaker_desc	['looks like  a water closet with 2 triangular legs']	['looks like a water closet with 2 triangular legs']
+analyses/data/clean_no_discourse.csv	speaker_desc	['an old fashioned smoking pipe you should be a writer']	['an old fashioned smoking pipe']
+analyses/data/clean_no_discourse.csv	speaker_desc	['someone sitting down  not the reading one facing right']	['someone sitting down not the reading one facing right']
+analyses/data/clean_no_discourse.csv	speaker_desc	['weird leaf the one we both get stuck on ahahah']	['weird leaf the one we both get stuck on']
+analyses/data/clean_no_discourse.csv	speaker_desc	['the prism shape  captain hook ha']	['the prism shape captain hook ha']
+analyses/data/clean_no_discourse.csv	speaker_desc	['an arch  or hook']	['an arch or hook']
+analyses/data/clean_no_discourse.csv	speaker_desc	['looks like a wonky S  snakelike figure']	['looks like a wonky S snakelike figure']
+analyses/data/clean_no_discourse.csv	speaker_desc	['looks like an arch with white in middle  stingray from above with rectangle cut out in middle']	['looks like an arch with white in middle stingray from above with rectangle cut out in middle']
+analyses/data/clean_no_discourse.csv	speaker_desc	['looks like  a square with two legs pointing out in different directions']	['looks like a square with two legs pointing out in different directions']
+analyses/data/clean_no_discourse.csv	speaker_desc	['oh I was the speaker sorry  Short bowl']	['I was the speaker sorry Short bowl']
+analyses/data/clean_no_discourse.csv	speaker_desc	['looks like a neck tie  microphone']	['looks like a neck tie microphone']
+analyses/data/clean_no_discourse.csv	speaker_desc	['Someone holding  a tray out to the right']	['Someone holding a tray out to the right']
+analyses/data/clean_no_discourse.csv	speaker_desc	['neck tie  microphone']	['neck tie microphone']
+analyses/data/clean_no_discourse.csv	speaker_desc	['two shapes  the bottom black one is like a bowl and theres a square with a triangle cutout on top']	['two shapes the bottom black one is like a bowl and theres a square with a triangle cutout on top']
+analyses/data/clean_no_discourse.csv	speaker_desc	['great to have met you  very busy christmas tree not completely symetric pointing north']	[]
+analyses/data/clean_no_discourse.csv	speaker_desc	['a soup ladle  with 2 short legs']	['a soup ladle with 2 short legs']
+analyses/data/clean_no_discourse.csv	speaker_desc	['bean lol']	['bean']
+analyses/data/clean_no_discourse.csv	speaker_desc	['dog lying flat facing  to the left']	['dog lying flat facing to the left']
+analyses/data/clean_no_discourse.csv	speaker_desc	['the lobster claw thing again haha']	['the lobster claw thing again']
+analyses/data/clean_no_discourse.csv	speaker_desc	['truck  square jagged left side']	['truck square jagged left side']
+analyses/data/clean_no_discourse.csv	speaker_desc	['chicken thing lol']	['chicken thing']
+analyses/data/pilot1_data.csv	description	A boat with a house typed shape.  Please message me when you are the speaker	A boat with a house typed shape.
+analyses/data/pilot1_data.csv	description	a  3d diamond	a 3d diamond
+analyses/data/pilot1_data.csv	description	Rectangle with missing part (GG :) )	Rectangle with missing part
+analyses/data/pilot1_data.csv	description	fox - why aren't you typing when it's your turn? Are you a bot??	fox
+analyses/data/pilot1_data.csv	description	WOW.. GUY LAYING DOWN DOING CRAB	GUY LAYING DOWN DOING CRAB
+analyses/data/pilot1_data.csv	description	Man walking to the right.  Great job, partner!	Man walking to the right.
+analyses/data/pilot1_data.csv	description	Sorry! A square item with a spout. Like an oil can	A square item with a spout. Like an oil can
+analyses/data/pilot1_data.csv	description	the3  spiky hair one	the3 spiky hair one
+analyses/data/pilot1_data.csv	description	house  on top of a boat	house on top of a boat
+analyses/data/pilot1_data.csv	description	looks like  skyscrapper on top of a bench  (the hollowed out shape from the cottage)	looks like skyscrapper on top of a bench (the hollowed out shape from the cottage)
+analyses/data/pilot1_data.csv	description	croc one again (are you seeing these messages??)	croc one again
+analyses/data/pilot1_data.csv	description	points at 7 oclock  like you mention last time	points at 7 oclock like you mention last time
+analyses/data/pilot1_data.csv	description	ah sorry. this is the cat facing left with a long tail. looks like its walking	this is the cat facing left with a long tail. looks like its walking
+analyses/data/pilot1_data.csv	description	Looks like a cock in bottom row	
+analyses/data/pilot1_data.csv	description	looks like  a k	looks like a k
+analyses/data/pilot1_data.csv	description	cock and balls with left ball missing	
+analyses/data/pilot1_data.csv	description	the letter C, thanks for the game	the letter C
+analyses/data/pilot1_data.csv	description	A  cat leaping to the left	A cat leaping to the left
+analyses/data/pilot1_data.csv	description	hmmm top middle ? has 7 points	top middle ? has 7 points
+analyses/data/pilot1_data.csv	description	Very hard to describe. Looks like half a rectangle split half way	Looks like half a rectangle split half way
+analyses/data/pilot1_data.csv	description	Person with triangle breasts on knees	
+analyses/data/pilot1_data.csv	description	A swimming duck. Hello by the way :)	A swimming duck.
+analyses/data/pilot1_data.csv	description	Eagle.  Why aren't you sending me messages when I'm the listener?	Eagle.
+analyses/data/pilot1_data.csv	description	horse, have you been getting my messgaes?	horse
+analyses/data/pilot1_data.csv	description	Same again - bird in flight. Can you type quicker at your end?	Same again - bird in flight.
+analyses/data/pilot1_data.csv	description	Looks like  man sitting down facing the right hand side	Looks like man sitting down facing the right hand side
+analyses/data/pilot1_data.csv	description	table with ears :)	table with ears
+analyses/data/pilot2_data.csv	description	looks like the letter E but  with the bottom cut off	looks like the letter E but with the bottom cut off
+analyses/data/pilot2_data.csv	description	sperm cell	
+analyses/data/pilot2_data.csv	description	Stairs and a doorway above a pit.  Have a nice day	Stairs and a doorway above a pit.
+analyses/data/pilot2_data.csv	description	silhouette  of mountains	silhouette of mountains
+analyses/data/pilot2_data.csv	description	Image is kinda cut off for me. It looks a bit like the recycling symbol I think	It looks a bit like the recycling symbol I think
+analyses/data/pilot2_data.csv	description	looks like a dildo	
+analyses/data/pilot2_data.csv	description	looks like a golf  club	looks like a golf club
+analyses/data/pilot2_data.csv	description	Sorry! But.. the one you picked last time :-)	the one you picked last time
+analyses/data/pilot2_data.csv	description	sorry! anyway, bunny	bunny
+analyses/data/pilot2_data.csv	description	oh god. It's a block with a diagonal bottom bit, with a little triangle pointing to the left	god. It's a block with a diagonal bottom bit, with a little triangle pointing to the left
+analyses/data/pilot2_data.csv	description	The rocket ship thing. Also our images are laid out differently so dont rely on that.	The rocket ship thing.
+analyses/data/pilot2_data.csv	description	the two squares and the  triangle	the two squares and the triangle
+analyses/data/pilot2_data.csv	description	Trapazoid with one inverted  corner on the top left of it	Trapazoid with one inverted corner on the top left of it
+analyses/data/pilot2_data.csv	description	Lmao. Looks kinda like a fish or dolphin balancing a square on its nose	Looks kinda like a fish or dolphin balancing a square on its nose
+analyses/data/pilot2_data.csv	description	Looks like person kicking to the left. Nice work and take care	Looks like person kicking to the left.
+analyses/data/pilot2_data.csv	description	a penis to the right	
+analyses/data/pilot2_data.csv	description	oh! rocket!!	rocket!!
+analyses/data/pilot2_data.csv	description	flat on top edge, pointing to  right, small triangle on bas	flat on top edge, pointing to right, small triangle on bas
+analyses/data/pilot2_data.csv	description	like a bridge but with small triangles on the  top on each side.	like a bridge but with small triangles on the top on each side.
+analyses/data/pilot2_data.csv	description	The beaker one that you selected last time haha	The beaker one that you selected last time
+analyses/data/pilot2_data.csv	description	i think the messages are only sent if you describe the shape, not the position its in. it's like a pipe that sherlock holms smokesz	it's like a pipe that sherlock holms smokesz
+analyses/data/pilot2_data.csv	description	at least this is pretty easy :'),  elvis !	elvis
+analyses/data/pilot2_data.csv	description	pillar. long rectangle standing  shape. left side jagged	pillar. long rectangle standing shape. left side jagged
+analyses/data/pilot2_data.csv	description	OH different. Animal, 2 legs, head pointing left	different. Animal, 2 legs, head pointing left
+analyses/data/pilot2_data.csv	description	looks like a man with a BIG erection	
+analyses/data/pilot2_data.csv	description	the random one i struggle to describe! Like half a shield	Like half a shield
+analyses/data/pilot2_data.csv	description	Our old friend the bunny. Hoping they'll change these images up before the end	Our old friend the bunny.
+analyses/data/pilot2_data.csv	description	peson sitting on  throne	peson sitting on throne
+analyses/data/pilot2_data.csv	description	The wrong beaker one lol	The wrong beaker one
+analyses/data/pilot2_data.csv	description	half moon !	half moon
+analyses/data/pilot2_data.csv	description	Bridge with pointy ends and square feet. Great description btw	Bridge with pointy ends and square feet.
+analyses/data/pilot2_data.csv	description	small triangle with  large 5 sided on top	small triangle with large 5 sided on top
+analyses/data/pilot2_data.csv	description	looks like a human walking up  something got square head	looks like a human walking up something got square head
+analyses/data/pilot2_data.csv	description	hello	
+analyses/data/pre_post.csv	p1_description	step  mountain	step mountain
+analyses/data/pre_post.csv	p1_description	 cooked chicken 2 leg instead 4	cooked chicken 2 leg instead 4
+analyses/data/pre_post.csv	p1_description	turtle body  cooked chicken head 2 leg	turtle body cooked chicken head 2 leg
+analyses/data/pre_post.csv	p1_description	horrible describe  symmetrical  bas triangle  lot turn triangle rubbish treee	horrible describe symmetrical bas triangle lot turn triangle rubbish treee
+analyses/data/pre_post.csv	p1_description	picture triangle sit square  slide go leave hand  flick right	picture triangle sit square slide go leave hand flick right
+analyses/data/pre_post.csv	p1_description	table lamp  traingle base  square big square  lamp shade	table lamp traingle base square big square lamp shade
+analyses/data/pre_post.csv	p1_description	letter f  triangle	letter f triangle
+analyses/data/pre_post.csv	p1_description	nearly rectangle  square tringle	nearly rectangle square tringle
+analyses/data/pre_post.csv	p1_description	person stand fall ground heel point ..	person stand fall ground heel point
+analyses/data/pre_post.csv	p1_description	sit face leave leg  straight head	sit face leave leg straight head
+analyses/data/pre_post.csv	p1_description	kind chair  triangle center left bit	kind chair triangle center left bit
+analyses/data/pre_post.csv	p1_description	boat high wall left triangle  square pointing upward	boat high wall left triangle square pointing upward
+analyses/data/pre_post.csv	p1_description	snake stand  face right	snake stand face right
+analyses/data/pre_post.csv	p1_description	square  long square d	square long square d
+analyses/data/pre_post.csv	p1_description	point  traingle	point traingle
+analyses/data/pre_post.csv	p1_description	bird shape look  leave	bird shape look leave
+analyses/data/pre_post.csv	p1_description	great description time say legless  step stair	great description time say legless step stair
+analyses/data/pre_post.csv	p1_description	yeah  bit hook question mark ......	yeah bit hook question mark
+analyses/data/pre_post.csv	p1_description	wheel barrow  2 square	wheel barrow 2 square
+analyses/data/pre_post.csv	p1_description	backward  letter j	backward letter j
+analyses/data/pre_post.csv	p1_description	microphone  square half way	microphone square half way
+analyses/data/pre_post.csv	p1_description	inverted t  wirh base rhe rop	inverted t wirh base rhe rop
+analyses/data/pre_post.csv	p1_description	look bit water  pump rectangle right hand	look bit water pump rectangle right hand
+analyses/data/pre_post.csv	p1_description	possibly person kneale dripping tap  square diagonally	possibly person kneale dripping tap square diagonally
+analyses/data/pre_post.csv	p1_description	 7	7
+analyses/data/pre_post.csv	p1_description	y opposite  direction triangle ontop	y opposite direction triangle ontop
+analyses/data/pre_post.csv	p1_description	double  leg	double leg
+analyses/data/pre_post.csv	p1_description	3  arrow overlap	3 arrow overlap
+analyses/data/pre_post.csv	p1_description	hi	
+analyses/data/pre_post.csv	p1_description	upside scorpion tail air  random triangle upside scorpion	upside scorpion tail air random triangle upside scorpion
+analyses/data/pre_post.csv	p1_description	oh bird long tail	bird long tail
+analyses/data/pre_post.csv	p1_description	hi	
+analyses/data/pre_post.csv	p1_description	shape egg timer  cone triangluar shape	shape egg timer cone triangluar shape
+analyses/data/pre_post.csv	p1_description	hey	
+analyses/data/pre_post.csv	p1_description	girl boob	
+analyses/data/pre_post.csv	p1_description	person wear  tophat	person wear tophat
+analyses/data/pre_post.csv	p2_description	bird fly upwards wing spread point triangle  balance	bird fly upwards wing spread point triangle balance
+analyses/data/pre_post.csv	p2_description	crocadile jaw beak point  right	crocadile jaw beak point right
+analyses/data/pre_post.csv	p2_description	man point  west	man point west
+analyses/data/pre_post.csv	p2_description	question mark  hook	question mark hook
+analyses/data/pre_post.csv	p2_description	chevron road mark  military stripe	chevron road mark military stripe
+analyses/data/pre_post.csv	p2_description	low case letter h  funny square stick	low case letter h funny square stick
+analyses/data/pre_post.csv	p2_description	mountain range pyramid skyline  2 point bit face sink underground	mountain range pyramid skyline 2 point bit face sink underground
+analyses/data/pre_post.csv	p2_description	look bit dildo	
+analyses/data/pre_post.csv	p2_description	house large triangle left small  right sq	house large triangle left small right sq
+analyses/data/pre_post.csv	p2_description	elephant head look right ... flaccid phallic image view	
+analyses/data/pre_post.csv	p2_description	penis hang	
+analyses/data/pre_post.csv	p2_description	penis hang	
+analyses/data/pre_post.csv	p2_description	rooster chickien  face right	rooster chickien face right
+analyses/data/pre_post.csv	p2_description	house  white door	house white door
+analyses/data/pre_post.csv	p2_description	sword  triangle handle  long tall	sword triangle handle long tall
+analyses/data/pre_post.csv	p2_description	person launch air right fart lol	person launch air right fart
+analyses/data/pre_post.csv	p2_description	man take right fart heh	man take right fart
+analyses/data/pre_post.csv	p2_description	person stand small letter candle pick :)	person stand small letter candle pick
+analyses/data/pre_post.csv	p2_description	bit kind wierd bird  lot triangle come main body	bit kind wierd bird lot triangle come main body
+analyses/data/pre_post.csv	p2_description	 lot wee triangle	lot wee triangle
+analyses/data/pre_post.csv	p2_description	great play u  bird stand loolke lrft	great play u bird stand loolke lrft
+analyses/data/pre_post.csv	p2_description	person kneel arm  right angle	person kneel arm right angle
+analyses/data/pre_post.csv	p2_description	claw attach  triangle	claw attach triangle
+analyses/data/pre_post.csv	p2_description	castle groove roof  regular house	castle groove roof regular house
+analyses/data/pre_post.csv	p2_description	person lie floor not head  big sharp tummy	person lie floor not head big sharp tummy
+analyses/data/pre_post.csv	p2_description	human bending left leg kinda spanner lol	human bending left leg kinda spanner
+analyses/data/pre_post.csv	p2_description	distorted w extra rectangle right 	distorted w extra rectangle right
+analyses/data/pre_post.csv	p2_description	jagged stick right  saw	jagged stick right saw
+analyses/data/pre_post.csv	p2_description	oh god spiky point pretty flat	god spiky point pretty flat
+analyses/data/pre_post.csv	p2_description	finger curl  object hook	finger curl object hook
+analyses/data/pre_post.csv	p2_description	blunt stealth bomber  nice meet	blunt stealth bomber nice meet
+analyses/data/pre_post.csv	p2_description	 drilling tool flat	drilling tool flat
+analyses/data/pre_post.csv	p2_description	crange leg complete rectangle body diagonal line extend right triangle pointitng  leave	crange leg complete rectangle body diagonal line extend right triangle pointitng leave
+analyses/data/pre_post.csv	p2_description	rectangle factory  chimney point north north east	rectangle factory chimney point north north east
+analyses/data/pre_post.csv	p2_description	whale surface face right  kind boat	whale surface face right kind boat
+analyses/data/pre_post.csv	p2_description	woman lay triangle breast head 2 triangle facin	
+analyses/data/pre_post.csv	p2_description	look kind person lay toe point triangle breast head 2 triangle	
+analyses/data/pre_post.csv	p2_description	symmetrical square middle triangle  totally flat way	symmetrical square middle triangle totally flat way
+analyses/data/pre_post.csv	p2_description	 skinny house chimney white rectangular tilt sticker	skinny house chimney white rectangular tilt sticker
+analyses/data/shepard_pairs.csv	phase2_text	ding dong out	
+analyses/data/shepard_pairs.csv	phase2_text	ding dong out	
+analyses/data/shepard_pairs.csv	phase2_text	ding dong out	
+analyses/data/shepard_pairs.csv	phase2_text	ding dong out	
+analyses/data/shepard_pairs.csv	phase2_text	small triangle into big triangle gg	small triangle into big triangle
+analyses/data/shepard_pairs.csv	phase2_text	small triangle into big triangle gg	small triangle into big triangle
+analyses/data/shepard_pairs.csv	phase2_text	gg capitol g	capitol g
+analyses/data/shepard_pairs.csv	phase2_text	gg capitol g	capitol g
+analyses/data/shepard_pairs.csv	phase2_text	elephant :)	elephant
+analyses/data/shepard_pairs.csv	phase2_text	elephant :)	elephant
+analyses/data/shepard_pairs.csv	phase2_text	giraffe :)	giraffe
+analyses/data/shepard_pairs.csv	phase2_text	giraffe :)	giraffe
+analyses/data/shepard_pairs.csv	phase2_text	a stop sign with wave pole no worries	a stop sign with wave pole
+analyses/data/shepard_pairs.csv	phase2_text	a stop sign with wave pole no worries	a stop sign with wave pole
+analyses/data/shepard_pairs.csv	phase2_text	table with triangle under ?	table with triangle under
+analyses/data/shepard_pairs.csv	phase2_text	table with triangle under ?	table with triangle under
+analyses/data/shepard_pairs.csv	phase2_text	man pray - point left ?	man pray - point left
+analyses/data/shepard_pairs.csv	phase2_text	man pray - point left ?	man pray - point left
+analyses/data/shepard_pairs.csv	phase2_text	so slow capital j with square in the middle stuck?	capital j with square in the middle stuck?
+analyses/data/shepard_pairs.csv	phase2_text	so slow capital j with square in the middle stuck?	capital j with square in the middle stuck?
+analyses/data/shepard_pairs.csv	phase2_text	finger again too easy	finger again
+analyses/data/shepard_pairs.csv	phase2_text	finger again too easy	finger again
+analyses/data/shepard_pairs.csv	phase2_text	tree no stem good description	tree no stem
+analyses/data/shepard_pairs.csv	phase2_text	tree no stem good description	tree no stem
+analyses/data/shepard_pairs.csv	phase2_text	cake again lol	cake again
+analyses/data/shepard_pairs.csv	phase2_text	cake again lol	cake again
+analyses/data/shepard_pairs.csv	phase2_text	the same, that doesn't anything :) with a w on the bottom	the same, that doesn't anything with a w on the bottom
+analyses/data/shepard_pairs.csv	phase2_text	the same, that doesn't anything :) with a w on the bottom	the same, that doesn't anything with a w on the bottom
+analyses/data/shepard_pairs.csv	phase2_text	the roaster with a square on its head this was fun	the roaster with a square on its head
+analyses/data/shepard_pairs.csv	phase2_text	the roaster with a square on its head this was fun	the roaster with a square on its head
+analyses/data/shepard_pairs.csv	phase2_text	the frying pan with the handle on the right .	the frying pan with the handle on the right
+analyses/data/shepard_pairs.csv	phase2_text	the frying pan with the handle on the right .	the frying pan with the handle on the right
+analyses/data/shepard_pairs.csv	phase2_text	the one with the pointy triangles on top! getting easier now	the one with the pointy triangles on top!
+analyses/data/shepard_pairs.csv	phase2_text	the one with the pointy triangles on top! getting easier now	the one with the pointy triangles on top!
+analyses/data/shepard_pairs.csv	phase2_text	hmm, wheres my broomstick. flyin left	wheres my broomstick flyin left
+analyses/data/shepard_pairs.csv	phase2_text	hmm, wheres my broomstick. flyin left	wheres my broomstick flyin left
+analyses/data/shepard_pairs.csv	phase2_text	weird leaf, the one we both get stuck on ahahah	weird leaf the one we both get stuck on
+analyses/data/shepard_pairs.csv	phase2_text	weird leaf, the one we both get stuck on ahahah	weird leaf the one we both get stuck on
+analyses/data/shepard_pairs.csv	phase2_text	goose my bad	goose
+analyses/data/shepard_pairs.csv	phase2_text	goose my bad	goose
+analyses/data/shepard_pairs.csv	phase2_text	capital letter !	capital letter
+analyses/data/shepard_pairs.csv	phase2_text	capital letter !	capital letter
+analyses/data/shepard_pairs.csv	phase2_text	bowl :)	bowl
+analyses/data/shepard_pairs.csv	phase2_text	bowl :)	bowl
+analyses/data/shepard_pairs.csv	phase2_text	spatula time :o	spatula time
+analyses/data/shepard_pairs.csv	phase2_text	spatula time :o	spatula time
+analyses/data/shepard_pairs.csv	phase2_text	bolded arrow :d	bolded arrow
+analyses/data/shepard_pairs.csv	phase2_text	bolded arrow :d	bolded arrow
+analyses/data/shepard_pairs.csv	phase2_text	not sure i believe you haha... factory with pointy roof :) perfect score!	factory with pointy roof
+analyses/data/shepard_pairs.csv	phase2_text	not sure i believe you haha... factory with pointy roof :) perfect score!	factory with pointy roof
+analyses/data/shepard_pairs.csv	phase2_text	all good a tent with a small bucket on top tent with a small opening at the bottom	a tent with a small bucket on top tent with a small opening at the bottom
+analyses/data/shepard_pairs.csv	phase2_text	all good a tent with a small bucket on top tent with a small opening at the bottom	a tent with a small bucket on top tent with a small opening at the bottom
+analyses/data/shepard_pairs.csv	phase2_text	pick the long necked animal facing left.. are you really playing now ?	pick the long necked animal facing left.. are you really playing now
+analyses/data/shepard_pairs.csv	phase2_text	pick the long necked animal facing left.. are you really playing now ?	pick the long necked animal facing left.. are you really playing now
+analyses/data/shepard_pairs.csv	phase2_text	my bad castle	castle
+analyses/data/shepard_pairs.csv	phase2_text	my bad castle	castle
+analyses/data/shepard_pairs.csv	phase2_text	"just wanted to say good job this one is the letter ""c"""	this one is the letter c
+analyses/data/shepard_pairs.csv	phase2_text	"just wanted to say good job this one is the letter ""c"""	this one is the letter c
+analyses/data/shepard_pairs.csv	phase2_text	chicken thing lol	chicken thing
+analyses/data/shepard_pairs.csv	phase2_text	chicken thing lol	chicken thing
+analyses/data/shepard_pairs.csv	phase2_text	cat head :_ :)	cat head
+analyses/data/shepard_pairs.csv	phase2_text	cat head :_ :)	cat head
+analyses/data/shepard_pairs.csv	phase2_text	haha yes, fox wouldve been a better way to see that oh shoot didnt realize i was speaker two triangles pointing right, left side flat	two triangles pointing right, left side flat
+analyses/data/shepard_pairs.csv	phase2_text	haha yes, fox wouldve been a better way to see that oh shoot didnt realize i was speaker two triangles pointing right, left side flat	two triangles pointing right, left side flat
+analyses/data/shepard_pairs.csv	phase3_text	a crown ?	a crown
+analyses/data/shepard_pairs.csv	phase3_text	a crown ?	a crown
+analyses/data/shepard_pairs.csv	phase3_text	a person standing or a small letter i or a candle take your pick :)	a person standing or a small letter i or a candle take your pick
+analyses/data/shepard_pairs.csv	phase3_text	a person standing or a small letter i or a candle take your pick :)	a person standing or a small letter i or a candle take your pick
+analyses/data/shepard_pairs.csv	phase3_text	a person standing or a small letter i or a candle take your pick :)	a person standing or a small letter i or a candle take your pick
+analyses/data/shepard_pairs.csv	phase3_text	"question mark without the ""."""	question mark without the
+analyses/data/shepard_pairs.csv	phase3_text	it's either an elephant's head looking to the right... or a flaccid phallic image from a side view	
+analyses/data/shepard_pairs.csv	phase3_text	blunt stealth bomber  nice to meet you	blunt stealth bomber
+analyses/data/shepard_pairs.csv	phase3_text	blunt stealth bomber  nice to meet you	blunt stealth bomber
+analyses/data/shepard_pairs.csv	phase3_text	number 7 !	number 7
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	ding dong out	
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	ding dong out	
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	ding dong out	
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	ding dong out	
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	small triangle into big triangle gg	small triangle into big triangle
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	small triangle into big triangle gg	small triangle into big triangle
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	gg capitol g	capitol g
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	gg capitol g	capitol g
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	elephant :)	elephant
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	elephant :)	elephant
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	giraffe :)	giraffe
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	giraffe :)	giraffe
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	a stop sign with wave pole no worries	a stop sign with wave pole
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	a stop sign with wave pole no worries	a stop sign with wave pole
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	table with triangle under ?	table with triangle under
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	table with triangle under ?	table with triangle under
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	man pray - point left ?	man pray - point left
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	man pray - point left ?	man pray - point left
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	so slow capital j with square in the middle stuck?	capital j with square in the middle stuck?
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	so slow capital j with square in the middle stuck?	capital j with square in the middle stuck?
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	finger again too easy	finger again
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	finger again too easy	finger again
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	tree no stem good description	tree no stem
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	tree no stem good description	tree no stem
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	cake again lol	cake again
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	cake again lol	cake again
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	the same, that doesn't anything :) with a w on the bottom	the same, that doesn't anything with a w on the bottom
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	the same, that doesn't anything :) with a w on the bottom	the same, that doesn't anything with a w on the bottom
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	the roaster with a square on its head this was fun	the roaster with a square on its head
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	the roaster with a square on its head this was fun	the roaster with a square on its head
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	the frying pan with the handle on the right .	the frying pan with the handle on the right
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	the frying pan with the handle on the right .	the frying pan with the handle on the right
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	the one with the pointy triangles on top! getting easier now	the one with the pointy triangles on top!
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	the one with the pointy triangles on top! getting easier now	the one with the pointy triangles on top!
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	hmm, wheres my broomstick. flyin left	wheres my broomstick flyin left
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	hmm, wheres my broomstick. flyin left	wheres my broomstick flyin left
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	weird leaf, the one we both get stuck on ahahah	weird leaf the one we both get stuck on
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	weird leaf, the one we both get stuck on ahahah	weird leaf the one we both get stuck on
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	goose my bad	goose
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	goose my bad	goose
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	capital letter !	capital letter
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	capital letter !	capital letter
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	bowl :)	bowl
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	bowl :)	bowl
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	spatula time :o	spatula time
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	spatula time :o	spatula time
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	bolded arrow :d	bolded arrow
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	bolded arrow :d	bolded arrow
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	not sure i believe you haha... factory with pointy roof :) perfect score!	factory with pointy roof
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	not sure i believe you haha... factory with pointy roof :) perfect score!	factory with pointy roof
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	all good a tent with a small bucket on top tent with a small opening at the bottom	a tent with a small bucket on top tent with a small opening at the bottom
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	all good a tent with a small bucket on top tent with a small opening at the bottom	a tent with a small bucket on top tent with a small opening at the bottom
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	pick the long necked animal facing left.. are you really playing now ?	pick the long necked animal facing left.. are you really playing now
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	pick the long necked animal facing left.. are you really playing now ?	pick the long necked animal facing left.. are you really playing now
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	my bad castle	castle
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	my bad castle	castle
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	"just wanted to say good job this one is the letter ""c"""	this one is the letter c
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	"just wanted to say good job this one is the letter ""c"""	this one is the letter c
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	chicken thing lol	chicken thing
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	chicken thing lol	chicken thing
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	cat head :_ :)	cat head
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	cat head :_ :)	cat head
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	haha yes, fox wouldve been a better way to see that oh shoot didnt realize i was speaker two triangles pointing right, left side flat	two triangles pointing right, left side flat
+analyses/data/shepard_pairs_pixsim.csv	phase2_text	haha yes, fox wouldve been a better way to see that oh shoot didnt realize i was speaker two triangles pointing right, left side flat	two triangles pointing right, left side flat
+analyses/data/shepard_pairs_pixsim.csv	phase3_text	a crown ?	a crown
+analyses/data/shepard_pairs_pixsim.csv	phase3_text	a crown ?	a crown
+analyses/data/shepard_pairs_pixsim.csv	phase3_text	a person standing or a small letter i or a candle take your pick :)	a person standing or a small letter i or a candle take your pick
+analyses/data/shepard_pairs_pixsim.csv	phase3_text	a person standing or a small letter i or a candle take your pick :)	a person standing or a small letter i or a candle take your pick
+analyses/data/shepard_pairs_pixsim.csv	phase3_text	a person standing or a small letter i or a candle take your pick :)	a person standing or a small letter i or a candle take your pick
+analyses/data/shepard_pairs_pixsim.csv	phase3_text	"question mark without the ""."""	question mark without the
+analyses/data/shepard_pairs_pixsim.csv	phase3_text	it's either an elephant's head looking to the right... or a flaccid phallic image from a side view	
+analyses/data/shepard_pairs_pixsim.csv	phase3_text	blunt stealth bomber  nice to meet you	blunt stealth bomber
+analyses/data/shepard_pairs_pixsim.csv	phase3_text	blunt stealth bomber  nice to meet you	blunt stealth bomber
+analyses/data/shepard_pairs_pixsim.csv	phase3_text	number 7 !	number 7
+analyses/data/voting_text_embed_similarity.csv	ori_pre	a tap | crocadile jaw or beak pointing  to the right	a tap | crocadile jaw or beak pointing to the right
+analyses/data/voting_text_embed_similarity.csv	ori_pre	 a cooked chicken with only 2 legs instead of 4 | space plane	a cooked chicken with only 2 legs instead of 4 | space plane
+analyses/data/voting_text_embed_similarity.csv	ori_pre	letter f with  triangle at the bottom | a fat f	letter f with triangle at the bottom | a fat f
+analyses/data/voting_text_embed_similarity.csv	ori_pre	nearly rectangle  with a square and tringle on bottom | looks a bit a dildo	nearly rectangle with a square and tringle on bottom | 
+analyses/data/voting_text_embed_similarity.csv	ori_pre	sitting facing left with legs out front  and straight head | someone leaning against a table.	sitting facing left with legs out front and straight head | someone leaning against a table.
+analyses/data/voting_text_embed_similarity.csv	ori_pre	the letter n | house with one large triangle on top left and small  one on right over sq	the letter n | house with one large triangle on top left and small one on right over sq
+analyses/data/voting_text_embed_similarity.csv	ori_pre	scale balance | penis hanging down!	scale balance | 
+analyses/data/voting_text_embed_similarity.csv	ori_pre	a boat with a high wall to the left and a triangle on top of  a square pointing upwards | a boat with a huge arrow in the middle facing straight up	a boat with a high wall to the left and a triangle on top of a square pointing upwards | a boat with a huge arrow in the middle facing straight up
+analyses/data/voting_text_embed_similarity.csv	ori_pre	"snake | question mark without the ""."""	snake | question mark without the
+analyses/data/voting_text_embed_similarity.csv	ori_pre	hello, it kind of looks a bit a cactus | a cactus shape, or a crystal	it kind of looks a bit a cactus | a cactus shape, or a crystal
+analyses/data/voting_text_embed_similarity.csv	ori_pre	it has a square on top  with a long square d | tower	it has a square on top with a long square d | tower
+analyses/data/voting_text_embed_similarity.csv	ori_pre	a person with his left foot up | a person launching into the air (to the right) and farting (lol)	a person with his left foot up | a person launching into the air (to the right) and farting
+analyses/data/voting_text_embed_similarity.csv	ori_pre	looks a bit a w | a bit some kind of wierd bird.  lots of triangles coming of the main body of it	looks a bit a w | a bit some kind of wierd bird. lots of triangles coming of the main body of it
+analyses/data/voting_text_embed_similarity.csv	ori_pre	wheel barrow  2 squares at the bottom | a mouse with square feet	wheel barrow 2 squares at the bottom | a mouse with square feet
+analyses/data/voting_text_embed_similarity.csv	ori_pre	backward  - letter j | a flamingo upper body	backward - letter j | a flamingo upper body
+analyses/data/voting_text_embed_similarity.csv	ori_pre	man praying | a person kneeling with arms out  at a right-angle	man praying | a person kneeling with arms out at a right-angle
+analyses/data/voting_text_embed_similarity.csv	ori_pre	it looks a bit a water  pump, with a rectangle on right hand side. | a crane	it looks a bit a water pump, with a rectangle on right hand side. | a crane
+analyses/data/voting_text_embed_similarity.csv	ori_pre	possibly a person knealing or a dripping tap.  a square diagonally i | a person with its arms out	possibly a person knealing or a dripping tap. a square diagonally i | a person with its arms out
+analyses/data/voting_text_embed_similarity.csv	ori_pre	hi, a boat with an arrrow pointing upwards from the centre | a ship with an upward arrow	a boat with an arrrow pointing upwards from the centre | a ship with an upward arrow
+analyses/data/voting_text_embed_similarity.csv	ori_pre	hi, please pick the image of a close up man with a hat on. | head facing the left	please pick the image of a close up man with a hat on. | head facing the left
+analyses/data/voting_text_embed_similarity.csv	ori_pre	hi, please pick the image which a stick with a tail to it's right. | swan facing the right	please pick the image which a stick with a tail to it's right. | swan facing the right
+analyses/data/voting_text_embed_similarity.csv	ori_pre	hi | cat	 | cat
+analyses/data/voting_text_embed_similarity.csv	ori_pre	how do you do? | aperson with their right knee lifted facing to the left	 | aperson with their right knee lifted facing to the left
+analyses/data/voting_text_embed_similarity.csv	ori_pre	a bird, wing sticking up vertically with a tail bottom left | finger curled  with an object on top a hook	a bird, wing sticking up vertically with a tail bottom left | finger curled with an object on top a hook
+analyses/data/voting_text_embed_similarity.csv	ori_pre	hi | a house	 | a house
+analyses/data/voting_text_embed_similarity.csv	ori_pre	a shape that an egg timer.  cone triangluar shape at top and bottom | goblet with a large triangle as the base.	a shape that an egg timer. cone triangluar shape at top and bottom | goblet with a large triangle as the base.
+analyses/data/voting_text_embed_similarity.csv	ori_pre	hey there! | this a rectangle box with a singular point on top and 2 dips	 | this a rectangle box with a singular point on top and 2 dips
+analyses/data/voting_text_embed_similarity.csv	ori_pre	the one that a person wearing  a tophat | a person on the ground leaning up	the one that a person wearing a tophat | a person on the ground leaning up
+analyses/data/voting_text_embed_similarity.csv	ori_pre	a smoking pipe | a crange without legs (almost complete rectangle as body - diagonal line extending to right and triangle pointitng  to left)	a smoking pipe | a crange without legs (almost complete rectangle as body - diagonal line extending to right and triangle pointitng to left)
+analyses/data/voting_text_embed_similarity.csv	ori_pre	a sleigh, or something you could ride on. | a woman laying on her back. you can see her triangle breasts. something is on her head that is 2 triangles facin	a sleigh, or something you could ride on. | 
+analyses/data/voting_text_embed_similarity.csv	ori_pre	mountains with shape on top | symmetrical with a square in the middle and two triangles on either side.  totally flat on the bottom all the way across	mountains with shape on top | symmetrical with a square in the middle and two triangles on either side. totally flat on the bottom all the way across
+analyses/data/voting_text_embed_similarity.csv	ori_pre	tall part at top, triangles at the sides and bottom |  a very skinny house with a chimney and white rectangular, tilted sticker on it.	tall part at top, triangles at the sides and bottom | a very skinny house with a chimney and white rectangular, tilted sticker on it.
+analyses/data/voting_text_embed_similarity.csv	ori_post	w shaped | bird flying upwards, wings spread, pointing triangle  balanced on bottom	w shaped | bird flying upwards, wings spread, pointing triangle balanced on bottom
+analyses/data/voting_text_embed_similarity.csv	ori_post	man sitting | man pointing  west	man sitting | man pointing west
+analyses/data/voting_text_embed_similarity.csv	ori_post	question mark with no dot | top of a question mark (or top of  hook)	question mark with no dot | top of a question mark (or top of hook)
+analyses/data/voting_text_embed_similarity.csv	ori_post	a step  up a mountain | a ship	a step up a mountain | a ship
+analyses/data/voting_text_embed_similarity.csv	ori_post	a turtles body.  or a cooked chicken with no head and only 2 legs. | a black bird without a head	a turtles body. or a cooked chicken with no head and only 2 legs. | a black bird without a head
+analyses/data/voting_text_embed_similarity.csv	ori_post	the top of a house roof | a chevron road marking,   also a military stripe	the top of a house roof | a chevron road marking, also a military stripe
+analyses/data/voting_text_embed_similarity.csv	ori_post	this is a horrible one to describe.  it is not symmetrical at all.   the bas has a triangle,   and lots of side turned triangles up, a rubbish treee | triangle on top with a bunch underneath	this is a horrible one to describe. it is not symmetrical at all. the bas has a triangle, and lots of side turned triangles up, a rubbish treee | triangle on top with a bunch underneath
+analyses/data/voting_text_embed_similarity.csv	ori_post	from top of picture, a triangle sitting on a square.    then a slide going down to left hand side.   flick on the right | a man walking left	from top of picture, a triangle sitting on a square. then a slide going down to left hand side. flick on the right | a man walking left
+analyses/data/voting_text_embed_similarity.csv	ori_post	an l or backward music note | lower case letter h,     funny square stuck at the top	an l or backward music note | lower case letter h, funny square stuck at the top
+analyses/data/voting_text_embed_similarity.csv	ori_post	a table lamp.        traingle base   then a square, then a bigger square,   lamp shade at top | a cup or holy grail	a table lamp. traingle base then a square, then a bigger square, lamp shade at top | a cup or holy grail
+analyses/data/voting_text_embed_similarity.csv	ori_post	asian hat ninja man | a mountain range or pyramids skyline,     2 point bits facing / sinking underground	asian hat ninja man | a mountain range or pyramids skyline, 2 point bits facing / sinking underground
+analyses/data/voting_text_embed_similarity.csv	ori_post	a crown ? | a sea turtle swimming to the bottom of the ocean.	a crown | a sea turtle swimming to the bottom of the ocean.
+analyses/data/voting_text_embed_similarity.csv	ori_post	square with two points left and right and a triangle on top | it's either an elephant's head looking to the right... or a flaccid phallic image from a side view	square with two points left and right and a triangle on top | 
+analyses/data/voting_text_embed_similarity.csv	ori_post	a wine glass | penis hanging down!	a wine glass | 
+analyses/data/voting_text_embed_similarity.csv	ori_post	kind of a chair,  on the top is a triangle the is off centered to the left just a bit | an elephant with a right angle trunk facing towards the right	kind of a chair, on the top is a triangle the is off centered to the left just a bit | an elephant with a right angle trunk facing towards the right
+analyses/data/voting_text_embed_similarity.csv	ori_post	a backwards c shape, with an upside down boot on the top pointing to the right | a question mark '?'	a backwards c shape, with an upside down boot on the top pointing to the right | a question mark
+analyses/data/voting_text_embed_similarity.csv	ori_post	a snake standing up   facing right | a funny looking torch facing right	a snake standing up facing right | a funny looking torch facing right
+analyses/data/voting_text_embed_similarity.csv	ori_post	a long candle stick with a v shave in the end | a rooster / chickien  facing right	a long candle stick with a v shave in the end | a rooster / chickien facing right
+analyses/data/voting_text_embed_similarity.csv	ori_post	upsidedown v | a house  with a white door	upsidedown v | a house with a white door
+analyses/data/voting_text_embed_similarity.csv	ori_post	"snake | question mark without the ""."""	snake | question mark without the
+analyses/data/voting_text_embed_similarity.csv	ori_post	a sword, or corn cob | a sword with  triangle handles.  long and tall	a sword, or corn cob | a sword with triangle handles. long and tall
+analyses/data/voting_text_embed_similarity.csv	ori_post	two points up  bottom is two traingles | a tower with a cross in the middle of it	two points up bottom is two traingles | a tower with a cross in the middle of it
+analyses/data/voting_text_embed_similarity.csv	ori_post	bird shape looking  left | an animal, maybe a bird, with two feet facing the right with its head bowed down	bird shape looking left | an animal, maybe a bird, with two feet facing the right with its head bowed down
+analyses/data/voting_text_embed_similarity.csv	ori_post	man walking to the left | a man taking off to the right by farting (heh)	man walking to the left | a man taking off to the right by farting
+analyses/data/voting_text_embed_similarity.csv	ori_post	great description last time!! i would have said legless!!!   this one is steps or stairs | the stairs ( good description on that last one btw!!)	i would have said legless!!! this one is steps or stairs | the stairs
+analyses/data/voting_text_embed_similarity.csv	ori_post	yeah me too!!!  a bit a hook or a question mark...... | looks a bit a necktie	a bit a hook or a question mark...... | looks a bit a necktie
+analyses/data/voting_text_embed_similarity.csv	ori_post	person sitting down with a big far belly | a person standing or a small letter i or a candle take your pick :)	person sitting down with a big far belly | a person standing or a small letter i or a candle take your pick
+analyses/data/voting_text_embed_similarity.csv	ori_post	odd shape almost a w but not quite ( i lked the first part better) | its the one that nothing.  lots of wee triangles at the bottom of i!!!	odd shape almost a w but not quite ( i lked the first part better) | its the one that nothing. lots of wee triangles at the bottom of i!!!
+analyses/data/voting_text_embed_similarity.csv	ori_post	square at the bottom leaning to the left | been great playing this with u!!  its a bird standing up loolking lrft	square at the bottom leaning to the left | its a bird standing up loolking lrft
+analyses/data/voting_text_embed_similarity.csv	ori_post	a bit a p - has a hole in the middle | a bold letter d ( i've enjoyed you as my partner!)	a bit a p - has a hole in the middle | a bold letter d
+analyses/data/voting_text_embed_similarity.csv	ori_post	microphone  square half way up | looks like. acandle stand	microphone square half way up | looks like. acandle stand
+analyses/data/voting_text_embed_similarity.csv	ori_post	inverted t  wirh a base at rhe rop | t with rectangle in the base	inverted t wirh a base at rhe rop | t with rectangle in the base
+analyses/data/voting_text_embed_similarity.csv	ori_post	 a 7 | a bit a thick bolt of lightning	a 7 | a bit a thick bolt of lightning
+analyses/data/voting_text_embed_similarity.csv	ori_post	a y opposite  direction with a triangle ontop | capitol u	a y opposite direction with a triangle ontop | capitol u
+analyses/data/voting_text_embed_similarity.csv	ori_post	double  leg | flat top with three points to the right and three points to the left	double leg | flat top with three points to the right and three points to the left
+analyses/data/voting_text_embed_similarity.csv	ori_post	man kicking something - leg straight out | claw attached  to triangle	man kicking something - leg straight out | claw attached to triangle
+analyses/data/voting_text_embed_similarity.csv	ori_post	tea kettle, spout facing the left | been dreading this one... a bit a spanner/wrench, or maybe a cartoon dinosaur facing left with its square mouth wide open	tea kettle, spout facing the left | a bit a spanner/wrench, or maybe a cartoon dinosaur facing left with its square mouth wide open
+analyses/data/voting_text_embed_similarity.csv	ori_post	number 7 ! | number 7	number 7 | number 7
+analyses/data/voting_text_embed_similarity.csv	ori_post	3  arrows overlapping | the vase with an object on top.	3 arrows overlapping | the vase with an object on top.
+analyses/data/voting_text_embed_similarity.csv	ori_post	a heart shaped vase object | a castle with two grooves on the top where the roof is.  it isn't the regular house	a heart shaped vase object | a castle with two grooves on the top where the roof is. it isn't the regular house
+analyses/data/voting_text_embed_similarity.csv	ori_post	house with flat roof | the regular house with a crooked roof. also good job partner	house with flat roof | the regular house with a crooked roof.
+analyses/data/voting_text_embed_similarity.csv	ori_post	this one an upside down scorpion with its tail in the air.  there is a random triangle above the upside down scorpion. | this one a human bending towards the left. it's legs kinda a spanner lol	this one an upside down scorpion with its tail in the air. there is a random triangle above the upside down scorpion. | this one a human bending towards the left. it's legs kinda a spanner
+analyses/data/voting_text_embed_similarity.csv	ori_post	this one the letter j, but the bottom of the j is pretty thick | this one a distorted w with an extra rectangle to the bottom right.  we have not done this one yet	this one the letter j, but the bottom of the j is pretty thick | this one a distorted w with an extra rectangle to the bottom right. we have not done this one yet
+analyses/data/voting_text_embed_similarity.csv	ori_post	5 | jagged bottom part, then something sticking up and to the right.  a saw	5 | jagged bottom part, then something sticking up and to the right. a saw
+analyses/data/voting_text_embed_similarity.csv	ori_post	hook finger facing left | oh god the spiky one we haven't done that has four points and is pretty flat on the bottom	hook finger facing left | the spiky one we haven't done that has four points and is pretty flat on the bottom
+analyses/data/voting_text_embed_similarity.csv	ori_post	oh a bird with a long tail on the bottom | crazy looking s	a bird with a long tail on the bottom | crazy looking s
+analyses/data/voting_text_embed_similarity.csv	ori_post	lounge chair | !!!!! lounge chair	lounge chair | lounge chair
+analyses/data/voting_text_embed_similarity.csv	ori_post	stub nosed stealth bomber | blunt stealth bomber  nice to meet you	stub nosed stealth bomber | blunt stealth bomber
+analyses/data/voting_text_embed_similarity.csv	ori_post	a house with a pathway leading off of it (i timed out on the last one so dunno if i got it) | deadass, it's just a big rock. if it helps. triangle tip at the very top	a house with a pathway leading off of it | deadass, it's just a big rock. if it helps. triangle tip at the very top
+analyses/data/voting_text_embed_similarity.csv	ori_post	chair looking thing | llama was a good description ahahha. this one is a giraffe or those dinosaurs with long necks	chair looking thing | this one is a giraffe or those dinosaurs with long necks
+analyses/data/voting_text_embed_similarity.csv	ori_post	man with a hat and wide tie, head profile only |  a drilling tool, with a flat bottom	man with a hat and wide tie, head profile only | a drilling tool, with a flat bottom
+analyses/data/voting_text_embed_similarity.csv	ori_post	one single white triangle indent in the middle | bench. four points facing down - this is hard!	one single white triangle indent in the middle | bench. four points facing down
+analyses/data/voting_text_embed_similarity.csv	ori_post	chicken thing | chicken thing- i know! this is hard!	chicken thing | chicken thing
+analyses/data/voting_text_embed_similarity.csv	ori_post	a girl with a boob | a hammer with a short head	 | a hammer with a short head
+analyses/data/voting_text_embed_similarity.csv	ori_post	man standing facing right | a rectangle a factory with  chimneys pointing north and north east	man standing facing right | a rectangle a factory with chimneys pointing north and north east
+analyses/data/voting_text_embed_similarity.csv	ori_post	it looks wacky the one from before, it has the triangle on the bottom right. the top portion on the right has a triangle pointing up | a whale that has surfaced and facing to the right  or some kind of boat	it looks wacky the one from before, it has the triangle on the bottom right. the top portion on the right has a triangle pointing up | a whale that has surfaced and facing to the right or some kind of boat
+analyses/data/voting_text_embed_similarity.csv	ori_post	a sled. you can ride on it, pointing left | it looks kind of a person laying on their back with toes pointing up and triangle breasts. their head has 2 triangles on it	a sled. you can ride on it, pointing left | 

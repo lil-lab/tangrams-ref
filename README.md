@@ -1,11 +1,13 @@
-# tangrams-ref
+# Data and code for: Ad hoc conventions generalize to new referents
 
-Data and code for "Ad hoc conventions generalize to new referents".
+[Access this dataset on Dryad](https://doi.org/10.5061/dryad.fn2z34v8c)
+
+All data and analysis code are in `tangrams-ref-main.zip`; this README documents its full
+contents. Unzipping produces `data/`, `analyses/`, and `experiments/` as described below.
 
 Two participants play a *tangram reference game* over abstract shapes. Each trial, the **speaker**
 sees a designated **target** and describes it; the **listener** reads the description and clicks the
-image they think is the target. Neither sees the other's screen. Feedback drives partners toward
-short, idiosyncratic labels ("weird 6") — the *ad hoc conventions* the study is about.
+image they think is the target. Neither sees the other's screen.
 
 Every game runs three phases:
 
@@ -134,6 +136,7 @@ analyses re-run without recomputing embeddings.
 | `listener_desc` | list of strings | All listener messages (empty list if none). |
 | `speaker_len`, `listener_len`, `total_len` | words | Word counts of the above, and their sum. |
 | `chat_len` | messages | Messages exchanged this trial. |
+| `redacted_speaker_len`, `redacted_listener_len`, `redacted_total_len`, `redacted_chat_len` | words; messages | The four counts above, recomputed on the redacted text (see **Human subjects data**). Equal to the originals except on trials whose text changed. |
 
 ### `pre_post.csv` — pre/post description similarity
 
@@ -244,6 +247,7 @@ Columns match `full_data.csv` except:
 | `sec_until_press` | seconds | Time until the speaker began typing. |
 | `sec_until_click` | `(n,)` | Seconds until the listener clicked, as a 1-tuple literal — strip parentheses and trailing comma. |
 | `description_len` | words | Word count of `description`. |
+| `redacted_description_len` | words | `description_len` recomputed on the redacted text (see **Human subjects data**). |
 | `controlled` | `True`/`False` | Control vs. repeated target. |
 
 ---
@@ -291,12 +295,21 @@ identifiers. The de-identification procedure was:
 3. **Indirect identifiers limited to three** — `age_range`, `sex`, `country_of_residence`. Ethnicity,
    country of birth, nationality, language, student status, and employment status were removed.
 4. **Age generalized** into bands, top-coded at `55+` so no older participant is isolated.
-5. **Small cells suppressed.** A sex value reported by one participant was recoded to `NA`.
-6. **Free text screened** for names, contact details, locations, ages, and self-descriptions. One
-   message where a participant volunteered their age was redacted in place as
-   `[self-disclosed age redacted]`; no other disclosures were found.
+5. **Free text screened** for names, contact details, locations, ages, and self-descriptions. One
+   message where a participant volunteered their age was found; it is not part of this release.
+6. **Free text redacted for public release.** Utterances carrying crude or sexual content, or that
+   were wholly conversational rather than descriptive — greetings and sign-offs, pleasantries,
+   task and platform commentary, demographic probes, requests for a description, and filler — were
+   removed; where such a remark shared an utterance with a real shape description, only the remark
+   was cut and the description left as typed. One direct identifier, a personal name, is marked
+   `[redacted]`. `REDACTION_LOG.md` gives the counts by category and `redaction_changelog.tsv` the
+   cell-by-cell audit trail.
 
 Retained free-text fields (`description`, `speaker_desc`, `listener_desc`, `phase2_text`,
 `p1_description`, and similar) are short referring expressions for abstract shapes — `"weird 6"`,
 `"an unlocked padlock"`. They are the dataset's primary scientific content and, having been screened
 as above, carry no information about participants.
+
+**Access to the full dataset.** What is published here is the de-identified public release.
+The full dataset may be available to qualified researchers upon request to the corresponding
+author, subject to appropriate review and any applicable data-use requirements.
